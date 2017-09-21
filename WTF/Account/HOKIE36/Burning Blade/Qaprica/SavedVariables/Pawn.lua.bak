@@ -1,0 +1,25 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0211,
+	["LastPlayerFullName"] = "Qaprica-Burning Blade",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["Artifacts"] = {
+		[128862] = {
+			["Relics"] = {
+				{
+					["Type"] = "Frost",
+				}, -- [1]
+				{
+					["Type"] = "Arcane",
+				}, -- [2]
+			},
+			["Name"] = "Ebonchill, Greatstaff of Alodi",
+		},
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "MAGE",
+	["LastAdded"] = 1,
+}

@@ -1,0 +1,14 @@
+## Interface: 70100
+## Title: Angry Notes
+## Author: Ermad
+## Version: v0.2.2
+## SavedVariables: AngryNotes_Pages,AngryNotes_Categories,AngryNotes_State,AngryNotes_Config
+## OptionalDeps: Ace3, AceGUI-3.0-SharedMediaWidgets, LibWindow-1.1
+## X-Curse-Packaged-Version: v0.2.2
+## X-Curse-Project-Name: Angry Notes
+## X-Curse-Project-ID: angry-notes
+## X-Curse-Repository-ID: wow/angry-notes/mainline
+
+embeds.xml
+
+Core.lua

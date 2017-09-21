@@ -1,0 +1,331 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="LibDropDownMenu.lua"/>
+
+	<!-- templates -->
+	<Button name="LibDropDownMenuButtonTemplate" virtual="true">
+		<Size x="100" y="16"/>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentHighlight" file="Interface\QuestFrame\UI-QuestTitleHighlight" alphaMode="ADD" setAllPoints="true" hidden="true"/>
+			</Layer>
+			<Layer level="ARTWORK">
+				<Texture name="$parentCheck" file="Interface\Common\UI-DropDownRadioChecks">
+					<Size x="16" y="16"/>
+					<Anchors>
+						<Anchor point="LEFT" x="0" y="0"/>
+					</Anchors>
+					<TexCoords left="0" right="0.5" top="0.5" bottom="1.0"/>
+				</Texture>
+				<Texture name="$parentUnCheck" file="Interface\Common\UI-DropDownRadioChecks">
+					<Size x="16" y="16"/>
+					<Anchors>
+						<Anchor point="LEFT" x="0" y="0"/>
+					</Anchors>
+					<TexCoords left="0.5" right="1.0" top="0.5" bottom="1.0"/>
+				</Texture>
+				<Texture name="$parentIcon" hidden="true">
+					<Size x="16" y="16"/>
+					<Anchors>
+						<Anchor point="RIGHT" x="0" y="0"/>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="$parentColorSwatch" hidden="true">
+				<Size x="16" y="16"/>
+				<Anchors>
+					<Anchor point="RIGHT" x="-6" y="0"/>
+				</Anchors>
+				<Layers>
+					<Layer level="BACKGROUND">
+						<Texture name="$parentSwatchBg">
+							<Size x="14" y="14"/>
+							<Anchors>
+								<Anchor point="CENTER" x="0" y="0"/>
+							</Anchors>
+							<Color r="1.0" g="1.0" b="1.0"/>
+						</Texture>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnClick>
+						CloseMenus();
+						LibStub("LibDropDownMenu").UIDropDownMenuButton_OpenColorPicker(self:GetParent());
+					</OnClick>
+					<OnEnter>
+						LibStub("LibDropDownMenu").CloseDropDownMenus(self:GetParent():GetParent():GetID() + 1);
+						_G[self:GetName().."SwatchBg"]:SetVertexColor(NORMAL_FONT_COLOR.r, NORMAL_FONT_COLOR.g, NORMAL_FONT_COLOR.b);
+						LibStub("LibDropDownMenu").UIDropDownMenu_StopCounting(self:GetParent():GetParent());
+					</OnEnter>
+					<OnLeave>
+						_G[self:GetName().."SwatchBg"]:SetVertexColor(HIGHLIGHT_FONT_COLOR.r, HIGHLIGHT_FONT_COLOR.g, HIGHLIGHT_FONT_COLOR.b);
+						LibStub("LibDropDownMenu").UIDropDownMenu_StartCounting(self:GetParent():GetParent());
+					</OnLeave>
+				</Scripts>
+				<NormalTexture name="$parentNormalTexture" file="Interface\ChatFrame\ChatFrameColorSwatch"/>
+			</Button>
+			<Frame name="$parentExpandArrow" parentKey="arrow" hidden="true">
+				<Size x="16" y="16"/>
+				<Anchors>
+					<Anchor point="RIGHT" x="0" y="0"/>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture file="Interface\ChatFrame\ChatFrameExpandArrow" setallpoints="true" />
+					</Layer>
+				</Layers>
+			</Frame>
+			<Button name="$parentInvisibleButton" hidden="true" parentKey="invisibleButton">
+				<Anchors>
+					<Anchor point="TOPLEFT"/>
+					<Anchor point="BOTTOMLEFT"/>
+					<Anchor point="RIGHT" relativeTo="$parentColorSwatch" relativePoint="LEFT" x="0" y="0"/>
+				</Anchors>
+				<Scripts>
+					<OnEnter>
+						LibStub("LibDropDownMenu").UIDropDownMenu_StopCounting(self:GetParent():GetParent());
+						LibStub("LibDropDownMenu").CloseDropDownMenus(self:GetParent():GetParent():GetID() + 1);
+						local parent = self:GetParent();
+						if ( parent.tooltipTitle and parent.tooltipWhileDisabled) then
+							if ( parent.tooltipOnButton ) then
+								GameTooltip:SetOwner(parent, "ANCHOR_RIGHT");
+								GameTooltip:AddLine(parent.tooltipTitle, 1.0, 1.0, 1.0);
+								GameTooltip:AddLine(parent.tooltipText, nil, nil, nil, true);
+								GameTooltip:Show();
+							else
+								GameTooltip_AddNewbieTip(parent, parent.tooltipTitle, 1.0, 1.0, 1.0, parent.tooltipText, 1);
+							end
+						end
+					</OnEnter>
+					<OnLeave>
+						LibStub("LibDropDownMenu").UIDropDownMenu_StartCounting(self:GetParent():GetParent());
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnLoad>
+				self:SetFrameLevel(self:GetParent():GetFrameLevel()+2);
+			</OnLoad>
+			<OnClick>
+				LibStub("LibDropDownMenu").UIDropDownMenuButton_OnClick(self, button, down);
+			</OnClick>
+			<OnEnter>
+				if ( self.hasArrow ) then
+					local level =  self:GetParent():GetID() + 1;
+					local listFrame = _G["LibDropDownMenu_List"..level];
+					if ( not listFrame or not listFrame:IsShown() or select(2, listFrame:GetPoint()) ~= self ) then
+						LibStub("LibDropDownMenu").ToggleDropDownMenu(level, self.value, nil, nil, nil, nil, self.menuList, self.arrow);
+					end
+				else
+					LibStub("LibDropDownMenu").CloseDropDownMenus(self:GetParent():GetID() + 1);
+				end
+				LibStub("LibDropDownMenu").UIDropDownMenu_StopCounting(self:GetParent());
+				_G[self:GetName().."Highlight"]:Show();
+				if ( self.tooltipTitle ) then
+					if ( self.tooltipOnButton ) then
+						GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
+						GameTooltip:AddLine(self.tooltipTitle, 1.0, 1.0, 1.0);
+						GameTooltip:AddLine(self.tooltipText, nil, nil, nil, true);
+						GameTooltip:Show();
+					else
+						GameTooltip_AddNewbieTip(self, self.tooltipTitle, 1.0, 1.0, 1.0, self.tooltipText, 1);
+					end
+				end
+			</OnEnter>
+			<OnLeave>
+				_G[self:GetName().."Highlight"]:Hide();
+				LibStub("LibDropDownMenu").UIDropDownMenu_StartCounting(self:GetParent());
+				GameTooltip:Hide();
+			</OnLeave>
+			<OnEnable>
+				self.invisibleButton:Hide();
+			</OnEnable>
+			<OnDisable>
+				self.invisibleButton:Show();
+			</OnDisable>
+		</Scripts>
+		<ButtonText name="$parentNormalText">
+			<Anchors>
+				<Anchor point="LEFT" x="-5" y="0"/>
+			</Anchors>
+		</ButtonText>
+		<NormalFont style="GameFontHighlightSmallLeft"/>
+		<HighlightFont style="GameFontHighlightSmallLeft"/>
+		<DisabledFont style="GameFontDisableSmallLeft"/>
+	</Button>
+	<Button name="LibDropDownMenuListTemplate" hidden="true" toplevel="true" frameStrata="FULLSCREEN_DIALOG" enableMouse="true" virtual="true">
+		<Frames>
+			<Frame name="$parentBackdrop" setAllPoints="true">
+				<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background-Dark" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+					<BackgroundInsets left="11" right="12" top="12" bottom="9"/>
+					<TileSize val="32"/>
+					<EdgeSize val="32"/>
+				</Backdrop>
+			</Frame>
+			<Frame name="$parentMenuBackdrop" setAllPoints="true">
+				<Backdrop bgFile="Interface\Tooltips\UI-Tooltip-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+					<EdgeSize val="16"/>
+					<TileSize val="16"/>
+					<BackgroundInsets left="5" right="5" top="5" bottom="4"/>
+				</Backdrop>
+				<Scripts>
+					<OnLoad>
+						self:SetBackdropBorderColor(TOOLTIP_DEFAULT_COLOR.r, TOOLTIP_DEFAULT_COLOR.g, TOOLTIP_DEFAULT_COLOR.b);
+						self:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b);
+					</OnLoad>
+				</Scripts>
+			</Frame>
+			<Button name="$parentButton1" inherits="LibDropDownMenuButtonTemplate" id="1"/>
+			<Button name="$parentButton2" inherits="LibDropDownMenuButtonTemplate" id="2"/>
+			<Button name="$parentButton3" inherits="LibDropDownMenuButtonTemplate" id="3"/>
+			<Button name="$parentButton4" inherits="LibDropDownMenuButtonTemplate" id="4"/>
+			<Button name="$parentButton5" inherits="LibDropDownMenuButtonTemplate" id="5"/>
+			<Button name="$parentButton6" inherits="LibDropDownMenuButtonTemplate" id="6"/>
+			<Button name="$parentButton7" inherits="LibDropDownMenuButtonTemplate" id="7"/>
+			<Button name="$parentButton8" inherits="LibDropDownMenuButtonTemplate" id="8"/>
+		</Frames>
+		<Scripts>
+			<OnClick>
+				self:Hide();
+			</OnClick>
+			<OnEnter>
+				LibStub("LibDropDownMenu").UIDropDownMenu_StopCounting(self, motion);
+			</OnEnter>
+			<OnLeave>
+				LibStub("LibDropDownMenu").UIDropDownMenu_StartCounting(self, motion);
+			</OnLeave>
+			<OnUpdate>
+				LibStub("LibDropDownMenu").UIDropDownMenu_OnUpdate(self, elapsed);
+			</OnUpdate>
+			<OnShow>
+				for i=1, LibStub("LibDropDownMenu").UIDROPDOWNMENU_MAXBUTTONS do
+					if (not self.noResize) then
+						_G[self:GetName().."Button"..i]:SetWidth(self.maxWidth);
+					end
+				end
+				if (not self.noResize) then
+					self:SetWidth(self.maxWidth+25);
+				end
+				self.showTimer = nil;
+				if ( self:GetID() > 1 ) then
+					self.parent = _G["LibDropDownMenu_List"..(self:GetID() - 1)];
+				end
+			</OnShow>
+			<OnHide>
+				LibStub("LibDropDownMenu").UIDropDownMenu_OnHide(self);
+			</OnHide>
+		</Scripts>
+	</Button>
+	<Frame name="LibDropDownMenuTemplate" virtual="true">
+		<Size x="40" y="32"/>
+		<Layers>
+			<Layer level="ARTWORK">
+				<Texture name="$parentLeft" file="Interface\Glues\CharacterCreate\CharacterCreate-LabelFrame">
+					<Size x="25" y="64"/>
+					<Anchors>
+						<Anchor point="TOPLEFT" x="0" y="17"/>
+					</Anchors>
+					<TexCoords left="0" right="0.1953125" top="0" bottom="1"/>
+				</Texture>
+				<Texture name="$parentMiddle" file="Interface\Glues\CharacterCreate\CharacterCreate-LabelFrame">
+					<Size x="115" y="64"/>
+					<Anchors>
+						<Anchor point="LEFT" relativeTo="$parentLeft" relativePoint="RIGHT"/>
+					</Anchors>
+					<TexCoords left="0.1953125" right="0.8046875" top="0" bottom="1"/>
+				</Texture>
+				<Texture name="$parentRight" file="Interface\Glues\CharacterCreate\CharacterCreate-LabelFrame">
+					<Size x="25" y="64"/>
+					<Anchors>
+						<Anchor point="LEFT" relativeTo="$parentMiddle" relativePoint="RIGHT"/>
+					</Anchors>
+					<TexCoords left="0.8046875" right="1" top="0" bottom="1"/>
+				</Texture>
+				<FontString parentKey="Text" name="$parentText" inherits="GameFontHighlightSmall" wordwrap="false" justifyH="RIGHT">
+					<Size x="0" y="10"/>
+					<Anchors>
+						<Anchor point="RIGHT" relativeTo="$parentRight" x="-43" y="2"/>
+					</Anchors>
+				</FontString>
+			</Layer>
+			<Layer level="OVERLAY">
+				<Texture parentKey="Icon" name="$parentIcon" hidden="true">
+					<Size x="16" y="16"/>
+					<Anchors>
+						<Anchor point="LEFT" x="30" y="2"/>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button parentKey="Button" name="$parentButton" motionScriptsWhileDisabled="true" >
+				<Size x="24" y="24"/>
+				<Anchors>
+					<Anchor point="TOPRIGHT" relativeTo="$parentRight" x="-16" y="-18"/>
+				</Anchors>
+				<Scripts>
+					<OnEnter>
+						local parent = self:GetParent();
+						local myscript = parent:GetScript("OnEnter");
+						if(myscript ~= nil) then
+							myscript(parent);
+						end
+					</OnEnter>
+					<OnLeave>
+						local parent = self:GetParent();
+						local myscript = parent:GetScript("OnLeave");
+						if(myscript ~= nil) then
+							myscript(parent);
+						end
+					</OnLeave>
+					<OnClick>
+						LibStub("LibDropDownMenu").ToggleDropDownMenu(nil, nil, self:GetParent());
+						PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
+            		</OnClick>
+				</Scripts>
+				<NormalTexture name="$parentNormalTexture" file="Interface\ChatFrame\UI-ChatIcon-ScrollDown-Up">
+					<Size x="24" y="24"/>
+					<Anchors>
+						<Anchor point="RIGHT"/>
+					</Anchors>
+				</NormalTexture>
+				<PushedTexture name="$parentPushedTexture" file="Interface\ChatFrame\UI-ChatIcon-ScrollDown-Down">
+					<Size x="24" y="24"/>
+					<Anchors>
+						<Anchor point="RIGHT"/>
+					</Anchors>
+				</PushedTexture>
+				<DisabledTexture name="$parentDisabledTexture" file="Interface\ChatFrame\UI-ChatIcon-ScrollDown-Disabled">
+					<Size x="24" y="24"/>
+					<Anchors>
+						<Anchor point="RIGHT"/>
+					</Anchors>
+				</DisabledTexture>
+				<HighlightTexture name="$parentHighlightTexture" file="Interface\Buttons\UI-Common-MouseHilight" alphaMode="ADD">
+					<Size x="24" y="24"/>
+					<Anchors>
+						<Anchor point="RIGHT"/>
+					</Anchors>
+				</HighlightTexture>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnHide>
+				LibStub("LibDropDownMenu").CloseDropDownMenus();
+			</OnHide>
+		</Scripts>
+	</Frame>
+
+	<!-- dropdown lists -->
+	<Button name="LibDropDownMenu_List1" inherits="LibDropDownMenuListTemplate" id="1">
+		<Size x="180" y="10"/>
+	</Button>
+	<Button name="LibDropDownMenu_List2" inherits="LibDropDownMenuListTemplate" id="2">
+		<Size x="180" y="10"/>
+	</Button>
+
+</Ui>

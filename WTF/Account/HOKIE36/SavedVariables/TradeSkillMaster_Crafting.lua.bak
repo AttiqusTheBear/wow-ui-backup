@@ -1,0 +1,361 @@
+
+TradeSkillMaster_CraftingDB = {
+	["f@Alliance - Tichondrius@inkTrade"] = false,
+	["f@Alliance - Tichondrius@ignoreIntermediate"] = false,
+	["g@ @ignoreCharacters"] = {
+	},
+	["f@Alliance - Onyxia@disableCheckBox"] = false,
+	["f@Horde - Onyxia@inkTrade"] = false,
+	["f@Alliance - Onyxia@evenStacks"] = false,
+	["f@Alliance - Lightning's Blade@crafts"] = {
+	},
+	["f@Horde - Onyxia@ignoreIntermediate"] = false,
+	["f@Alliance - Onyxia@ignoreDECheckBox"] = false,
+	["f@Alliance - Onyxia@ignoreAlts"] = false,
+	["f@Horde - Onyxia@buyAH"] = false,
+	["f@Horde - Onyxia@crafts"] = {
+	},
+	["f@Alliance - Onyxia@buyAH"] = false,
+	["f@Alliance - Thunderlord@ignoreAlts"] = false,
+	["f@Alliance - Lightning's Blade@queueStatus"] = {
+		["collapsed"] = {
+		},
+	},
+	["f@Alliance - Lightning's Blade@ignoreDECheckBox"] = false,
+	["f@Alliance - Onyxia@professionScanCache"] = {
+	},
+	["f@Alliance - Lightning's Blade@ignoreAlts"] = false,
+	["f@Alliance - Thunderlord@evenStacks"] = false,
+	["f@Alliance - Tichondrius@buyAH"] = false,
+	["f@Alliance - Thunderlord@gathering"] = {
+		["availableMats"] = {
+		},
+		["extraMats"] = {
+		},
+		["shortItems"] = {
+		},
+		["gatheredMats"] = false,
+		["neededMats"] = {
+		},
+		["destroyingMats"] = {
+		},
+		["professions"] = {
+		},
+		["selectedSourceStatus"] = {
+		},
+		["sessionOptions"] = {
+		},
+		["selectedSources"] = {
+		},
+	},
+	["f@Horde - Onyxia@playerProfessions"] = {
+	},
+	["f@Alliance - Stormrage@gathering"] = {
+		["selectedSources"] = {
+		},
+		["availableMats"] = {
+		},
+		["shortItems"] = {
+		},
+		["sessionOptions"] = {
+		},
+		["selectedSourceStatus"] = {
+		},
+		["destroyingMats"] = {
+		},
+		["professions"] = {
+		},
+		["neededMats"] = {
+		},
+		["gatheredMats"] = false,
+		["extraMats"] = {
+		},
+	},
+	["g@ @questSmartCrafting"] = true,
+	["f@Alliance - Stormrage@inkTrade"] = false,
+	["f@Alliance - Stormrage@disableCheckBox"] = false,
+	["f@Alliance - Tichondrius@professionScanCache"] = {
+	},
+	["f@Alliance - Stormrage@professionScanCache"] = {
+	},
+	["f@Alliance - Lightning's Blade@mats"] = {
+	},
+	["g@ @profitPercent"] = 0,
+	["f@Alliance - Stormrage@ignoreDECheckBox"] = false,
+	["f@Alliance - Thunderlord@inkTrade"] = false,
+	["f@Alliance - Onyxia@crafts"] = {
+	},
+	["f@Alliance - Tichondrius@crafts"] = {
+	},
+	["f@Alliance - Lightning's Blade@buyAH"] = false,
+	["g@ @helpPlatesShown"] = {
+		["gatheringFrame"] = true,
+	},
+	["f@Alliance - Stormrage@playerProfessions"] = {
+		["Attiqus"] = {
+			["Tailoring"] = {
+				["isSecondary"] = false,
+				["level"] = 15,
+				["maxLevel"] = 75,
+			},
+			["Enchanting"] = {
+				["isSecondary"] = false,
+				["level"] = 6,
+				["maxLevel"] = 75,
+			},
+		},
+	},
+	["f@Alliance - Stormrage@mats"] = {
+	},
+	["f@Alliance - Stormrage@ignoreIntermediate"] = false,
+	["f@Alliance - Stormrage@queueStatus"] = {
+		["collapsed"] = {
+		},
+	},
+	["f@Alliance - Stormrage@ignoreAlts"] = false,
+	["f@Alliance - Lightning's Blade@disableCheckBox"] = false,
+	["_hash"] = 15983053,
+	["f@Horde - Onyxia@professionScanCache"] = {
+	},
+	["f@Alliance - Tichondrius@ignoreAlts"] = false,
+	["f@Alliance - Lightning's Blade@ignoreIntermediate"] = false,
+	["f@Alliance - Thunderlord@ignoreDECheckBox"] = false,
+	["f@Alliance - Lightning's Blade@inkTrade"] = false,
+	["f@Alliance - Lightning's Blade@gathering"] = {
+		["selectedSources"] = {
+		},
+		["availableMats"] = {
+		},
+		["shortItems"] = {
+		},
+		["sessionOptions"] = {
+		},
+		["selectedSourceStatus"] = {
+		},
+		["destroyingMats"] = {
+		},
+		["professions"] = {
+		},
+		["neededMats"] = {
+		},
+		["gatheredMats"] = false,
+		["extraMats"] = {
+		},
+	},
+	["f@Alliance - Onyxia@gathering"] = {
+		["selectedSources"] = {
+		},
+		["availableMats"] = {
+		},
+		["shortItems"] = {
+		},
+		["sessionOptions"] = {
+		},
+		["selectedSourceStatus"] = {
+		},
+		["destroyingMats"] = {
+		},
+		["professions"] = {
+		},
+		["neededMats"] = {
+		},
+		["gatheredMats"] = false,
+		["extraMats"] = {
+		},
+	},
+	["f@Alliance - Lightning's Blade@professionScanCache"] = {
+	},
+	["g@ @showingDefaultFrame"] = false,
+	["g@ @ignoreGuilds"] = {
+	},
+	["f@Alliance - Thunderlord@playerProfessions"] = {
+	},
+	["f@Alliance - Onyxia@ignoreIntermediate"] = false,
+	["f@Alliance - Tichondrius@mats"] = {
+	},
+	["f@Alliance - Tichondrius@playerProfessions"] = {
+	},
+	["f@Alliance - Thunderlord@queueStatus"] = {
+		["collapsed"] = {
+		},
+	},
+	["f@Horde - Onyxia@disableCheckBox"] = false,
+	["f@Horde - Onyxia@gathering"] = {
+		["availableMats"] = {
+		},
+		["extraMats"] = {
+		},
+		["shortItems"] = {
+		},
+		["gatheredMats"] = false,
+		["neededMats"] = {
+		},
+		["destroyingMats"] = {
+		},
+		["professions"] = {
+		},
+		["selectedSourceStatus"] = {
+		},
+		["sessionOptions"] = {
+		},
+		["selectedSources"] = {
+		},
+	},
+	["_version"] = 7,
+	["g@ @queueSort"] = 1,
+	["f@Horde - Onyxia@queueStatus"] = {
+		["collapsed"] = {
+		},
+	},
+	["f@Alliance - Thunderlord@ignoreIntermediate"] = false,
+	["g@ @defaultMatCostMethod"] = "min(dbmarket, crafting, vendorbuy, convert(dbmarket))",
+	["f@Alliance - Onyxia@playerProfessions"] = {
+	},
+	["_scopeKeys"] = {
+		["char"] = {
+			"Attiqus - Lightning's Blade", -- [1]
+			"Attibank - Onyxia", -- [2]
+			"Attisquire - Onyxia", -- [3]
+			"Capiocorpus - Lightning's Blade", -- [4]
+			"Qaldorei - Tichondrius", -- [5]
+			"Qaldorei - Thunderlord", -- [6]
+			"Atticook - Onyxia", -- [7]
+			"Attiherbs - Onyxia", -- [8]
+			"Attiore - Onyxia", -- [9]
+			"Attiqus - Stormrage", -- [10]
+		},
+		["realm"] = {
+			"Lightning's Blade", -- [1]
+			"Onyxia", -- [2]
+			"Tichondrius", -- [3]
+			"Thunderlord", -- [4]
+			"Stormrage", -- [5]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["factionrealm"] = {
+			"Alliance - Lightning's Blade", -- [1]
+			"Horde - Onyxia", -- [2]
+			"Alliance - Onyxia", -- [3]
+			"Alliance - Tichondrius", -- [4]
+			"Alliance - Thunderlord", -- [5]
+			"Alliance - Stormrage", -- [6]
+		},
+	},
+	["f@Alliance - Tichondrius@gathering"] = {
+		["destroyingMats"] = {
+		},
+		["extraMats"] = {
+		},
+		["shortItems"] = {
+		},
+		["sessionOptions"] = {
+		},
+		["selectedSourceStatus"] = {
+		},
+		["selectedSources"] = {
+		},
+		["professions"] = {
+		},
+		["neededMats"] = {
+		},
+		["gatheredMats"] = false,
+		["availableMats"] = {
+		},
+	},
+	["f@Alliance - Stormrage@buyAH"] = false,
+	["f@Horde - Onyxia@ignoreAlts"] = false,
+	["f@Alliance - Stormrage@crafts"] = {
+	},
+	["f@Alliance - Tichondrius@disableCheckBox"] = false,
+	["g@ @frameQueueOpen"] = false,
+	["g@ @defaultCraftPriceMethod"] = "first(dbminbuyout, dbmarket)",
+	["_currentProfile"] = {
+		["Qaldorei - Tichondrius"] = "Default",
+		["Attiore - Onyxia"] = "Default",
+		["Attisquire - Onyxia"] = "Default",
+		["Attiherbs - Onyxia"] = "Default",
+		["Attiqus - Stormrage"] = "Default",
+		["Atticook - Onyxia"] = "Default",
+		["Qaldorei - Thunderlord"] = "Default",
+		["Attibank - Onyxia"] = "Default",
+		["Capiocorpus - Lightning's Blade"] = "Default",
+		["Attiqus - Lightning's Blade"] = "Default",
+	},
+	["f@Alliance - Thunderlord@professionScanCache"] = {
+	},
+	["f@Alliance - Onyxia@mats"] = {
+	},
+	["f@Alliance - Tichondrius@evenStacks"] = false,
+	["f@Horde - Onyxia@ignoreDECheckBox"] = false,
+	["g@ @ignoreCDCraftCost"] = true,
+	["f@Alliance - Thunderlord@mats"] = {
+	},
+	["f@Alliance - Stormrage@evenStacks"] = false,
+	["f@Alliance - Lightning's Blade@playerProfessions"] = {
+		["Attiqus"] = {
+			["Cooking"] = {
+				["isSecondary"] = true,
+				["level"] = 1,
+				["maxLevel"] = 700,
+			},
+			["First Aid"] = {
+				["isSecondary"] = true,
+				["level"] = 450,
+				["maxLevel"] = 700,
+			},
+			["Skinning"] = {
+				["isSecondary"] = false,
+				["level"] = 700,
+				["maxLevel"] = 700,
+			},
+			["Enchanting"] = {
+				["isSecondary"] = false,
+				["level"] = 700,
+				["maxLevel"] = 700,
+			},
+		},
+		["Capiocorpus"] = {
+			["Tailoring"] = {
+				["isSecondary"] = false,
+				["level"] = 700,
+				["maxLevel"] = 700,
+			},
+			["Blacksmithing"] = {
+				["isSecondary"] = false,
+				["level"] = 1,
+				["maxLevel"] = 75,
+			},
+			["First Aid"] = {
+				["isSecondary"] = true,
+				["level"] = 270,
+				["maxLevel"] = 700,
+			},
+			["Cooking"] = {
+				["isSecondary"] = true,
+				["level"] = 1,
+				["maxLevel"] = 700,
+			},
+		},
+	},
+	["g@ @priceColumn"] = 1,
+	["f@Horde - Onyxia@mats"] = {
+	},
+	["f@Alliance - Lightning's Blade@evenStacks"] = false,
+	["f@Alliance - Thunderlord@disableCheckBox"] = false,
+	["f@Alliance - Onyxia@queueStatus"] = {
+		["collapsed"] = {
+		},
+	},
+	["f@Alliance - Tichondrius@queueStatus"] = {
+		["collapsed"] = {
+		},
+	},
+	["f@Horde - Onyxia@evenStacks"] = false,
+	["f@Alliance - Thunderlord@buyAH"] = false,
+	["f@Alliance - Thunderlord@crafts"] = {
+	},
+	["f@Alliance - Tichondrius@ignoreDECheckBox"] = false,
+	["f@Alliance - Onyxia@inkTrade"] = false,
+}

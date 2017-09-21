@@ -1,0 +1,17 @@
+AtlasLoot_WarlordsofDraenor: enabled
+AtlasLoot_PvP: enabled
+AtlasLoot_Factions: enabled
+AtlasLoot_Collections: enabled
+AtlasLoot_Classic: enabled
+Macros_ActionBars: disabled
+AtlasLoot: enabled
+AtlasLoot_WrathoftheLichKing: enabled
+AtlasLoot_WorldEvents: enabled
+AtlasLoot_MistsofPandaria: enabled
+AtlasLoot_Crafting: enabled
+AtlasLoot_Cataclysm: enabled
+AtlasLoot_BurningCrusade: enabled
+MSBTOptions: disabled
+MikScrollingBattleText: disabled
+ElvUI_Config: enabled
+ElvUI: enabled

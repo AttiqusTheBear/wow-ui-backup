@@ -1,0 +1,2215 @@
+
+BazookaDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Hokiebird - Lightning's Blade"] = "Default",
+		["Foqus - Burning Blade"] = "Surface-Attiqus-TopHeavy",
+		["Attiqa - Lightning's Blade"] = "Default",
+		["Capiocorpus - Tichondrius"] = "Default",
+		["Blaqstaff - Burning Blade"] = "Default",
+		["Attiqus - Earthen Ring"] = "Default",
+		["Sqrapper - Thunderlord"] = "Default",
+		["Attisquire - Onyxia"] = "Default",
+		["Qaprica - Burning Blade"] = "Default",
+		["Mols - Burning Blade"] = "Surface-Attiqus-TopHeavy",
+		["Granuaile - Burning Blade"] = "Default",
+		["Qal - Alexstrasza"] = "Default",
+		["Mols - Lightning's Blade"] = "Default",
+		["Banqon - Onyxia"] = "Default",
+		["Prius - Gnomeregan"] = "Default",
+		["Attiherbs - Onyxia"] = "Default",
+		["Rezu - Thunderlord"] = "Default",
+		["Qaldorei - Burning Blade"] = "Surface-Attiqus-TopHeavy",
+		["Granuail - Thunderlord"] = "Default",
+		["Qaprica - Alexstrasza"] = "Default",
+		["Riq - Lightning's Blade"] = "Default",
+		["Attiqus - Bleeding Hollow"] = "Default",
+		["Skairipa - Burning Blade"] = "Default",
+		["Corpuscristy - Burning Blade"] = "Default",
+		["Qaprica - Lightning's Blade"] = "Default",
+		["Attichants - Onyxia"] = "Default",
+		["Capiocorpus - Thunderlord"] = "Default",
+		["Attiqus - Thunderlord"] = "Default",
+		["Karrin - Lightning's Blade"] = "Default",
+		["Attisham - Burning Blade"] = "Default",
+		["Sheeohan - Bleeding Hollow"] = "Default",
+		["Wanhedá - Burning Blade"] = "Default",
+		["Capiocorpus - Lightning's Blade"] = "Default",
+		["Zeencreell - Burning Blade"] = "Default",
+		["Attileather - Onyxia"] = "Default",
+		["Attiqus - Alexstrasza"] = "Default",
+		["Qap - Lightning's Blade"] = "Default",
+		["Attiqa - Burning Blade"] = "Surface-Attiqus-TopHeavy",
+		["Vildajakten - Lightning's Blade"] = "Default",
+		["Amorracchius - Lightning's Blade"] = "Default",
+		["Manannán - Burning Blade"] = "Surface-Attiqus-TopHeavy",
+		["Capiocorpus - Dalaran"] = "Default",
+		["Atticloth - Onyxia"] = "Default",
+		["Mollyc - Burning Blade"] = "Surface-Attiqus-TopHeavy",
+		["Skairipa - Bleeding Hollow"] = "Default",
+		["Qaldori - Tichondrius"] = "Default",
+		["Attibank - Onyxia"] = "Surface-Attiqus-TopHeavy",
+		["Cohan - Thunderlord"] = "Default",
+		["Attiqus - Dalaran"] = "Default",
+		["Qaldorei - Tichondrius"] = "Default",
+		["Attilocks - Onyxia"] = "Default",
+		["Esperacchius - Thunderlord"] = "Default",
+		["Blaqstaff - Lightning's Blade"] = "Default",
+		["Attiqus - Lightning's Blade"] = "Default",
+		["Qaldorei - Thunderlord"] = "Default",
+		["Vildajakten - Burning Blade"] = "Default",
+		["Attiqa - Thunderlord"] = "Default",
+		["Oongaibo - Burning Blade"] = "Surface-Attiqus-TopHeavy",
+		["Attiqus - Burning Blade"] = "Surface-Attiqus-TopHeavy",
+		["Attiqus - Stormrage"] = "Default",
+		["Qaldorei - Lightning's Blade"] = "Default",
+		["Attiore - Onyxia"] = "Default",
+		["Esperacchius - Burning Blade"] = "Surface-Attiqus-TopHeavy",
+		["Foqus - Lightning's Blade"] = "Default",
+		["Attiqus - Gnomeregan"] = "Surface-Attiqus-TopHeavy",
+		["Siodhachan - Burning Blade"] = "Surface-Attiqus-TopHeavy",
+		["Attisha - Lightning's Blade"] = "Default",
+		["Capiocorpus - Burning Blade"] = "Surface-Attiqus-TopHeavy",
+		["Fidelacchius - Burning Blade"] = "Default",
+		["Attiqus - Tichondrius"] = "Default",
+		["Ragnaroq - Burning Blade"] = "Default",
+		["Atticook - Onyxia"] = "Default",
+	},
+	["global"] = {
+		["hideOrderHallCommandBar"] = true,
+	},
+	["profiles"] = {
+		["Surface-Attiqus-TopHeavy"] = {
+			["locked"] = true,
+			["bars"] = {
+				{
+					["rightSpacing"] = 12,
+					["attach"] = "bottom",
+					["bgGradient"] = "",
+					["bgInset"] = 0,
+					["fontShadow"] = false,
+					["bgColor"] = {
+						["a"] = 0.600000023841858,
+					},
+					["font"] = "Accidental Presidency",
+					["bgTexture"] = "ElvUI Blank",
+					["leftSpacing"] = 12,
+					["iconSize"] = 14,
+					["bgBorderColor"] = {
+						["a"] = 0,
+						["g"] = 0,
+						["r"] = 0,
+					},
+					["bgEdgeSize"] = 1,
+					["pos"] = 1,
+				}, -- [1]
+				{
+					["rightSpacing"] = 12,
+					["font"] = "Accidental Presidency",
+					["frameHeight"] = 19.9999961853027,
+					["fontShadow"] = false,
+					["attach"] = "top",
+					["bgGradient"] = "",
+					["bgInset"] = 0,
+					["bgBorderColor"] = {
+						["a"] = 0,
+						["g"] = 0,
+						["r"] = 0,
+					},
+					["bgColor"] = {
+						["a"] = 0.600000023841858,
+					},
+					["fadeAlpha"] = 0.3,
+					["bgTexture"] = "ElvUI Blank",
+					["leftSpacing"] = 12,
+					["iconSize"] = 14,
+					["bgEdgeSize"] = 1,
+					["frameWidth"] = 1517.037109375,
+					["pos"] = 1,
+				}, -- [2]
+			},
+			["plugins"] = {
+				["data source"] = {
+					["ArkInventory_Tracking_Item"] = {
+						["enabled"] = false,
+						["pos"] = 1,
+					},
+					["LDB-Currencies"] = {
+						["enabled"] = false,
+						["pos"] = 1,
+						["area"] = "left",
+					},
+					["SN - Melee Haste"] = {
+						["enabled"] = false,
+						["pos"] = 2,
+					},
+					["Broker_Portals"] = {
+						["enabled"] = false,
+						["bar"] = 2,
+						["showText"] = false,
+						["pos"] = 5,
+					},
+					["Bags"] = {
+						["showValue"] = false,
+						["alignment"] = "LEFT",
+						["stripColors"] = false,
+						["manualTooltip"] = false,
+						["pos"] = 63,
+					},
+					["Tanaan Jungle Dailies"] = {
+						["enabled"] = false,
+						["pos"] = 65,
+					},
+					["SN - Armor"] = {
+						["enabled"] = false,
+						["bar"] = 2,
+						["pos"] = 2,
+						["area"] = "cright",
+					},
+					["zz_Friends"] = {
+						["enabled"] = false,
+						["pos"] = 57,
+					},
+					["Currency"] = {
+						["stripColors"] = false,
+						["showIcon"] = false,
+						["pos"] = 7,
+						["showValue"] = false,
+						["bar"] = 2,
+					},
+					["SN - Ranged Haste"] = {
+						["enabled"] = false,
+						["pos"] = 7,
+					},
+					["Notes"] = {
+						["pos"] = 7,
+					},
+					["Toxic"] = {
+						["pos"] = 9,
+						["bar"] = 2,
+						["showText"] = false,
+						["area"] = "cleft",
+					},
+					["Death Note"] = {
+						["bar"] = 2,
+						["pos"] = 3,
+						["area"] = "cright",
+					},
+					["SN - Dodge"] = {
+						["enabled"] = false,
+						["pos"] = 8,
+					},
+					["ArkInventory_Pets"] = {
+						["enabled"] = false,
+						["pos"] = 64,
+					},
+					["Wholly Coordinates"] = {
+						["pos"] = 7,
+						["bar"] = 2,
+						["area"] = "left",
+					},
+					["LoggerHead"] = {
+						["pos"] = 11,
+						["bar"] = 2,
+						["area"] = "left",
+					},
+					["Ovale"] = {
+						["pos"] = 6,
+						["bar"] = 2,
+						["showText"] = false,
+						["area"] = "left",
+					},
+					["GarrisonMissionManager"] = {
+						["enabled"] = false,
+						["pos"] = 5,
+					},
+					["Reputation"] = {
+						["enabled"] = false,
+						["pos"] = 65,
+					},
+					["Nameplates"] = {
+						["enabled"] = false,
+						["pos"] = 44,
+					},
+					["ArkInventory_Money"] = {
+						["enabled"] = false,
+						["pos"] = 65,
+					},
+					["Broker_TolBarad"] = {
+						["bar"] = 2,
+						["pos"] = 3,
+					},
+					["Friends"] = {
+						["pos"] = 8,
+					},
+					["SN - Melee Mastery"] = {
+						["enabled"] = false,
+						["pos"] = 12,
+					},
+					["zz_Repair"] = {
+						["enabled"] = false,
+						["pos"] = 61,
+					},
+					["SN - Vengeance"] = {
+						["enabled"] = false,
+						["pos"] = 13,
+					},
+					["DetailsStreamer"] = {
+						["pos"] = 8,
+						["bar"] = 2,
+						["area"] = "cright",
+					},
+					["ArkInventory_Bags"] = {
+						["enabled"] = false,
+						["pos"] = 66,
+					},
+					["Broker_MicroClock"] = {
+						["enabled"] = false,
+						["pos"] = 15,
+					},
+					["Latency"] = {
+						["pos"] = 35,
+						["area"] = "left",
+					},
+					["WoWToken"] = {
+						["enabled"] = false,
+						["pos"] = 36,
+						["area"] = "left",
+					},
+					["System"] = {
+						["enabled"] = false,
+						["pos"] = 64,
+					},
+					["SN - Spell Haste"] = {
+						["enabled"] = false,
+						["pos"] = 42,
+					},
+					["ElkFactions"] = {
+						["enabled"] = false,
+						["pos"] = 2,
+					},
+					["WIM"] = {
+						["pos"] = 8,
+					},
+					["SN - Melee Hit"] = {
+						["bar"] = 2,
+						["pos"] = 6,
+						["area"] = "cright",
+					},
+					["SN - Spell Hit"] = {
+						["enabled"] = false,
+						["pos"] = 56,
+					},
+					["WorldQuests"] = {
+						["pos"] = 13,
+						["bar"] = 2,
+						["showIcon"] = false,
+						["area"] = "left",
+					},
+					["Wintergrasper Advanced(Tol'Barad)"] = {
+						["pos"] = 2,
+					},
+					["Traffic"] = {
+						["enabled"] = false,
+						["pos"] = 8,
+					},
+					["SN - PvP Power"] = {
+						["enabled"] = false,
+						["pos"] = 55,
+					},
+					["SN - Ranged Speed"] = {
+						["enabled"] = false,
+						["pos"] = 57,
+					},
+					["Speed"] = {
+						["pos"] = 2,
+						["bar"] = 2,
+						["area"] = "center",
+					},
+					["SN - Expertise"] = {
+						["bar"] = 2,
+						["pos"] = 7,
+						["area"] = "cright",
+					},
+					["Follower"] = {
+						["enabled"] = false,
+						["pos"] = 66,
+					},
+					["DailyGlobalCheck_broker"] = {
+						["enabled"] = false,
+						["pos"] = 2,
+					},
+					["zz_Bags"] = {
+						["enabled"] = false,
+						["pos"] = 63,
+					},
+					["Mail"] = {
+						["pos"] = 1,
+						["showIcon"] = false,
+						["area"] = "cleft",
+					},
+					["SN - Block"] = {
+						["enabled"] = false,
+						["pos"] = 23,
+					},
+					["GPS"] = {
+						["showValue"] = false,
+						["pos"] = 1,
+						["showIcon"] = false,
+						["area"] = "cright",
+					},
+					["Emissary Quests"] = {
+						["bar"] = 2,
+						["pos"] = 12,
+						["showText"] = false,
+						["area"] = "left",
+					},
+					["FPS"] = {
+						["pos"] = 34,
+						["area"] = "left",
+					},
+					["Stuff"] = {
+						["enabled"] = false,
+						["pos"] = 43,
+					},
+					["SN - Dmg Reduction"] = {
+						["enabled"] = false,
+						["bar"] = 2,
+						["pos"] = 3,
+						["area"] = "cright",
+					},
+					["ChatChannels"] = {
+						["enabled"] = false,
+						["pos"] = 7,
+						["bar"] = 2,
+						["area"] = "left",
+					},
+					["Memory"] = {
+						["pos"] = 33,
+						["area"] = "left",
+					},
+					["zz_Money"] = {
+						["enabled"] = false,
+						["pos"] = 59,
+					},
+					["Wardrobe"] = {
+						["enabled"] = false,
+						["pos"] = 66,
+					},
+					["AheadOfTheCurveMinimap"] = {
+						["useLabelAsTitle"] = false,
+						["showText"] = false,
+						["pos"] = 6,
+					},
+					["SN - Defense Mastery"] = {
+						["enabled"] = false,
+						["pos"] = 47,
+					},
+					["Guild Recruitment"] = {
+						["bar"] = 2,
+						["pos"] = 7,
+						["area"] = "left",
+					},
+					["Dualspec"] = {
+						["bar"] = 2,
+						["pos"] = 11,
+						["showText"] = false,
+						["area"] = "cleft",
+					},
+					["Durability"] = {
+						["bar"] = 2,
+						["pos"] = 1,
+						["area"] = "center",
+					},
+					["SN - Ranged Hit"] = {
+						["enabled"] = false,
+						["pos"] = 29,
+					},
+					["Guild"] = {
+						["pos"] = 9,
+					},
+					["Missions"] = {
+						["enabled"] = false,
+						["pos"] = 65,
+					},
+					["ArkInventory_Tracking_Currency"] = {
+						["enabled"] = false,
+						["pos"] = 9,
+					},
+					["Broker_Carbonite"] = {
+						["pos"] = 1,
+					},
+					["SN - Weapon Speed"] = {
+						["enabled"] = false,
+						["pos"] = 31,
+					},
+					["Compact Runes"] = {
+						["enabled"] = false,
+						["pos"] = 10,
+					},
+					["Achievements"] = {
+						["enabled"] = false,
+						["pos"] = 64,
+					},
+					["ArkInventory_Mounts"] = {
+						["enabled"] = false,
+						["pos"] = 67,
+					},
+					["GuildLog"] = {
+						["enabled"] = false,
+						["pos"] = 61,
+					},
+					["Volume"] = {
+						["pos"] = 3,
+						["bar"] = 2,
+						["area"] = "left",
+					},
+					["WeakAuras"] = {
+						["bar"] = 2,
+						["pos"] = 11,
+						["showText"] = false,
+						["area"] = "left",
+					},
+					["SN - Ranged Armor Penetration"] = {
+						["enabled"] = false,
+						["pos"] = 35,
+					},
+					["Surprise"] = {
+						["enabled"] = false,
+						["pos"] = 33,
+					},
+					["zz_Mailbox"] = {
+						["enabled"] = false,
+						["pos"] = 60,
+					},
+					["SN - Ranged Mastery"] = {
+						["enabled"] = false,
+						["pos"] = 34,
+					},
+					["Raids"] = {
+						["enabled"] = false,
+						["pos"] = 64,
+					},
+					["BossNotes"] = {
+						["pos"] = 1,
+						["area"] = "cleft",
+					},
+					["SN - Spell Mastery"] = {
+						["enabled"] = false,
+						["pos"] = 36,
+					},
+					["Details"] = {
+						["pos"] = 7,
+						["bar"] = 2,
+						["area"] = "cright",
+					},
+					["Daily Global Check"] = {
+						["pos"] = 64,
+					},
+					["ClassSpecs"] = {
+						["pos"] = 7,
+						["bar"] = 2,
+						["showText"] = false,
+						["area"] = "center",
+					},
+					["zz_Coords"] = {
+						["enabled"] = false,
+						["pos"] = 62,
+					},
+					["Equipment"] = {
+						["bar"] = 2,
+						["pos"] = 10,
+						["area"] = "cleft",
+					},
+					["zz_Infoclock"] = {
+						["enabled"] = false,
+						["pos"] = 58,
+					},
+					["Archaeology"] = {
+						["enabled"] = false,
+						["pos"] = 8,
+						["bar"] = 2,
+						["area"] = "left",
+					},
+					["IDs"] = {
+						["enabled"] = false,
+						["pos"] = 7,
+						["bar"] = 2,
+						["area"] = "left",
+					},
+					["SN - Melee Armor Penetration"] = {
+						["enabled"] = false,
+						["pos"] = 38,
+					},
+					["Quest Log"] = {
+						["enabled"] = false,
+						["bar"] = 2,
+						["pos"] = 4,
+						["area"] = "left",
+					},
+					["Tracking"] = {
+						["pos"] = 9,
+						["showText"] = false,
+						["bar"] = 2,
+					},
+					["Artifact weapon"] = {
+						["enabled"] = false,
+						["bar"] = 2,
+						["pos"] = 7,
+						["area"] = "left",
+					},
+					["Wintergrasper Advanced"] = {
+						["pos"] = 3,
+					},
+					["Skada"] = {
+						["bar"] = 2,
+						["pos"] = 6,
+						["area"] = "cright",
+					},
+					["SN - Melee Crit"] = {
+						["bar"] = 2,
+						["pos"] = 5,
+						["area"] = "cright",
+					},
+					["Calendar"] = {
+						["enabled"] = false,
+						["pos"] = 30,
+						["showText"] = false,
+						["area"] = "left",
+					},
+					["Gold"] = {
+						["showValue"] = false,
+						["showIcon"] = false,
+						["pos"] = 8,
+						["useLabelAsTitle"] = false,
+						["stripColors"] = false,
+						["bar"] = 2,
+					},
+					["Ships"] = {
+						["enabled"] = false,
+						["pos"] = 3,
+					},
+					["SN - Spell Power"] = {
+						["enabled"] = false,
+						["pos"] = 30,
+					},
+					["Armory"] = {
+						["bar"] = 2,
+						["pos"] = 5,
+						["area"] = "left",
+					},
+					["SN - MP5"] = {
+						["enabled"] = false,
+						["pos"] = 46,
+					},
+					["LunaEclipse: Custom Ovale Scripts"] = {
+						["enabled"] = false,
+						["pos"] = 36,
+						["area"] = "left",
+					},
+					["Broker_PvPinfo"] = {
+						["bar"] = 2,
+						["showText"] = false,
+						["pos"] = 1,
+					},
+					["SN - Spell Crit"] = {
+						["enabled"] = false,
+						["pos"] = 49,
+					},
+					["Clock"] = {
+						["showValue"] = false,
+						["showIcon"] = false,
+						["pos"] = 1,
+						["useLabelAsTitle"] = false,
+						["alignment"] = "LEFT",
+						["area"] = "center",
+					},
+					["Followers"] = {
+						["enabled"] = false,
+						["pos"] = 6,
+					},
+					["Broker_TimelessIsleChests"] = {
+						["bar"] = 2,
+						["pos"] = 2,
+						["showText"] = false,
+						["area"] = "left",
+					},
+					["Broker_Weekly_Quests"] = {
+						["bar"] = 2,
+						["pos"] = 1,
+						["showText"] = false,
+						["area"] = "left",
+					},
+					["SN - Melee Attack Power"] = {
+						["enabled"] = false,
+						["bar"] = 2,
+						["pos"] = 4,
+						["area"] = "cright",
+					},
+					["myHonor"] = {
+						["enabled"] = false,
+						["pos"] = 54,
+					},
+					["_NPCScan.Overlay"] = {
+						["pos"] = 39,
+						["area"] = "left",
+					},
+					["Blood Shield Tracker"] = {
+						["enabled"] = false,
+						["pos"] = 9,
+					},
+					["Broker_LWIW"] = {
+						["pos"] = 58,
+					},
+					["XP"] = {
+						["enabled"] = false,
+						["pos"] = 21,
+					},
+					["Garrison"] = {
+						["enabled"] = false,
+						["pos"] = 64,
+					},
+					["Dungeons"] = {
+						["enabled"] = false,
+						["pos"] = 65,
+					},
+					["SN - Parry"] = {
+						["enabled"] = false,
+						["pos"] = 59,
+					},
+					["SN - Ranged Crit"] = {
+						["enabled"] = false,
+						["pos"] = 60,
+					},
+					["SN - PvP Resilience"] = {
+						["enabled"] = false,
+						["pos"] = 17,
+					},
+					["Game Menu"] = {
+						["enabled"] = false,
+						["pos"] = 16,
+						["showText"] = false,
+						["area"] = "left",
+					},
+					["Professions"] = {
+						["enabled"] = false,
+						["pos"] = 6,
+						["bar"] = 2,
+						["area"] = "left",
+					},
+					["Order hall"] = {
+						["enabled"] = false,
+						["pos"] = 64,
+					},
+					["Broker_Wintergrasper"] = {
+						["enabled"] = false,
+						["bar"] = 2,
+						["pos"] = 4,
+					},
+					["SN - Ranged Attack Power"] = {
+						["enabled"] = false,
+						["pos"] = 64,
+					},
+				},
+				["launcher"] = {
+					["Broker_oQueue"] = {
+						["pos"] = 1,
+					},
+					["SerenityNow"] = {
+						["pos"] = 35,
+					},
+					["Grid"] = {
+						["pos"] = 3,
+					},
+					["BattlegroundTargets"] = {
+						["pos"] = 37,
+					},
+					["AskMrRobot"] = {
+						["bar"] = 2,
+						["pos"] = 10,
+					},
+					["BeanCounter"] = {
+						["enabled"] = false,
+						["pos"] = 7,
+					},
+					["Skinner"] = {
+						["pos"] = 32,
+					},
+					["Swatter"] = {
+						["enabled"] = false,
+						["pos"] = 11,
+					},
+					["BigWigs"] = {
+						["pos"] = 31,
+					},
+					["Auc-Util-SearchUI"] = {
+						["enabled"] = false,
+						["pos"] = 3,
+					},
+					["GatherMate2"] = {
+						["pos"] = 36,
+					},
+					["Ludwig"] = {
+						["pos"] = 5,
+					},
+					["MogIt"] = {
+						["bar"] = 2,
+						["pos"] = 4,
+					},
+					["AucAdvanced"] = {
+						["enabled"] = false,
+						["pos"] = 8,
+					},
+					["Broker_DotFocus"] = {
+						["pos"] = 38,
+					},
+					["kgPanels"] = {
+						["enabled"] = false,
+						["pos"] = 14,
+					},
+					["IonBroker"] = {
+						["pos"] = 7,
+						["bar"] = 2,
+						["area"] = "right",
+					},
+					["VuhDo"] = {
+						["pos"] = 36,
+					},
+					["WorldQuests"] = {
+						["bar"] = 2,
+						["pos"] = 31,
+					},
+					["KeystoneManager"] = {
+						["pos"] = 36,
+					},
+					["Wholly"] = {
+						["pos"] = 31,
+					},
+					["PhoenixStyle"] = {
+						["pos"] = 36,
+					},
+					["ExRT"] = {
+						["pos"] = 37,
+					},
+					["Altoholic"] = {
+						["bar"] = 2,
+						["pos"] = 9,
+					},
+					["Bazooka"] = {
+						["pos"] = 27,
+					},
+					["PQInterface"] = {
+						["pos"] = 13,
+					},
+					["Prat"] = {
+						["pos"] = 36,
+					},
+					["zz_MiscHelper"] = {
+						["enabled"] = false,
+						["pos"] = 36,
+					},
+					["X-Perl UnitFrames"] = {
+						["enabled"] = false,
+						["pos"] = 36,
+					},
+					["TellMeWhen"] = {
+						["enabled"] = false,
+						["pos"] = 1,
+					},
+					["SavedInstances"] = {
+						["pos"] = 6,
+						["bar"] = 2,
+						["area"] = "right",
+					},
+					["Enchantrix"] = {
+						["pos"] = 4,
+					},
+					["TradeSkillMasterMinimapIcon"] = {
+						["pos"] = 38,
+					},
+					["_NPCScan.Overlay"] = {
+						["pos"] = 6,
+						["bar"] = 2,
+						["area"] = "right",
+					},
+					["Informant"] = {
+						["enabled"] = false,
+						["pos"] = 12,
+					},
+					["TradeSkillMaster"] = {
+						["pos"] = 37,
+					},
+					["AddonCpuUsage"] = {
+						["pos"] = 39,
+					},
+					["Bartender4"] = {
+						["enabled"] = false,
+						["pos"] = 11,
+					},
+					["LFG"] = {
+						["bar"] = 2,
+						["useLabelAsTitle"] = false,
+						["pos"] = 8,
+						["area"] = "right",
+					},
+					["Auc-Util-AutoMagic"] = {
+						["enabled"] = false,
+						["pos"] = 4,
+					},
+					["Omen"] = {
+						["bar"] = 2,
+						["pos"] = 7,
+						["area"] = "cright",
+					},
+					["Broker_DroodFocus"] = {
+						["enabled"] = false,
+						["pos"] = 37,
+					},
+					["AtlasLoot"] = {
+						["enabled"] = false,
+						["pos"] = 6,
+					},
+					["Atlas"] = {
+						["enabled"] = false,
+						["pos"] = 31,
+					},
+					["BrokerRecountFu"] = {
+						["bar"] = 2,
+						["pos"] = 6,
+						["area"] = "cright",
+					},
+					["BagnonLauncher"] = {
+						["enabled"] = false,
+						["pos"] = 12,
+					},
+					["Masque"] = {
+						["enabled"] = false,
+						["pos"] = 15,
+					},
+				},
+			},
+			["numBars"] = 2,
+		},
+		["Default"] = {
+			["numBars"] = 2,
+			["locked"] = true,
+			["plugins"] = {
+				["data source"] = {
+					["ArkInventory_Tracking_Item"] = {
+						["pos"] = 1,
+					},
+					["LDB-Currencies"] = {
+						["area"] = "left",
+						["enabled"] = false,
+						["pos"] = 1,
+					},
+					["SN - Melee Haste"] = {
+						["enabled"] = false,
+						["pos"] = 2,
+					},
+					["Broker_Portals"] = {
+						["enabled"] = false,
+						["showText"] = false,
+						["bar"] = 2,
+						["pos"] = 5,
+					},
+					["Bags"] = {
+						["manualTooltip"] = false,
+						["alignment"] = "LEFT",
+						["stripColors"] = false,
+						["showValue"] = false,
+						["pos"] = 63,
+					},
+					["Tanaan Jungle Dailies"] = {
+						["enabled"] = false,
+						["pos"] = 67,
+					},
+					["SN - Armor"] = {
+						["area"] = "cright",
+						["enabled"] = false,
+						["bar"] = 2,
+						["pos"] = 2,
+					},
+					["zz_Friends"] = {
+						["enabled"] = false,
+						["pos"] = 57,
+					},
+					["Currency"] = {
+						["bar"] = 2,
+						["pos"] = 6,
+					},
+					["SN - Ranged Haste"] = {
+						["enabled"] = false,
+						["pos"] = 7,
+					},
+					["Broker_Wintergrasper"] = {
+						["bar"] = 2,
+						["pos"] = 4,
+					},
+					["Toxic"] = {
+						["area"] = "cleft",
+						["showText"] = false,
+						["bar"] = 2,
+						["pos"] = 9,
+					},
+					["Order hall"] = {
+						["enabled"] = false,
+						["pos"] = 64,
+					},
+					["SN - Dodge"] = {
+						["enabled"] = false,
+						["pos"] = 8,
+					},
+					["ArkInventory_Pets"] = {
+						["pos"] = 12,
+					},
+					["Wholly Coordinates"] = {
+						["area"] = "left",
+						["bar"] = 2,
+						["pos"] = 9,
+					},
+					["LoggerHead"] = {
+						["area"] = "left",
+						["bar"] = 2,
+						["pos"] = 13,
+					},
+					["zz_Money"] = {
+						["enabled"] = false,
+						["pos"] = 59,
+					},
+					["Reputation"] = {
+						["enabled"] = false,
+						["pos"] = 7,
+					},
+					["Ovale"] = {
+						["area"] = "left",
+						["showText"] = false,
+						["bar"] = 2,
+						["pos"] = 8,
+					},
+					["Nameplates"] = {
+						["enabled"] = false,
+						["pos"] = 44,
+					},
+					["ArkInventory_Money"] = {
+						["pos"] = 14,
+					},
+					["Broker_TolBarad"] = {
+						["bar"] = 2,
+						["pos"] = 3,
+					},
+					["Friends"] = {
+						["pos"] = 10,
+					},
+					["SN - Melee Mastery"] = {
+						["enabled"] = false,
+						["pos"] = 12,
+					},
+					["zz_Repair"] = {
+						["enabled"] = false,
+						["pos"] = 61,
+					},
+					["SN - Vengeance"] = {
+						["enabled"] = false,
+						["pos"] = 13,
+					},
+					["DetailsStreamer"] = {
+						["pos"] = 9,
+					},
+					["ArkInventory_Bags"] = {
+						["pos"] = 15,
+					},
+					["Broker_MicroClock"] = {
+						["enabled"] = false,
+						["pos"] = 15,
+					},
+					["Latency"] = {
+						["area"] = "left",
+						["pos"] = 35,
+					},
+					["SN - PvP Resilience"] = {
+						["enabled"] = false,
+						["pos"] = 17,
+					},
+					["ElkFactions"] = {
+						["enabled"] = false,
+						["pos"] = 2,
+					},
+					["SN - Spell Haste"] = {
+						["enabled"] = false,
+						["pos"] = 42,
+					},
+					["Dungeons"] = {
+						["enabled"] = false,
+						["pos"] = 9,
+					},
+					["WIM"] = {
+						["pos"] = 8,
+					},
+					["Broker_LWIW"] = {
+						["pos"] = 58,
+					},
+					["SN - Spell Hit"] = {
+						["enabled"] = false,
+						["pos"] = 56,
+					},
+					["WorldQuests"] = {
+						["area"] = "left",
+						["pos"] = 11,
+						["bar"] = 2,
+					},
+					["Wintergrasper Advanced(Tol'Barad)"] = {
+						["pos"] = 2,
+					},
+					["Blood Shield Tracker"] = {
+						["enabled"] = false,
+						["pos"] = 9,
+					},
+					["_NPCScan.Overlay"] = {
+						["area"] = "left",
+						["pos"] = 41,
+					},
+					["SN - Ranged Speed"] = {
+						["enabled"] = false,
+						["pos"] = 57,
+					},
+					["Broker_PvPinfo"] = {
+						["showText"] = false,
+						["bar"] = 2,
+						["pos"] = 1,
+					},
+					["SN - Expertise"] = {
+						["area"] = "cright",
+						["bar"] = 2,
+						["pos"] = 7,
+					},
+					["Follower"] = {
+						["enabled"] = false,
+						["pos"] = 64,
+					},
+					["SN - Melee Attack Power"] = {
+						["area"] = "cright",
+						["enabled"] = false,
+						["bar"] = 2,
+						["pos"] = 4,
+					},
+					["zz_Bags"] = {
+						["enabled"] = false,
+						["pos"] = 63,
+					},
+					["Mail"] = {
+						["area"] = "cleft",
+						["enabled"] = false,
+						["pos"] = 1,
+					},
+					["SN - Block"] = {
+						["enabled"] = false,
+						["pos"] = 23,
+					},
+					["Emissary Quests"] = {
+						["area"] = "left",
+						["enabled"] = false,
+						["bar"] = 2,
+						["pos"] = 12,
+					},
+					["Broker_TimelessIsleChests"] = {
+						["area"] = "left",
+						["showText"] = false,
+						["bar"] = 2,
+						["pos"] = 2,
+					},
+					["FPS"] = {
+						["area"] = "left",
+						["pos"] = 34,
+					},
+					["GPS"] = {
+						["area"] = "cright",
+						["showValue"] = false,
+						["pos"] = 1,
+					},
+					["SN - Dmg Reduction"] = {
+						["area"] = "cright",
+						["enabled"] = false,
+						["bar"] = 2,
+						["pos"] = 3,
+					},
+					["ChatChannels"] = {
+						["area"] = "left",
+						["enabled"] = false,
+						["bar"] = 2,
+						["pos"] = 7,
+					},
+					["Memory"] = {
+						["area"] = "left",
+						["pos"] = 33,
+					},
+					["AheadOfTheCurveMinimap"] = {
+						["showText"] = false,
+						["pos"] = 5,
+					},
+					["Wardrobe"] = {
+						["enabled"] = false,
+						["pos"] = 64,
+					},
+					["Broker_Weekly_Quests"] = {
+						["area"] = "left",
+						["showText"] = false,
+						["bar"] = 2,
+						["pos"] = 1,
+					},
+					["LunaEclipse: Custom Ovale Scripts"] = {
+						["area"] = "left",
+						["enabled"] = false,
+						["bar"] = 2,
+						["pos"] = 12,
+					},
+					["SN - Melee Crit"] = {
+						["area"] = "cright",
+						["bar"] = 2,
+						["pos"] = 5,
+					},
+					["Armory"] = {
+						["area"] = "left",
+						["bar"] = 2,
+						["pos"] = 5,
+					},
+					["Durability"] = {
+						["area"] = "center",
+						["bar"] = 2,
+						["pos"] = 1,
+					},
+					["SN - Ranged Hit"] = {
+						["enabled"] = false,
+						["pos"] = 29,
+					},
+					["Guild"] = {
+						["pos"] = 7,
+					},
+					["Missions"] = {
+						["enabled"] = false,
+						["pos"] = 65,
+					},
+					["ArkInventory_Tracking_Currency"] = {
+						["pos"] = 8,
+					},
+					["Broker_Carbonite"] = {
+						["pos"] = 1,
+					},
+					["SN - Weapon Speed"] = {
+						["enabled"] = false,
+						["pos"] = 31,
+					},
+					["Guild Recruitment"] = {
+						["area"] = "left",
+						["bar"] = 2,
+						["pos"] = 7,
+					},
+					["Achievements"] = {
+						["enabled"] = false,
+						["pos"] = 5,
+					},
+					["Ships"] = {
+						["enabled"] = false,
+						["pos"] = 3,
+					},
+					["Gold"] = {
+						["useLabelAsTitle"] = false,
+						["showIcon"] = false,
+						["stripColors"] = false,
+						["showValue"] = false,
+						["bar"] = 2,
+						["pos"] = 7,
+					},
+					["GuildLog"] = {
+						["enabled"] = false,
+						["pos"] = 61,
+					},
+					["Calendar"] = {
+						["area"] = "left",
+						["showText"] = false,
+						["pos"] = 30,
+					},
+					["WeakAuras"] = {
+						["area"] = "left",
+						["showText"] = false,
+						["bar"] = 2,
+						["pos"] = 10,
+					},
+					["Surprise"] = {
+						["enabled"] = false,
+						["pos"] = 33,
+					},
+					["zz_Mailbox"] = {
+						["enabled"] = false,
+						["pos"] = 60,
+					},
+					["SN - Ranged Mastery"] = {
+						["enabled"] = false,
+						["pos"] = 34,
+					},
+					["SN - Ranged Armor Penetration"] = {
+						["enabled"] = false,
+						["pos"] = 35,
+					},
+					["Wintergrasper Advanced"] = {
+						["pos"] = 3,
+					},
+					["SN - Spell Mastery"] = {
+						["enabled"] = false,
+						["pos"] = 36,
+					},
+					["Details"] = {
+						["pos"] = 11,
+					},
+					["Daily Global Check"] = {
+						["area"] = "left",
+						["pos"] = 12,
+						["bar"] = 2,
+					},
+					["Artifact weapon"] = {
+						["enabled"] = false,
+						["pos"] = 64,
+					},
+					["zz_Coords"] = {
+						["enabled"] = false,
+						["pos"] = 62,
+					},
+					["Equipment"] = {
+						["area"] = "cleft",
+						["bar"] = 2,
+						["pos"] = 10,
+					},
+					["zz_Infoclock"] = {
+						["enabled"] = false,
+						["pos"] = 58,
+					},
+					["Archaeology"] = {
+						["area"] = "left",
+						["enabled"] = false,
+						["bar"] = 2,
+						["pos"] = 8,
+					},
+					["IDs"] = {
+						["area"] = "left",
+						["enabled"] = false,
+						["bar"] = 2,
+						["pos"] = 7,
+					},
+					["SN - Melee Armor Penetration"] = {
+						["enabled"] = false,
+						["pos"] = 38,
+					},
+					["Quest Log"] = {
+						["area"] = "left",
+						["enabled"] = false,
+						["bar"] = 2,
+						["pos"] = 4,
+					},
+					["Tracking"] = {
+						["showText"] = false,
+						["bar"] = 2,
+						["pos"] = 9,
+					},
+					["ClassSpecs"] = {
+						["area"] = "center",
+						["showText"] = false,
+						["bar"] = 2,
+						["pos"] = 65,
+					},
+					["BossNotes"] = {
+						["area"] = "cleft",
+						["pos"] = 1,
+					},
+					["Skada"] = {
+						["area"] = "cright",
+						["bar"] = 2,
+						["pos"] = 6,
+					},
+					["Raids"] = {
+						["enabled"] = false,
+						["pos"] = 8,
+					},
+					["Compact Runes"] = {
+						["enabled"] = false,
+						["pos"] = 10,
+					},
+					["Volume"] = {
+						["area"] = "left",
+						["bar"] = 2,
+						["pos"] = 3,
+					},
+					["ArkInventory_Mounts"] = {
+						["pos"] = 13,
+					},
+					["SN - Spell Power"] = {
+						["enabled"] = false,
+						["pos"] = 30,
+					},
+					["Dualspec"] = {
+						["area"] = "cleft",
+						["showText"] = false,
+						["bar"] = 2,
+						["pos"] = 11,
+					},
+					["SN - MP5"] = {
+						["enabled"] = false,
+						["pos"] = 46,
+					},
+					["SN - Defense Mastery"] = {
+						["enabled"] = false,
+						["pos"] = 47,
+					},
+					["SN - Melee Hit"] = {
+						["area"] = "cright",
+						["bar"] = 2,
+						["pos"] = 6,
+					},
+					["SN - Spell Crit"] = {
+						["enabled"] = false,
+						["pos"] = 49,
+					},
+					["Clock"] = {
+						["useLabelAsTitle"] = false,
+						["showIcon"] = false,
+						["area"] = "center",
+						["alignment"] = "LEFT",
+						["showValue"] = false,
+						["pos"] = 1,
+					},
+					["Followers"] = {
+						["enabled"] = false,
+						["pos"] = 4,
+					},
+					["Stuff"] = {
+						["enabled"] = false,
+						["pos"] = 43,
+					},
+					["Game Menu"] = {
+						["area"] = "left",
+						["enabled"] = false,
+						["showText"] = false,
+						["pos"] = 16,
+					},
+					["DailyGlobalCheck_broker"] = {
+						["enabled"] = false,
+						["pos"] = 2,
+					},
+					["myHonor"] = {
+						["enabled"] = false,
+						["pos"] = 54,
+					},
+					["SN - PvP Power"] = {
+						["enabled"] = false,
+						["pos"] = 55,
+					},
+					["XP"] = {
+						["enabled"] = false,
+						["pos"] = 21,
+					},
+					["Speed"] = {
+						["area"] = "center",
+						["bar"] = 2,
+						["pos"] = 2,
+					},
+					["Traffic"] = {
+						["enabled"] = false,
+						["pos"] = 66,
+					},
+					["Garrison"] = {
+						["enabled"] = false,
+						["pos"] = 64,
+					},
+					["System"] = {
+						["enabled"] = false,
+						["pos"] = 68,
+					},
+					["SN - Parry"] = {
+						["enabled"] = false,
+						["pos"] = 59,
+					},
+					["SN - Ranged Crit"] = {
+						["enabled"] = false,
+						["pos"] = 60,
+					},
+					["WoWToken"] = {
+						["area"] = "left",
+						["enabled"] = false,
+						["pos"] = 38,
+					},
+					["GarrisonMissionManager"] = {
+						["enabled"] = false,
+						["pos"] = 64,
+					},
+					["Professions"] = {
+						["area"] = "left",
+						["enabled"] = false,
+						["bar"] = 2,
+						["pos"] = 6,
+					},
+					["Death Note"] = {
+						["area"] = "cright",
+						["bar"] = 2,
+						["pos"] = 3,
+					},
+					["Notes"] = {
+						["pos"] = 6,
+					},
+					["SN - Ranged Attack Power"] = {
+						["enabled"] = false,
+						["pos"] = 64,
+					},
+				},
+				["launcher"] = {
+					["Broker_oQueue"] = {
+						["pos"] = 1,
+					},
+					["SerenityNow"] = {
+						["pos"] = 35,
+					},
+					["Grid"] = {
+						["pos"] = 3,
+					},
+					["BattlegroundTargets"] = {
+						["enabled"] = false,
+						["pos"] = 37,
+					},
+					["AskMrRobot"] = {
+						["alignment"] = "LEFT",
+						["bar"] = 2,
+						["pos"] = 12,
+					},
+					["BeanCounter"] = {
+						["enabled"] = false,
+						["pos"] = 7,
+					},
+					["Skinner"] = {
+						["pos"] = 32,
+					},
+					["Atlas"] = {
+						["enabled"] = false,
+						["pos"] = 31,
+					},
+					["BigWigs"] = {
+						["enabled"] = false,
+						["pos"] = 1,
+					},
+					["Auc-Util-SearchUI"] = {
+						["enabled"] = false,
+						["pos"] = 3,
+					},
+					["GatherMate2"] = {
+						["pos"] = 32,
+					},
+					["Ludwig"] = {
+						["pos"] = 5,
+					},
+					["MogIt"] = {
+						["bar"] = 2,
+						["pos"] = 4,
+					},
+					["AucAdvanced"] = {
+						["enabled"] = false,
+						["pos"] = 8,
+					},
+					["Broker_DotFocus"] = {
+						["pos"] = 37,
+					},
+					["BagnonLauncher"] = {
+						["enabled"] = false,
+						["pos"] = 12,
+					},
+					["Informant"] = {
+						["enabled"] = false,
+						["pos"] = 12,
+					},
+					["IonBroker"] = {
+						["area"] = "right",
+						["bar"] = 2,
+						["pos"] = 7,
+					},
+					["VuhDo"] = {
+						["pos"] = 36,
+					},
+					["WorldQuests"] = {
+						["pos"] = 31,
+						["bar"] = 2,
+					},
+					["KeystoneManager"] = {
+						["pos"] = 31,
+					},
+					["Wholly"] = {
+						["pos"] = 31,
+					},
+					["PhoenixStyle"] = {
+						["pos"] = 36,
+					},
+					["ExRT"] = {
+						["pos"] = 40,
+					},
+					["Altoholic"] = {
+						["bar"] = 2,
+						["pos"] = 9,
+					},
+					["Bazooka"] = {
+						["pos"] = 27,
+					},
+					["Broker_DroodFocus"] = {
+						["enabled"] = false,
+						["pos"] = 37,
+					},
+					["Prat"] = {
+						["pos"] = 36,
+					},
+					["Swatter"] = {
+						["enabled"] = false,
+						["pos"] = 11,
+					},
+					["Omen"] = {
+						["area"] = "cright",
+						["bar"] = 2,
+						["pos"] = 7,
+					},
+					["TellMeWhen"] = {
+						["enabled"] = false,
+						["pos"] = 1,
+					},
+					["SavedInstances"] = {
+						["area"] = "right",
+						["bar"] = 2,
+						["pos"] = 5,
+					},
+					["AtlasLoot"] = {
+						["enabled"] = false,
+						["pos"] = 6,
+					},
+					["TradeSkillMasterMinimapIcon"] = {
+						["pos"] = 39,
+					},
+					["_NPCScan.Overlay"] = {
+						["area"] = "right",
+						["bar"] = 2,
+						["pos"] = 6,
+					},
+					["TradeSkillMaster"] = {
+						["pos"] = 38,
+					},
+					["AddonCpuUsage"] = {
+						["pos"] = 36,
+					},
+					["LFG"] = {
+						["useLabelAsTitle"] = false,
+						["area"] = "right",
+						["bar"] = 2,
+						["pos"] = 8,
+					},
+					["Bartender4"] = {
+						["enabled"] = false,
+						["pos"] = 11,
+					},
+					["X-Perl UnitFrames"] = {
+						["enabled"] = false,
+						["pos"] = 36,
+					},
+					["Auc-Util-AutoMagic"] = {
+						["enabled"] = false,
+						["pos"] = 4,
+					},
+					["Gatherer"] = {
+						["pos"] = 40,
+					},
+					["zz_MiscHelper"] = {
+						["enabled"] = false,
+						["pos"] = 36,
+					},
+					["PQInterface"] = {
+						["pos"] = 13,
+					},
+					["Enchantrix"] = {
+						["pos"] = 4,
+					},
+					["BrokerRecountFu"] = {
+						["area"] = "cright",
+						["bar"] = 2,
+						["pos"] = 6,
+					},
+					["kgPanels"] = {
+						["enabled"] = false,
+						["pos"] = 14,
+					},
+					["Masque"] = {
+						["enabled"] = false,
+						["pos"] = 15,
+					},
+				},
+			},
+			["bars"] = {
+				{
+					["bgTexture"] = "ElvUI Blank",
+					["font"] = "PT Sans Narrow",
+					["leftSpacing"] = 12,
+					["pos"] = 1,
+					["frameHeight"] = 18,
+					["attach"] = "bottom",
+					["rightSpacing"] = 12,
+					["fontSize"] = 11,
+					["bgColor"] = {
+						["b"] = 0.105882352941177,
+						["g"] = 0.113725490196078,
+						["r"] = 0.133333333333333,
+					},
+					["bgInset"] = 4,
+				}, -- [1]
+				{
+					["fadeAlpha"] = 0.3,
+					["bgInset"] = 4,
+					["font"] = "PT Sans Narrow",
+					["leftSpacing"] = 12,
+					["frameWidth"] = 1517.037109375,
+					["pos"] = 1,
+					["frameHeight"] = 18,
+					["attach"] = "top",
+					["rightSpacing"] = 12,
+					["fontSize"] = 11,
+				}, -- [2]
+			},
+		},
+		["Siodhachan - Burning Blade"] = {
+			["locked"] = true,
+			["bars"] = {
+				{
+					["bgColor"] = {
+						["r"] = 0.133333333333333,
+						["g"] = 0.113725490196078,
+						["b"] = 0.105882352941177,
+					},
+					["font"] = "ElvUI Font",
+					["bgTexture"] = "ElvUI Blank",
+					["leftSpacing"] = 12,
+					["attach"] = "bottom",
+					["bgInset"] = 4,
+					["rightSpacing"] = 12,
+					["pos"] = 1,
+				}, -- [1]
+				{
+					["frameHeight"] = 19.9999961853027,
+					["attach"] = "top",
+					["bgInset"] = 4,
+					["fadeAlpha"] = 0.3,
+					["fadeInCombat"] = true,
+					["leftSpacing"] = 12,
+					["rightSpacing"] = 12,
+					["font"] = "ElvUI Font",
+					["frameWidth"] = 1517.037109375,
+					["pos"] = 1,
+				}, -- [2]
+			},
+			["plugins"] = {
+				["launcher"] = {
+					["IonBroker"] = {
+						["pos"] = 6,
+						["bar"] = 2,
+						["area"] = "right",
+					},
+					["Bazooka"] = {
+						["pos"] = 27,
+					},
+					["kgPanels"] = {
+						["enabled"] = false,
+						["pos"] = 14,
+					},
+					["Broker_oQueue"] = {
+						["enabled"] = false,
+						["pos"] = 1,
+					},
+					["SerenityNow"] = {
+						["pos"] = 35,
+					},
+					["AucAdvanced"] = {
+						["enabled"] = false,
+						["pos"] = 8,
+					},
+					["Grid"] = {
+						["pos"] = 3,
+					},
+					["Altoholic"] = {
+						["pos"] = 6,
+						["bar"] = 2,
+					},
+					["PQInterface"] = {
+						["pos"] = 13,
+					},
+					["TellMeWhen"] = {
+						["enabled"] = false,
+						["pos"] = 1,
+					},
+					["AskMrRobot"] = {
+						["enabled"] = false,
+						["pos"] = 9,
+					},
+					["Informant"] = {
+						["enabled"] = false,
+						["pos"] = 12,
+					},
+					["BeanCounter"] = {
+						["enabled"] = false,
+						["pos"] = 7,
+					},
+					["Enchantrix"] = {
+						["pos"] = 4,
+					},
+					["SavedInstances"] = {
+						["pos"] = 6,
+						["bar"] = 2,
+						["area"] = "right",
+					},
+					["zz_MiscHelper"] = {
+						["enabled"] = false,
+						["pos"] = 36,
+					},
+					["Atlas"] = {
+						["pos"] = 31,
+					},
+					["_NPCScan.Overlay"] = {
+						["pos"] = 6,
+						["bar"] = 2,
+						["area"] = "right",
+					},
+					["Swatter"] = {
+						["enabled"] = false,
+						["pos"] = 11,
+					},
+					["Auc-Util-SearchUI"] = {
+						["enabled"] = false,
+						["pos"] = 3,
+					},
+					["LFG"] = {
+						["pos"] = 4,
+						["bar"] = 2,
+						["area"] = "right",
+					},
+					["Bartender4"] = {
+						["pos"] = 11,
+					},
+					["GatherMate2"] = {
+						["bar"] = 2,
+						["pos"] = 5,
+					},
+					["Auc-Util-AutoMagic"] = {
+						["enabled"] = false,
+						["pos"] = 4,
+					},
+					["Ludwig"] = {
+						["pos"] = 5,
+					},
+					["Broker_DroodFocus"] = {
+						["pos"] = 35,
+					},
+					["MogIt"] = {
+						["pos"] = 6,
+						["bar"] = 2,
+					},
+					["AtlasLoot"] = {
+						["enabled"] = false,
+						["pos"] = 6,
+					},
+					["BrokerRecountFu"] = {
+						["pos"] = 3,
+						["bar"] = 2,
+						["area"] = "cright",
+					},
+					["BagnonLauncher"] = {
+						["pos"] = 12,
+					},
+					["Masque"] = {
+						["enabled"] = false,
+						["pos"] = 15,
+					},
+				},
+				["data source"] = {
+					["LDB-Currencies"] = {
+						["enabled"] = false,
+						["pos"] = 1,
+						["area"] = "left",
+					},
+					["SN - Melee Haste"] = {
+						["enabled"] = false,
+						["pos"] = 2,
+					},
+					["Broker_Portals"] = {
+						["enabled"] = false,
+						["pos"] = 5,
+						["showText"] = false,
+						["bar"] = 2,
+					},
+					["Bags"] = {
+						["stripColors"] = false,
+						["alignment"] = "LEFT",
+						["showValue"] = false,
+						["manualTooltip"] = false,
+						["pos"] = 7,
+					},
+					["Broker_Weekly_Quests"] = {
+						["pos"] = 1,
+						["bar"] = 2,
+						["showText"] = false,
+						["area"] = "left",
+					},
+					["zz_Friends"] = {
+						["enabled"] = false,
+						["pos"] = 57,
+					},
+					["Currency"] = {
+						["bar"] = 2,
+						["pos"] = 5,
+					},
+					["SN - Ranged Haste"] = {
+						["enabled"] = false,
+						["pos"] = 7,
+					},
+					["Toxic"] = {
+						["bar"] = 2,
+						["pos"] = 1,
+						["area"] = "cright",
+					},
+					["SN - Dodge"] = {
+						["enabled"] = false,
+						["pos"] = 8,
+					},
+					["Broker_Wintergrasper"] = {
+						["pos"] = 3,
+						["bar"] = 2,
+					},
+					["Broker_TolBarad"] = {
+						["pos"] = 2,
+						["bar"] = 2,
+					},
+					["Friends"] = {
+						["pos"] = 4,
+					},
+					["SN - Melee Mastery"] = {
+						["enabled"] = false,
+						["pos"] = 12,
+					},
+					["zz_Repair"] = {
+						["enabled"] = false,
+						["pos"] = 61,
+					},
+					["SN - Vengeance"] = {
+						["enabled"] = false,
+						["pos"] = 13,
+					},
+					["Nameplates"] = {
+						["enabled"] = false,
+						["pos"] = 44,
+					},
+					["Broker_MicroClock"] = {
+						["enabled"] = false,
+						["pos"] = 15,
+					},
+					["Game Menu"] = {
+						["enabled"] = false,
+						["pos"] = 28,
+						["showText"] = false,
+						["area"] = "left",
+					},
+					["SN - PvP Resilience"] = {
+						["enabled"] = false,
+						["pos"] = 17,
+					},
+					["Dualspec"] = {
+						["pos"] = 4,
+						["bar"] = 2,
+						["showText"] = false,
+						["area"] = "cleft",
+					},
+					["Wintergrasper Advanced(Tol'Barad)"] = {
+						["pos"] = 2,
+					},
+					["Speed"] = {
+						["pos"] = 1,
+						["area"] = "cleft",
+					},
+					["SN - Spell Hit"] = {
+						["enabled"] = false,
+						["pos"] = 56,
+					},
+					["XP"] = {
+						["enabled"] = false,
+						["pos"] = 21,
+					},
+					["SN - Melee Hit"] = {
+						["pos"] = 6,
+						["bar"] = 2,
+						["area"] = "cright",
+					},
+					["SN - Block"] = {
+						["enabled"] = false,
+						["pos"] = 23,
+					},
+					["Broker_TimelessIsleChests"] = {
+						["pos"] = 2,
+						["bar"] = 2,
+						["showText"] = false,
+						["area"] = "left",
+					},
+					["FPS"] = {
+						["pos"] = 33,
+						["area"] = "left",
+					},
+					["GPS"] = {
+						["pos"] = 1,
+						["area"] = "cright",
+					},
+					["Memory"] = {
+						["pos"] = 32,
+						["area"] = "left",
+					},
+					["Durability"] = {
+						["pos"] = 1,
+						["bar"] = 2,
+						["area"] = "center",
+					},
+					["SN - Ranged Hit"] = {
+						["enabled"] = false,
+						["pos"] = 29,
+					},
+					["Guild"] = {
+						["pos"] = 3,
+					},
+					["Broker_Carbonite"] = {
+						["pos"] = 1,
+					},
+					["SN - Weapon Speed"] = {
+						["enabled"] = false,
+						["pos"] = 31,
+					},
+					["Gold"] = {
+						["stripColors"] = false,
+						["showIcon"] = false,
+						["useLabelAsTitle"] = false,
+						["showValue"] = false,
+						["pos"] = 6,
+					},
+					["Surprise"] = {
+						["enabled"] = false,
+						["pos"] = 33,
+					},
+					["SN - Ranged Mastery"] = {
+						["enabled"] = false,
+						["pos"] = 34,
+					},
+					["SN - Ranged Armor Penetration"] = {
+						["enabled"] = false,
+						["pos"] = 35,
+					},
+					["Blood Shield Tracker"] = {
+						["enabled"] = false,
+						["pos"] = 9,
+					},
+					["SN - Spell Mastery"] = {
+						["enabled"] = false,
+						["pos"] = 36,
+					},
+					["SN - Expertise"] = {
+						["pos"] = 7,
+						["bar"] = 2,
+						["area"] = "cright",
+					},
+					["WeakAuras"] = {
+						["bar"] = 2,
+						["pos"] = 6,
+						["area"] = "left",
+					},
+					["zz_Money"] = {
+						["enabled"] = false,
+						["pos"] = 59,
+					},
+					["Stuff"] = {
+						["enabled"] = false,
+						["pos"] = 43,
+					},
+					["Equipment"] = {
+						["pos"] = 5,
+						["bar"] = 2,
+						["area"] = "cleft",
+					},
+					["zz_Infoclock"] = {
+						["enabled"] = false,
+						["pos"] = 58,
+					},
+					["Wintergrasper Advanced"] = {
+						["pos"] = 3,
+					},
+					["IDs"] = {
+						["pos"] = 5,
+					},
+					["SN - Melee Armor Penetration"] = {
+						["enabled"] = false,
+						["pos"] = 38,
+					},
+					["Quest Log"] = {
+						["pos"] = 3,
+						["bar"] = 2,
+						["area"] = "left",
+					},
+					["Tracking"] = {
+						["pos"] = 7,
+						["showText"] = false,
+						["bar"] = 2,
+					},
+					["zz_Bags"] = {
+						["enabled"] = false,
+						["pos"] = 63,
+					},
+					["SN - Ranged Speed"] = {
+						["enabled"] = false,
+						["pos"] = 57,
+					},
+					["Skada"] = {
+						["pos"] = 2,
+						["bar"] = 2,
+						["area"] = "cright",
+					},
+					["zz_Coords"] = {
+						["enabled"] = false,
+						["pos"] = 62,
+					},
+					["zz_Mailbox"] = {
+						["enabled"] = false,
+						["pos"] = 60,
+					},
+					["Broker_PvPinfo"] = {
+						["pos"] = 1,
+						["showText"] = false,
+						["bar"] = 2,
+					},
+					["Compact Runes"] = {
+						["enabled"] = false,
+						["pos"] = 10,
+					},
+					["BossNotes"] = {
+						["pos"] = 1,
+						["area"] = "cleft",
+					},
+					["Volume"] = {
+						["pos"] = 29,
+						["area"] = "left",
+					},
+					["SN - MP5"] = {
+						["enabled"] = false,
+						["pos"] = 46,
+					},
+					["Guild Recruitment"] = {
+						["bar"] = 2,
+						["pos"] = 7,
+						["area"] = "left",
+					},
+					["SN - Spell Power"] = {
+						["enabled"] = false,
+						["pos"] = 30,
+					},
+					["SN - Spell Crit"] = {
+						["enabled"] = false,
+						["pos"] = 49,
+					},
+					["Clock"] = {
+						["showValue"] = false,
+						["showIcon"] = false,
+						["pos"] = 1,
+						["useLabelAsTitle"] = false,
+						["alignment"] = "LEFT",
+						["area"] = "center",
+					},
+					["SN - Dmg Reduction"] = {
+						["enabled"] = false,
+						["pos"] = 3,
+						["bar"] = 2,
+						["area"] = "cright",
+					},
+					["DailyGlobalCheck_broker"] = {
+						["enabled"] = false,
+						["pos"] = 2,
+					},
+					["SN - Melee Attack Power"] = {
+						["enabled"] = false,
+						["pos"] = 4,
+						["bar"] = 2,
+						["area"] = "cright",
+					},
+					["SN - Melee Crit"] = {
+						["pos"] = 5,
+						["bar"] = 2,
+						["area"] = "cright",
+					},
+					["myHonor"] = {
+						["enabled"] = false,
+						["pos"] = 54,
+					},
+					["SN - PvP Power"] = {
+						["enabled"] = false,
+						["pos"] = 55,
+					},
+					["Calendar"] = {
+						["pos"] = 30,
+						["showText"] = false,
+						["area"] = "left",
+					},
+					["SN - Defense Mastery"] = {
+						["enabled"] = false,
+						["pos"] = 47,
+					},
+					["SN - Armor"] = {
+						["enabled"] = false,
+						["pos"] = 2,
+						["bar"] = 2,
+						["area"] = "cright",
+					},
+					["Mail"] = {
+						["enabled"] = false,
+						["pos"] = 31,
+						["area"] = "left",
+					},
+					["ElkFactions"] = {
+						["enabled"] = false,
+						["pos"] = 2,
+					},
+					["SN - Parry"] = {
+						["enabled"] = false,
+						["pos"] = 59,
+					},
+					["SN - Ranged Crit"] = {
+						["enabled"] = false,
+						["pos"] = 60,
+					},
+					["Latency"] = {
+						["pos"] = 34,
+						["area"] = "left",
+					},
+					["SN - Spell Haste"] = {
+						["enabled"] = false,
+						["pos"] = 42,
+					},
+					["Professions"] = {
+						["pos"] = 8,
+					},
+					["Death Note"] = {
+						["pos"] = 4,
+					},
+					["Armory"] = {
+						["bar"] = 2,
+						["pos"] = 4,
+						["area"] = "left",
+					},
+					["SN - Ranged Attack Power"] = {
+						["enabled"] = false,
+						["pos"] = 64,
+					},
+				},
+			},
+			["numBars"] = 2,
+		},
+	},
+}

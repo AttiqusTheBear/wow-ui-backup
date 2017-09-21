@@ -1,0 +1,32 @@
+
+AheadOfTheCurveDB = {
+	["profileKeys"] = {
+		["Esperacchius - Burning Blade"] = "Esperacchius - Burning Blade",
+		["Cohan - Thunderlord"] = "Cohan - Thunderlord",
+		["Attisha - Lightning's Blade"] = "Attisha - Lightning's Blade",
+		["Attisham - Burning Blade"] = "Attisham - Burning Blade",
+		["Banqon - Onyxia"] = "Banqon - Onyxia",
+		["Capiocorpus - Tichondrius"] = "Capiocorpus - Tichondrius",
+		["Wanhedá - Burning Blade"] = "Wanhedá - Burning Blade",
+		["Rezu - Thunderlord"] = "Rezu - Thunderlord",
+		["Qaldorei - Burning Blade"] = "Qaldorei - Burning Blade",
+		["Attibank - Onyxia"] = "Attibank - Onyxia",
+		["Vildajakten - Burning Blade"] = "Vildajakten - Burning Blade",
+		["Attiqus - Burning Blade"] = "Attiqus - Burning Blade",
+		["Attiqus - Stormrage"] = "Attiqus - Stormrage",
+		["Skairipa - Bleeding Hollow"] = "Skairipa - Bleeding Hollow",
+		["Qaprica - Burning Blade"] = "Qaprica - Burning Blade",
+		["Attiqus - Bleeding Hollow"] = "Attiqus - Bleeding Hollow",
+		["Skairipa - Burning Blade"] = "Skairipa - Burning Blade",
+		["Manannán - Burning Blade"] = "Manannán - Burning Blade",
+		["Mols - Burning Blade"] = "Mols - Burning Blade",
+		["Capiocorpus - Burning Blade"] = "Capiocorpus - Burning Blade",
+		["Qaldorei - Thunderlord"] = "Qaldorei - Thunderlord",
+		["Foqus - Burning Blade"] = "Foqus - Burning Blade",
+		["Qaldori - Tichondrius"] = "Qaldori - Tichondrius",
+		["Attiqa - Thunderlord"] = "Attiqa - Thunderlord",
+	},
+	["global"] = {
+		["overrideAchievement"] = 5518,
+	},
+}

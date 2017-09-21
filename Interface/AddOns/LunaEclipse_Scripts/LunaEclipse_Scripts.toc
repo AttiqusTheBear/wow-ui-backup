@@ -1,0 +1,15 @@
+## Title: LunaEclipse's Ovale Scripts
+## Notes: Scripts for Ovale based on SimC profiles but expanded and tweaked from Guides and play testing.
+##
+## Author: Adrian Hamilton (LunaEclipse)
+## Version: 7.2.4
+##
+## Interface: 70200
+## Dependencies: Ovale
+## OptionalDeps: LunaEclipse_Debug
+##
+## SavedVariables: LECS_AccountSettings
+## SavedVariablesPerCharacter: LECS_CharacterSettings
+
+libs\load_libs.xml
+modules\load_modules.xml

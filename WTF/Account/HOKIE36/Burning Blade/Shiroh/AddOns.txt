@@ -1,0 +1,11 @@
+WoWDBProfiler: disabled
+TellMeWhen_Options: disabled
+TellMeWhen: disabled
+Recount: disabled
+OPie: disabled
+OpenRaid: disabled
+oqueue: disabled
+MogIt: enabled
+ArmoryGuildBank: disabled
+Altoholic_Summary: enabled
+Armory: disabled

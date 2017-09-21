@@ -1,0 +1,15 @@
+
+ArmoryLocalSettings = {
+	["playerStatBottomDropdown"] = "ENHANCEMENTS",
+	["DropDown"] = {
+		["Dalaran"] = 1,
+		["Earthen Ring"] = 1,
+		["Burning Blade"] = 1,
+	},
+	["playerStatTopDropdown"] = "ATTRIBUTES",
+	["Minimap"] = {
+		["Angle"] = 170,
+		["Radius"] = 80,
+		["Hide"] = true,
+	},
+}

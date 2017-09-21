@@ -1,0 +1,23 @@
+
+NXSocial = {
+	["profileKeys"] = {
+		["Attiqus - Burning Blade"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["SocialData"] = {
+				["Version"] = 0.2,
+				["Burning Blade"] = {
+					["PkAct"] = {
+					},
+					["Pal"] = {
+						[""] = {
+						},
+					},
+					["Pk"] = {
+					},
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,209 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Cohan - Thunderlord"] = "Cohan - Thunderlord",
+		["Attisha - Lightning's Blade"] = "Attisha - Lightning's Blade",
+		["Qaldorei - Tichondrius"] = "Qaldorei - Tichondrius",
+		["Capiocorpus - Tichondrius"] = "Capiocorpus - Tichondrius",
+		["Wanhedá - Burning Blade"] = "Wanhedá - Burning Blade",
+		["Capiocorpus - Lightning's Blade"] = "Capiocorpus - Lightning's Blade",
+		["Attisquire - Onyxia"] = "Attisquire - Onyxia",
+		["Qaprica - Burning Blade"] = "Qaprica - Burning Blade",
+		["Mols - Burning Blade"] = "Mols - Burning Blade",
+		["Qaldorei - Thunderlord"] = "Qaldorei - Thunderlord",
+		["Qaldorei - Lightning's Blade"] = "Qaldorei - Lightning's Blade",
+		["Attiqus - Lightning's Blade"] = "Attiqus - Lightning's Blade",
+		["Ragnaroq - Burning Blade"] = "Ragnaroq - Burning Blade",
+		["Banqon - Onyxia"] = "Banqon - Onyxia",
+		["Attiherbs - Onyxia"] = "Attiherbs - Onyxia",
+		["Rezu - Thunderlord"] = "Rezu - Thunderlord",
+		["Qaldorei - Burning Blade"] = "Qaldorei - Burning Blade",
+		["Attibank - Onyxia"] = "Attibank - Onyxia",
+		["Vildajakten - Burning Blade"] = "Vildajakten - Burning Blade",
+		["Skairipa - Bleeding Hollow"] = "Skairipa - Bleeding Hollow",
+		["Attiqus - Burning Blade"] = "Attiqus - Burning Blade",
+		["Attiqus - Stormrage"] = "Attiqus - Stormrage",
+		["Esperacchius - Burning Blade"] = "Esperacchius - Burning Blade",
+		["Attiore - Onyxia"] = "Attiore - Onyxia",
+		["Attisham - Burning Blade"] = "Attisham - Burning Blade",
+		["Attiqus - Bleeding Hollow"] = "Attiqus - Bleeding Hollow",
+		["Skairipa - Burning Blade"] = "Skairipa - Burning Blade",
+		["Qaldori - Tichondrius"] = "Qaldori - Tichondrius",
+		["Foqus - Burning Blade"] = "Foqus - Burning Blade",
+		["Capiocorpus - Burning Blade"] = "Capiocorpus - Burning Blade",
+		["Manannán - Burning Blade"] = "Manannán - Burning Blade",
+		["Attiqa - Thunderlord"] = "Attiqa - Thunderlord",
+		["Attiqa - Burning Blade"] = "Attiqa - Burning Blade",
+		["Atticook - Onyxia"] = "Atticook - Onyxia",
+	},
+	["global"] = {
+		["Guilds"] = {
+			["Default.Tichondrius.Hotshots"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Burning Blade.Bacon Brewmasters"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Thunderlord.We Needed A Guild Bank"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Stormrage.Phantom Legion"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Burning Blade.Gnome More Puns"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Bleeding Hollow.A Reddit Altopia"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Bleeding Hollow.A Reddit Dystopia"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Thunderlord.Tamales"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["Version"] = 1,
+		["Characters"] = {
+			["Default.Burning Blade.Attisham"] = {
+				["guildName"] = "Bacon Brewmasters",
+				["faction"] = "Horde",
+			},
+			["Default.Burning Blade.Attiqus"] = {
+				["guildName"] = "Bacon Brewmasters",
+				["faction"] = "Horde",
+			},
+			["Default.Burning Blade.Esperacchius"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Bacon Brewmasters",
+			},
+			["Default.Thunderlord.Cohan"] = {
+				["guildName"] = "Tamales",
+				["faction"] = "Alliance",
+			},
+			["Default.Burning Blade.Qaldorei"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Bacon Brewmasters",
+			},
+			["Default.Burning Blade.Capiocorpus"] = {
+				["guildName"] = "Bacon Brewmasters",
+				["faction"] = "Horde",
+			},
+			["Default.Onyxia.Atticook"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Onyxia.Attiore"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Burning Blade.Vildajakten"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Bacon Brewmasters",
+			},
+			["Default.Burning Blade.Ragnaroq"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Bacon Brewmasters",
+			},
+			["Default.Lightning's Blade.Qaldorei"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "Gnome More Puns",
+			},
+			["Default.Bleeding Hollow.Attiqus"] = {
+				["faction"] = "Horde",
+				["guildName"] = "A Reddit Dystopia",
+			},
+			["Default.Thunderlord.Qaldorei"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "Tamales",
+			},
+			["Default.Tichondrius.Capiocorpus"] = {
+				["guildName"] = "Hotshots",
+				["faction"] = "Horde",
+			},
+			["Default.Burning Blade.Foqus"] = {
+				["guildName"] = "Bacon Brewmasters",
+				["faction"] = "Horde",
+			},
+			["Default.Tichondrius.Qaldori"] = {
+				["guildName"] = "Hotshots",
+				["faction"] = "Horde",
+			},
+			["Default.Onyxia.Banqon"] = {
+				["guildName"] = "Bacon Brewmasters",
+				["faction"] = "Horde",
+			},
+			["Default.Burning Blade.Mols"] = {
+				["guildName"] = "Bacon Brewmasters",
+				["faction"] = "Horde",
+			},
+			["Default.Burning Blade.Wanhedá"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Bacon Brewmasters",
+			},
+			["Default.Thunderlord.Rezu"] = {
+				["guildName"] = "We Needed A Guild Bank",
+				["faction"] = "Alliance",
+			},
+			["Default.Stormrage.Attiqus"] = {
+				["guildName"] = "Phantom Legion",
+				["faction"] = "Alliance",
+			},
+			["Default.Burning Blade.Manannán"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Bacon Brewmasters",
+			},
+			["Default.Onyxia.Attibank"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Bacon Brewmasters",
+			},
+			["Default.Tichondrius.Qaldorei"] = {
+				["guildName"] = "Hotshots",
+				["faction"] = "Horde",
+			},
+			["Default.Bleeding Hollow.Skairipa"] = {
+				["guildName"] = "A Reddit Altopia",
+				["faction"] = "Horde",
+			},
+			["Default.Burning Blade.Qaprica"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Bacon Brewmasters",
+			},
+			["Default.Onyxia.Attiherbs"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Lightning's Blade.Capiocorpus"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "Gnome More Puns",
+			},
+			["Default.Onyxia.Attisquire"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Thunderlord.Attiqa"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Burning Blade.Attiqa"] = {
+				["guildName"] = "Bacon Brewmasters",
+				["faction"] = "Horde",
+			},
+			["Default.Lightning's Blade.Attiqus"] = {
+				["guildName"] = "Gnome More Puns",
+				["faction"] = "Alliance",
+			},
+			["Default.Burning Blade.Skairipa"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Bacon Brewmasters",
+			},
+			["Default.Lightning's Blade.Attisha"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["Lightning'sBlade"] = "Lightning's Blade",
+			["BurningBlade"] = "Burning Blade",
+			["Tichondrius"] = "Tichondrius",
+			["Stormrage"] = "Stormrage",
+			["Onyxia"] = "Onyxia",
+			["BleedingHollow"] = "Bleeding Hollow",
+			["Thunderlord"] = "Thunderlord",
+		},
+	},
+}

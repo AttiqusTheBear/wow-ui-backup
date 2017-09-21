@@ -1,0 +1,15 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="global_variables.lua"/>
+	
+	<Script file="LunaEclipse_Scripts.lua"/>
+	<Script file="functionsTables.lua" />
+
+	<Script file="trackerUnitID.lua"/>
+	<Script file="TalentManager.lua"/>
+	<Script file="ScriptInfo.lua"/>
+	<Script file="LDBManager.lua"/>
+
+	<Include file="CustomOvale\load_custom_ovale.xml"/>
+	<Include file="Configuration\load_configuration.xml"/>
+	<Include file="Scripts\load_scripts.xml"/>
+</Ui>

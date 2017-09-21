@@ -1,0 +1,6 @@
+
+TukuiConfigPrivate = {
+	["general"] = {
+		["autoscale"] = false,
+	},
+}

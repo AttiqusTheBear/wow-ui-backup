@@ -1,0 +1,12 @@
+
+ArmoryLocalSettings = {
+	["playerStatBottomDropdown"] = "RANGED",
+	["Minimap"] = {
+		["Angle"] = 267.591791381906,
+		["Radius"] = 80,
+		["Hide"] = true,
+	},
+	["playerStatTopDropdown"] = "ATTRIBUTES",
+	["DropDown"] = {
+	},
+}

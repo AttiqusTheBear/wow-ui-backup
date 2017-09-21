@@ -1,0 +1,8 @@
+AskMrRobot: enabled
+MikScrollingBattleText: enabled
+HandyNotes: enabled
+HandyNotes_DraenorTreasures: enabled
+HandyNotes_Lorewalkers: enabled
+HandyNotes_TreasureHunter: enabled
+HandyNotes_WorldMapButton: enabled
+Healers-Have-To-Die: enabled

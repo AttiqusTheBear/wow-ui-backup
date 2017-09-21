@@ -1,0 +1,985 @@
+
+DataStore_TalentsDB = {
+	["profileKeys"] = {
+		["Esperacchius - Burning Blade"] = "Esperacchius - Burning Blade",
+		["Cohan - Thunderlord"] = "Cohan - Thunderlord",
+		["Attisha - Lightning's Blade"] = "Attisha - Lightning's Blade",
+		["Attisham - Burning Blade"] = "Attisham - Burning Blade",
+		["Banqon - Onyxia"] = "Banqon - Onyxia",
+		["Atticook - Onyxia"] = "Atticook - Onyxia",
+		["Capiocorpus - Tichondrius"] = "Capiocorpus - Tichondrius",
+		["Attiherbs - Onyxia"] = "Attiherbs - Onyxia",
+		["Qaldorei - Lightning's Blade"] = "Qaldorei - Lightning's Blade",
+		["Skairipa - Bleeding Hollow"] = "Skairipa - Bleeding Hollow",
+		["Qaldorei - Burning Blade"] = "Qaldorei - Burning Blade",
+		["Capiocorpus - Lightning's Blade"] = "Capiocorpus - Lightning's Blade",
+		["Qaldorei - Thunderlord"] = "Qaldorei - Thunderlord",
+		["Vildajakten - Burning Blade"] = "Vildajakten - Burning Blade",
+		["Ragnaroq - Burning Blade"] = "Ragnaroq - Burning Blade",
+		["Foqus - Burning Blade"] = "Foqus - Burning Blade",
+		["Attiqus - Burning Blade"] = "Attiqus - Burning Blade",
+		["Attiqus - Stormrage"] = "Attiqus - Stormrage",
+		["Attibank - Onyxia"] = "Attibank - Onyxia",
+		["Attiore - Onyxia"] = "Attiore - Onyxia",
+		["Qaprica - Burning Blade"] = "Qaprica - Burning Blade",
+		["Attisquire - Onyxia"] = "Attisquire - Onyxia",
+		["Attiqa - Burning Blade"] = "Attiqa - Burning Blade",
+		["Attiqus - Bleeding Hollow"] = "Attiqus - Bleeding Hollow",
+		["Mols - Burning Blade"] = "Mols - Burning Blade",
+		["Capiocorpus - Burning Blade"] = "Capiocorpus - Burning Blade",
+		["Manannán - Burning Blade"] = "Manannán - Burning Blade",
+		["Qaldorei - Tichondrius"] = "Qaldorei - Tichondrius",
+		["Qaldori - Tichondrius"] = "Qaldori - Tichondrius",
+		["Attiqus - Lightning's Blade"] = "Attiqus - Lightning's Blade",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Burning Blade.Attisham"] = {
+				["lastUpdate"] = 1479476525,
+				["Specializations"] = {
+					[3] = 91,
+				},
+				["Class"] = "SHAMAN",
+			},
+			["Default.Burning Blade.Attiqus"] = {
+				["EquippedArtifact"] = "Claws of Ursoc",
+				["Artifacts"] = {
+					["Claws of Ursoc"] = {
+						["pointsRemaining"] = 1461,
+						["rank"] = 27,
+					},
+					["G'Hanir, the Mother Tree"] = {
+						["pointsRemaining"] = 213,
+						["rank"] = 31,
+					},
+					["Fangs of Ashamane"] = {
+						["rank"] = 24,
+						["pointsRemaining"] = 3999,
+					},
+					["Scythe of Elune"] = {
+						["rank"] = 1,
+					},
+				},
+				["Class"] = "DRUID",
+				["lastUpdate"] = 1480519250,
+				["Specializations"] = {
+					9979, -- [1]
+					7035, -- [2]
+					11133, -- [3]
+					16362, -- [4]
+				},
+				["ArtifactKnowledge"] = 18,
+				["ArtifactKnowledgeMultiplier"] = 58,
+			},
+			["Default.Burning Blade.Esperacchius"] = {
+				["EquippedArtifact"] = "Truthguard",
+				["ArtifactKnowledgeMultiplier"] = 1,
+				["Specializations"] = {
+					6909, -- [1]
+					15093, -- [2]
+					13787, -- [3]
+				},
+				["lastUpdate"] = 1479395693,
+				["Class"] = "PALADIN",
+				["ArtifactKnowledge"] = 0,
+				["Artifacts"] = {
+					["Truthguard"] = {
+						["rank"] = 3,
+						["pointsRemaining"] = 330,
+					},
+				},
+			},
+			["Default.Tichondrius.Qaldori"] = {
+				["EquippedArtifact"] = "Claws of Ursoc",
+				["ArtifactKnowledgeMultiplier"] = 40001,
+				["Specializations"] = {
+					[3] = 6783,
+					[2] = 11098,
+				},
+				["lastUpdate"] = 1502375112,
+				["Class"] = "DRUID",
+				["ArtifactKnowledge"] = 40,
+				["Artifacts"] = {
+					["Claws of Ursoc"] = {
+						["tier"] = 2,
+						["rank"] = 44,
+						["pointsRemaining"] = 199099150,
+					},
+					["Fangs of Ashamane"] = {
+						["pointsRemaining"] = 1114120,
+						["tier"] = 2,
+						["rank"] = 38,
+					},
+				},
+			},
+			["Default.Thunderlord.Cohan"] = {
+				["lastUpdate"] = 1494981801,
+				["Specializations"] = {
+					151, -- [1]
+				},
+				["Class"] = "HUNTER",
+			},
+			["Default.Burning Blade.Mols"] = {
+				["lastUpdate"] = 1480447450,
+				["Specializations"] = {
+					0, -- [1]
+					[3] = 0,
+				},
+				["Class"] = "WARLOCK",
+			},
+			["Default.Burning Blade.Qaldorei"] = {
+				["EquippedArtifact"] = "The Aldrachi Warblades",
+				["Artifacts"] = {
+					["Aldrachi Warblades"] = {
+						["pointsRemaining"] = 16365,
+					},
+					["Twinblades of the Deceiver"] = {
+						["pointsRemaining"] = 159,
+						["rank"] = 13,
+					},
+					["The Aldrachi Warblades"] = {
+						["pointsRemaining"] = 16365,
+						["rank"] = 22,
+					},
+				},
+				["Class"] = "DEMONHUNTER",
+				["lastUpdate"] = 1480519172,
+				["Specializations"] = {
+					9721, -- [1]
+					6122, -- [2]
+				},
+				["ArtifactKnowledge"] = 17,
+				["ArtifactKnowledgeMultiplier"] = 46.5,
+			},
+			["Default.Burning Blade.Capiocorpus"] = {
+				["EquippedArtifact"] = "Maw of the Damned",
+				["Artifacts"] = {
+					["Maw of the Damned"] = {
+						["pointsRemaining"] = 80,
+						["rank"] = 13,
+					},
+				},
+				["Class"] = "DEATHKNIGHT",
+				["lastUpdate"] = 1480447190,
+				["Specializations"] = {
+					16278, -- [1]
+				},
+				["ArtifactKnowledge"] = 0,
+				["ArtifactKnowledgeMultiplier"] = 1,
+			},
+			["Default.Burning Blade.Attiqa"] = {
+				["lastUpdate"] = 1478107372,
+				["Specializations"] = {
+					[2] = 10902,
+				},
+				["Class"] = "ROGUE",
+			},
+			["Default.Burning Blade.Manannán"] = {
+				["lastUpdate"] = 1479476649,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["Class"] = "MONK",
+			},
+			["Default.Burning Blade.Ragnaroq"] = {
+				["lastUpdate"] = 1479398251,
+				["Specializations"] = {
+					[3] = 7,
+				},
+				["Class"] = "WARRIOR",
+			},
+			["Default.Burning Blade.Vildajakten"] = {
+				["lastUpdate"] = 1478107489,
+				["Specializations"] = {
+					9623, -- [1]
+				},
+				["Class"] = "HUNTER",
+			},
+			["Default.Bleeding Hollow.Skairipa"] = {
+				["EquippedArtifact"] = "The Aldrachi Warblades",
+				["ArtifactKnowledgeMultiplier"] = 160001,
+				["Specializations"] = {
+					42, -- [1]
+					7849, -- [2]
+				},
+				["lastUpdate"] = 1504455949,
+				["Class"] = "DEMONHUNTER",
+				["ArtifactKnowledge"] = 41,
+				["Artifacts"] = {
+					["Twinblades of the Deceiver"] = {
+						["rank"] = 39,
+						["pointsRemaining"] = 19299570,
+					},
+					["The Aldrachi Warblades"] = {
+						["tier"] = 2,
+						["rank"] = 40,
+						["pointsRemaining"] = 26090200,
+					},
+				},
+			},
+			["Default.Lightning's Blade.Qaldorei"] = {
+				["lastUpdate"] = 1478108872,
+				["Specializations"] = {
+					2, -- [1]
+				},
+				["Class"] = "DEMONHUNTER",
+			},
+			["Default.Burning Blade.Qaprica"] = {
+				["lastUpdate"] = 1476557986,
+				["Specializations"] = {
+					[3] = 2806,
+				},
+				["Class"] = "MAGE",
+			},
+			["Default.Lightning's Blade.Attiqus"] = {
+				["lastUpdate"] = 1482245658,
+				["Specializations"] = {
+					[2] = 14074,
+				},
+				["Class"] = "DRUID",
+			},
+			["Default.Lightning's Blade.Capiocorpus"] = {
+				["lastUpdate"] = 1482245884,
+				["Specializations"] = {
+					[2] = 0,
+				},
+				["Class"] = "DEATHKNIGHT",
+			},
+			["Default.Bleeding Hollow.Attiqus"] = {
+				["EquippedArtifact"] = "Fangs of Ashamane",
+				["Artifacts"] = {
+					["Claws of Ursoc"] = {
+						["pointsRemaining"] = 2160450,
+						["rank"] = 55,
+						["tier"] = 2,
+					},
+					["Scythe of Elune"] = {
+						["pointsRemaining"] = 100,
+						["tier"] = 2,
+					},
+					["Fangs of Ashamane"] = {
+						["pointsRemaining"] = 1001903370,
+						["rank"] = 54,
+						["tier"] = 2,
+					},
+					["G'Hanir, the Mother Tree"] = {
+						["rank"] = 49,
+						["tier"] = 2,
+						["pointsRemaining"] = 93660520,
+					},
+				},
+				["Class"] = "DRUID",
+				["lastUpdate"] = 1504492082,
+				["Specializations"] = {
+					nil, -- [1]
+					7770, -- [2]
+					6781, -- [3]
+					15353, -- [4]
+				},
+				["ArtifactKnowledge"] = 41,
+				["ArtifactKnowledgeMultiplier"] = 160001,
+			},
+			["Default.Thunderlord.Qaldorei"] = {
+				["lastUpdate"] = 1494981635,
+				["Specializations"] = {
+					2, -- [1]
+				},
+				["Class"] = "DEMONHUNTER",
+			},
+			["Default.Tichondrius.Capiocorpus"] = {
+				["EquippedArtifact"] = "Maw of the Damned",
+				["ArtifactKnowledgeMultiplier"] = 1,
+				["Specializations"] = {
+					16279, -- [1]
+				},
+				["lastUpdate"] = 1501865816,
+				["Class"] = "DEATHKNIGHT",
+				["ArtifactKnowledge"] = 0,
+				["Artifacts"] = {
+					["Maw of the Damned"] = {
+						["tier"] = 1,
+						["rank"] = 4,
+						["pointsRemaining"] = 5,
+					},
+				},
+			},
+			["Default.Tichondrius.Qaldorei"] = {
+				["lastUpdate"] = 1473962094,
+				["Specializations"] = {
+					[2] = 5,
+				},
+				["Class"] = "DEMONHUNTER",
+			},
+			["Default.Burning Blade.Foqus"] = {
+				["lastUpdate"] = 1479476756,
+				["Specializations"] = {
+					[3] = 237,
+					[2] = 13695,
+				},
+				["Class"] = "PRIEST",
+			},
+			["Default.Stormrage.Attiqus"] = {
+				["lastUpdate"] = 1501514544,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["Class"] = "DRUID",
+			},
+		},
+	},
+}
+DataStore_TalentsRefDB = {
+	["profileKeys"] = {
+		["Esperacchius - Burning Blade"] = "Esperacchius - Burning Blade",
+		["Cohan - Thunderlord"] = "Cohan - Thunderlord",
+		["Attisha - Lightning's Blade"] = "Attisha - Lightning's Blade",
+		["Attisham - Burning Blade"] = "Attisham - Burning Blade",
+		["Banqon - Onyxia"] = "Banqon - Onyxia",
+		["Atticook - Onyxia"] = "Atticook - Onyxia",
+		["Capiocorpus - Tichondrius"] = "Capiocorpus - Tichondrius",
+		["Attiherbs - Onyxia"] = "Attiherbs - Onyxia",
+		["Qaldorei - Lightning's Blade"] = "Qaldorei - Lightning's Blade",
+		["Skairipa - Bleeding Hollow"] = "Skairipa - Bleeding Hollow",
+		["Qaldorei - Burning Blade"] = "Qaldorei - Burning Blade",
+		["Capiocorpus - Lightning's Blade"] = "Capiocorpus - Lightning's Blade",
+		["Qaldorei - Thunderlord"] = "Qaldorei - Thunderlord",
+		["Vildajakten - Burning Blade"] = "Vildajakten - Burning Blade",
+		["Ragnaroq - Burning Blade"] = "Ragnaroq - Burning Blade",
+		["Foqus - Burning Blade"] = "Foqus - Burning Blade",
+		["Attiqus - Burning Blade"] = "Attiqus - Burning Blade",
+		["Attiqus - Stormrage"] = "Attiqus - Stormrage",
+		["Attibank - Onyxia"] = "Attibank - Onyxia",
+		["Attiore - Onyxia"] = "Attiore - Onyxia",
+		["Qaprica - Burning Blade"] = "Qaprica - Burning Blade",
+		["Attisquire - Onyxia"] = "Attisquire - Onyxia",
+		["Attiqa - Burning Blade"] = "Attiqa - Burning Blade",
+		["Attiqus - Bleeding Hollow"] = "Attiqus - Bleeding Hollow",
+		["Mols - Burning Blade"] = "Mols - Burning Blade",
+		["Capiocorpus - Burning Blade"] = "Capiocorpus - Burning Blade",
+		["Manannán - Burning Blade"] = "Manannán - Burning Blade",
+		["Qaldorei - Tichondrius"] = "Qaldorei - Tichondrius",
+		["Qaldori - Tichondrius"] = "Qaldori - Tichondrius",
+		["Attiqus - Lightning's Blade"] = "Attiqus - Lightning's Blade",
+	},
+	["global"] = {
+		["DEATHKNIGHT"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 250,
+					["talents"] = {
+						19165, -- [1]
+						19166, -- [2]
+						19217, -- [3]
+						19218, -- [4]
+						19219, -- [5]
+						19220, -- [6]
+						19221, -- [7]
+						22134, -- [8]
+						22135, -- [9]
+						22013, -- [10]
+						22014, -- [11]
+						22015, -- [12]
+						19227, -- [13]
+						19226, -- [14]
+						19228, -- [15]
+						19230, -- [16]
+						19231, -- [17]
+						19232, -- [18]
+						21207, -- [19]
+						21208, -- [20]
+						21209, -- [21]
+					},
+					["icon"] = "Interface\\Icons\\Spell_Deathknight_BloodPresence",
+					["name"] = "Blood",
+				}, -- [1]
+				{
+					["id"] = 251,
+					["talents"] = {
+						22016, -- [1]
+						22017, -- [2]
+						22018, -- [3]
+						22019, -- [4]
+						22020, -- [5]
+						22021, -- [6]
+						22515, -- [7]
+						22517, -- [8]
+						22519, -- [9]
+						22521, -- [10]
+						22523, -- [11]
+						22525, -- [12]
+						22527, -- [13]
+						22529, -- [14]
+						22031, -- [15]
+						22531, -- [16]
+						22533, -- [17]
+						22535, -- [18]
+						22023, -- [19]
+						22109, -- [20]
+						22537, -- [21]
+					},
+					["icon"] = "Interface\\Icons\\Spell_Deathknight_FrostPresence",
+					["name"] = "Frost",
+				}, -- [2]
+			},
+			["Version"] = 24742,
+		},
+		["WARRIOR"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				[3] = {
+					["id"] = 73,
+					["talents"] = {
+						15760, -- [1]
+						15759, -- [2]
+						15774, -- [3]
+						19676, -- [4]
+						22629, -- [5]
+						22789, -- [6]
+					},
+					["icon"] = "Interface\\Icons\\Ability_Warrior_DefensiveStance",
+					["name"] = "Protection",
+				},
+			},
+			["Version"] = 22996,
+		},
+		["SHAMAN"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				[3] = {
+					["id"] = 264,
+					["talents"] = {
+						19262, -- [1]
+						19263, -- [2]
+						19264, -- [3]
+						19259, -- [4]
+						22492, -- [5]
+						21963, -- [6]
+						19275, -- [7]
+						19260, -- [8]
+						22127, -- [9]
+						22152, -- [10]
+						22322, -- [11]
+						22323, -- [12]
+						22539, -- [13]
+						19269, -- [14]
+						21966, -- [15]
+					},
+					["icon"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
+					["name"] = "Restoration",
+				},
+			},
+			["Version"] = 22996,
+		},
+		["MAGE"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				[3] = {
+					["id"] = 64,
+					["talents"] = {
+						22457, -- [1]
+						22460, -- [2]
+						22463, -- [3]
+						22442, -- [4]
+						22443, -- [5]
+						16025, -- [6]
+						22444, -- [7]
+						22445, -- [8]
+						22447, -- [9]
+						22452, -- [10]
+						22466, -- [11]
+						22469, -- [12]
+						22446, -- [13]
+						22448, -- [14]
+						22471, -- [15]
+						22454, -- [16]
+						22449, -- [17]
+						22473, -- [18]
+						21632, -- [19]
+						22309, -- [20]
+						21634, -- [21]
+					},
+					["icon"] = "Interface\\Icons\\Spell_Frost_FrostBolt02",
+					["name"] = "Frost",
+				},
+			},
+			["Version"] = 22810,
+		},
+		["PRIEST"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				[3] = {
+					["id"] = 258,
+					["talents"] = {
+						22312, -- [1]
+						22313, -- [2]
+						22314, -- [3]
+						22325, -- [4]
+						22316, -- [5]
+						19758, -- [6]
+						22487, -- [7]
+						22094, -- [8]
+						19755, -- [9]
+						21751, -- [10]
+						22317, -- [11]
+						21753, -- [12]
+						22310, -- [13]
+						22311, -- [14]
+						21755, -- [15]
+						21718, -- [16]
+						21719, -- [17]
+						21720, -- [18]
+						21637, -- [19]
+						21978, -- [20]
+						21979, -- [21]
+					},
+					["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordPain",
+					["name"] = "Shadow",
+				},
+				[2] = {
+					["id"] = 257,
+					["talents"] = {
+						19752, -- [1]
+						22136, -- [2]
+						19754, -- [3]
+						22315, -- [4]
+						22326, -- [5]
+						21976, -- [6]
+						22440, -- [7]
+						22095, -- [8]
+						22562, -- [9]
+						21750, -- [10]
+						21977, -- [11]
+						21752, -- [12]
+						19764, -- [13]
+						22327, -- [14]
+						21754, -- [15]
+						19767, -- [16]
+						19760, -- [17]
+						19763, -- [18]
+						21636, -- [19]
+						21644, -- [20]
+						21638, -- [21]
+					},
+				},
+			},
+			["Version"] = 22996,
+		},
+		["PALADIN"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 65,
+					["talents"] = {
+						17565, -- [1]
+						17567, -- [2]
+						17569, -- [3]
+						22176, -- [4]
+						17575, -- [5]
+						17577, -- [6]
+						22179, -- [7]
+						22180, -- [8]
+						21811, -- [9]
+						22181, -- [10]
+						17591, -- [11]
+						17593, -- [12]
+						17597, -- [13]
+						17599, -- [14]
+						22164, -- [15]
+						22189, -- [16]
+						22190, -- [17]
+						22116, -- [18]
+						21668, -- [19]
+						21671, -- [20]
+						21203, -- [21]
+					},
+				}, -- [1]
+				{
+					["id"] = 66,
+					["talents"] = {
+						22428, -- [1]
+						22558, -- [2]
+						22430, -- [3]
+						22431, -- [4]
+						22604, -- [5]
+						22594, -- [6]
+						22179, -- [7]
+						22180, -- [8]
+						21811, -- [9]
+						22433, -- [10]
+						22434, -- [11]
+						22435, -- [12]
+						22705, -- [13]
+						21795, -- [14]
+						17601, -- [15]
+						22564, -- [16]
+						22438, -- [17]
+						17609, -- [18]
+						21201, -- [19]
+						21202, -- [20]
+						22645, -- [21]
+					},
+					["icon"] = "Interface\\Icons\\Ability_Paladin_ShieldoftheTemplar",
+					["name"] = "Protection",
+				}, -- [2]
+				{
+					["id"] = 70,
+					["talents"] = {
+						22590, -- [1]
+						22557, -- [2]
+						22175, -- [3]
+						22319, -- [4]
+						22592, -- [5]
+						22593, -- [6]
+						22179, -- [7]
+						22180, -- [8]
+						21811, -- [9]
+						22375, -- [10]
+						22182, -- [11]
+						22183, -- [12]
+						22595, -- [13]
+						22185, -- [14]
+						22186, -- [15]
+						22485, -- [16]
+						22483, -- [17]
+						22484, -- [18]
+						22591, -- [19]
+						22215, -- [20]
+						22634, -- [21]
+					},
+				}, -- [3]
+			},
+			["Version"] = 22996,
+		},
+		["WARLOCK"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 265,
+					["talents"] = {
+						19290, -- [1]
+						22090, -- [2]
+						22040, -- [3]
+						22044, -- [4]
+						21180, -- [5]
+						22088, -- [6]
+						19280, -- [7]
+						19285, -- [8]
+						22476, -- [9]
+						19279, -- [10]
+						19292, -- [11]
+						22046, -- [12]
+						22047, -- [13]
+						19291, -- [14]
+						19288, -- [15]
+						21182, -- [16]
+						19294, -- [17]
+						19295, -- [18]
+						19284, -- [19]
+						19281, -- [20]
+						19293, -- [21]
+					},
+					["icon"] = "Interface\\Icons\\Spell_Shadow_DeathCoil",
+					["name"] = "Affliction",
+				}, -- [1]
+				[3] = {
+					["id"] = 267,
+					["talents"] = {
+						22039, -- [1]
+						22048, -- [2]
+						22052, -- [3]
+						21181, -- [4]
+						21695, -- [5]
+						22088, -- [6]
+						19280, -- [7]
+						19285, -- [8]
+						19286, -- [9]
+						22480, -- [10]
+						22043, -- [11]
+						22046, -- [12]
+						22047, -- [13]
+						19291, -- [14]
+						19288, -- [15]
+						21182, -- [16]
+						19294, -- [17]
+						19295, -- [18]
+						22481, -- [19]
+						22482, -- [20]
+						19293, -- [21]
+					},
+					["icon"] = "Interface\\Icons\\Spell_Shadow_RainOfFire",
+					["name"] = "Destruction",
+				},
+			},
+			["Version"] = 22996,
+		},
+		["DEMONHUNTER"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 577,
+					["talents"] = {
+						21854, -- [1]
+						22493, -- [2]
+						22416, -- [3]
+						21857, -- [4]
+						22765, -- [5]
+						22799, -- [6]
+						22909, -- [7]
+						22494, -- [8]
+						21862, -- [9]
+						21863, -- [10]
+						21864, -- [11]
+						21865, -- [12]
+						21866, -- [13]
+						21867, -- [14]
+						21868, -- [15]
+						21869, -- [16]
+						21870, -- [17]
+						22767, -- [18]
+						21900, -- [19]
+						21901, -- [20]
+						22547, -- [21]
+					},
+					["icon"] = "Interface\\Icons\\ability_demonhunter_specdps",
+					["name"] = "Havoc",
+				}, -- [1]
+				{
+					["id"] = 581,
+					["talents"] = {
+						22502, -- [1]
+						22503, -- [2]
+						22504, -- [3]
+						22505, -- [4]
+						22766, -- [5]
+						22507, -- [6]
+						22324, -- [7]
+						22541, -- [8]
+						22540, -- [9]
+						22508, -- [10]
+						22509, -- [11]
+						22770, -- [12]
+						22546, -- [13]
+						22510, -- [14]
+						22511, -- [15]
+						22512, -- [16]
+						22513, -- [17]
+						22768, -- [18]
+						22543, -- [19]
+						22548, -- [20]
+						21902, -- [21]
+					},
+					["icon"] = "Interface\\Icons\\ability_demonhunter_spectank",
+					["name"] = "Vengeance",
+				}, -- [2]
+			},
+			["Version"] = 24931,
+		},
+		["HUNTER"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 253,
+					["talents"] = {
+						22291, -- [1]
+						22280, -- [2]
+						22282, -- [3]
+						21997, -- [4]
+						22769, -- [5]
+						22290, -- [6]
+						19347, -- [7]
+						19348, -- [8]
+						22318, -- [9]
+						22441, -- [10]
+						22347, -- [11]
+						22269, -- [12]
+					},
+					["icon"] = "INTERFACE\\ICONS\\ability_hunter_bestialdiscipline",
+					["name"] = "Beast Mastery",
+				}, -- [1]
+			},
+			["Version"] = 24015,
+		},
+		["DRUID"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 102,
+					["talents"] = {
+						22385, -- [1]
+						22386, -- [2]
+						22387, -- [3]
+						19283, -- [4]
+						18570, -- [5]
+						18571, -- [6]
+						22155, -- [7]
+						22157, -- [8]
+						22159, -- [9]
+						21778, -- [10]
+						18576, -- [11]
+						18577, -- [12]
+						18580, -- [13]
+						18579, -- [14]
+						22388, -- [15]
+						22389, -- [16]
+						18585, -- [17]
+						22390, -- [18]
+						21648, -- [19]
+						21193, -- [20]
+						21655, -- [21]
+					},
+				}, -- [1]
+				{
+					["id"] = 103,
+					["talents"] = {
+						22363, -- [1]
+						22364, -- [2]
+						22365, -- [3]
+						19283, -- [4]
+						18570, -- [5]
+						18571, -- [6]
+						22163, -- [7]
+						22158, -- [8]
+						22159, -- [9]
+						21778, -- [10]
+						18576, -- [11]
+						18577, -- [12]
+						21708, -- [13]
+						21705, -- [14]
+						21702, -- [15]
+						21714, -- [16]
+						21711, -- [17]
+						22370, -- [18]
+						21646, -- [19]
+						21649, -- [20]
+						21653, -- [21]
+					},
+					["icon"] = "Interface\\Icons\\Ability_Druid_CatForm",
+					["name"] = "Feral",
+				}, -- [2]
+				{
+					["id"] = 104,
+					["talents"] = {
+						22419, -- [1]
+						22418, -- [2]
+						22420, -- [3]
+						22424, -- [4]
+						22916, -- [5]
+						18571, -- [6]
+						22163, -- [7]
+						22156, -- [8]
+						22159, -- [9]
+						21778, -- [10]
+						18576, -- [11]
+						18577, -- [12]
+						21709, -- [13]
+						21706, -- [14]
+						22421, -- [15]
+						22423, -- [16]
+						21712, -- [17]
+						22422, -- [18]
+						22426, -- [19]
+						22427, -- [20]
+						22425, -- [21]
+					},
+					["icon"] = "Interface\\Icons\\Ability_Racial_BearForm",
+					["name"] = "Guardian",
+				}, -- [3]
+				{
+					["id"] = 105,
+					["talents"] = {
+						18569, -- [1]
+						18574, -- [2]
+						18572, -- [3]
+						19283, -- [4]
+						18570, -- [5]
+						18571, -- [6]
+						22366, -- [7]
+						22367, -- [8]
+						22160, -- [9]
+						21778, -- [10]
+						18576, -- [11]
+						18577, -- [12]
+						21710, -- [13]
+						21707, -- [14]
+						21704, -- [15]
+						21716, -- [16]
+						21713, -- [17]
+						22165, -- [18]
+						22403, -- [19]
+						21651, -- [20]
+						22404, -- [21]
+					},
+					["icon"] = "Interface\\Icons\\Spell_Nature_HealingTouch",
+					["name"] = "Restoration",
+				}, -- [4]
+			},
+			["Version"] = 24931,
+		},
+		["MONK"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				[3] = {
+					["id"] = 269,
+					["talents"] = {
+						19823, -- [1]
+						22091, -- [2]
+						20185, -- [3]
+						19304, -- [4]
+						19818, -- [5]
+						19302, -- [6]
+						22099, -- [7]
+						19771, -- [8]
+						19992, -- [9]
+						19993, -- [10]
+						22100, -- [11]
+						19995, -- [12]
+						20174, -- [13]
+						20173, -- [14]
+						20175, -- [15]
+						19819, -- [16]
+						20184, -- [17]
+						22103, -- [18]
+					},
+					["icon"] = "Interface\\Icons\\spell_monk_windwalker_spec",
+					["name"] = "Windwalker",
+				},
+			},
+			["Version"] = 22996,
+		},
+		["ROGUE"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				[2] = {
+					["id"] = 260,
+					["talents"] = {
+						22118, -- [1]
+						22119, -- [2]
+						22120, -- [3]
+						19236, -- [4]
+						19237, -- [5]
+						19238, -- [6]
+						19239, -- [7]
+						19240, -- [8]
+						19241, -- [9]
+						22121, -- [10]
+						22122, -- [11]
+						22123, -- [12]
+						19245, -- [13]
+						22114, -- [14]
+						22124, -- [15]
+						21990, -- [16]
+						19249, -- [17]
+						19250, -- [18]
+						22125, -- [19]
+						22133, -- [20]
+						21188, -- [21]
+					},
+					["icon"] = "Interface\\Icons\\INV_Sword_30",
+					["name"] = "Outlaw",
+				},
+			},
+			["Version"] = 22908,
+		},
+	},
+}

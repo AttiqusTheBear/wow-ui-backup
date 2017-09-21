@@ -1,0 +1,227 @@
+7.2.4
+	* Elemental and Enhancement Shaman scripts and preset builds updated to 7.2.5. (Still requires a tracker for Alpha Wolf buffed spirit wolves)
+	* ShmooDude's scripts updated to latest version.
+	* Changes to how Range Checks are performed to make script updates faster.
+	* Other code changes as required.
+
+7.2.3
+	* Shadow Priest script and preset builds updated to 7.2.5.
+	* Removed errors from both Shaman scripts, they are still 7.1.5 rotations for now but at least they now work.
+	* Unholy Death Knight runic power for Death Coil updated by Crystal making the script much more operational even though its still a 7.2 rotation.
+	* Profiler781 has updated all his scripts to 7.2.5.
+	* Added a new tracker for Insanity for Shadow Priests which correctly reports Insanity Drain Stacks based off of TwinOps Insanity Bar Weak Aura, also now correctly reports the Insanity Drain amount.
+	* Added a new tracker for Channelled spells, Mind Flay is currently the only spell implimented, this allows interrupting Mind Flay only after 2 ticks as per SimCraft suggestion.
+	* Other minor code cleanup and fixes where necessary.
+7.2.2
+	* Update Arcane, Fire and Frost Mage scripts to 7.2.
+	* Warrior scripts fixed by Profiler781, however these scripts are still based on 7.1.5.
+	* Fixed Frost Mage Pet's Water Jet script to recognize when its on cooldown.
+	* Add new conditional for checking pet spells cooldown as Ovale does not handle this correctly.
+	* Fixed bug with Talent Builds not displaying if the Saved Variables file did not have a script named saved for the specialization.
+	* Fixed bug with Script Configuation not displaying if the Saved Variables file did not have a script named saved for the specialization.
+
+7.2.1
+	* Frost and Unholy Death Knight scripts updated to 7.2.
+	* Fixed error in Unholy Death Knight script, from unclosed function.
+	* Fixed a bug with Nameplate distances not changing correctly.
+	* Fixed a bug with configuration screen sometimes not displaying for the script settings.
+
+7.2.0
+	* Added Shaman scripts and Preset Builds.
+	* Added Shadow Priest script and Preset Builds.
+	* Updated Windwalker Monk script and Preset Builds to 7.1.5.
+	* Updated Retribution Paladin script and Preset Builds to 7.1.5.
+	* Added Protection Warrior script written by Profiler781.
+	* Added Multi-Dot icon to Demonology and Destruction Warlock for multi-dotting Doom and Immolate.
+	* Affliction, Demonology and Destruction Warlock script update to summon doomguard or infernal to trigger Sindorei Spite buff if legendary is equipped.
+	* Destruction Warlock script updated to handle Lord of Flames artifact trait, infernal summoning.
+	* Update Affliction, Demonology and Destruction Warlock scripts logic to ensure correct demon is summoned.
+	* Affliction Warlock script complete overhaul, too many changes to document.
+	* Demonology Script fixes for Hand of Gul'dan and Implosion suggestions.
+	* Destruction Script fixes for Chaos Bolt suggestion.
+	* Updated Scythe of Elune tracker to fix various errors in regards to the various Moon Spells.
+	* Updated tracker for Arcane Mage Burn Phase to use persistent data to get a more accurate Average Burn Phase length.
+	* Added tracker for Warlock Sindorei Spite legendary to track internal cooldown.
+	* Add Lord of Flames tracker for tracking the internal cooldown on Lord of Flames artifact trait.
+	* Updated all scripts so that Cooldowns now show on the Rotation Icon ONLY when checked or the Cooldown Icons ONLY when unchecked, they will no longer show on both Rotation and Cooldown Icons.
+	* Updated Configuration Screen to be Script Specific and allow for User Supplied Scripts to specify their own configuration options.
+
+Note:  All scripts in this version are 7.1.5, I am currently waiting on 7.2 source material to update the scripts.
+
+7.1.9
+	* Updated Arcane and Frost Mage, Demonology and Destruction Warlock, Balance and Feral Druid scripts to 7.1.5 Rotations.
+	* Added extra icon to Afflicition Warlocks for Soul Effigy management to the right of the CD icon.
+	* Added Feral and Guardian Druid scripts using 7.1.5 rotations written by ShmooDude to the package as custom script alternatives.
+	* Added Arcane Mage, Restoration Druid and Fury Warrior scripts using 7.1.5 rotations written by Profiler781 as custom script alternatives.
+	* Created a system for overriding Keybinds displayed on the Ovale icons, this is useful when the keybind is not detected or is detected incorrectly.  (Mage and Death Knight are the only class that the overrides can be set for.)
+	* Updated various scripts where needed.
+	* Modified Multi-DOT to display an extra icon to the left of ShortCD icon when enabled to suggest when to multi-dot.
+	* Added custom tracker to track bleed multipliers on Feral Druids.
+	* Added option to configuration screen to select the maximum number of targets to DOT when using Multi-DOT.
+	* Numerous LUA modifications and fixes.
+
+Credits: The following people have worked on various scripts for this version: Profiler781 and ShmooDude.
+
+Note: Any script in the package classified as a custom alternative script, may behave differently then the default script, this can include extra icons, some abilities only showing on cooldown icons, less options to configure the scripts, etc...  This is because the script is submitted by users and left more or less unedited except any editing needed to make it work with the addon.
+
+7.1.8
+	* Updated Frost and Unholy Death Knight, Balance Druid, Beast Mastery, Marksmanship and Survival Hunter, Fire Mage and Affliction Warlock scripts to 7.1.5 Rotations.
+	* Added Arms Warrior 7.1.5 script as supplied by Profiler781.
+	* Added Breath of Sindragosa rotation to Frost DK Script.
+	* Added Time Warp suggestion for Fire Mages with Shard of Exodar on raid bosses only, if over 50% of the group has a Bloodlust debuff.
+	* Added option for allowing Scythe of Elune spell clipping.
+	* Added option to recommend Arcane Torrent spell only for interrupting and not for gathering resources such as mana, focus, rage etc... as requested by NoSavingThrow.
+	* Added many new script configuration options and removed some old options for all 7.1.5 updated scripts.
+	* Keybinds updated for the new configuration options.
+	* Added Tracker for Bloodlust effects and new script conditionals BloodlustActive, BloodlustDebuff, BloodlustPercentage, and BloodlustRemaining.  These return whether you have the buff, debuff, what percentage of the group has the debuff and how long is remaining on the buff.
+	* Added Tracker to more accurately track Scythe of Elune SpellID and charges.
+	* Added new script conditionals for determining boss fights, these are IsRaidBoss, IsDungeonBoss and IsBossFight.  IsBossFight returns true or false based on the "Major CDs: Raid Bosses Only" setting in the addon configuration screen.
+	* Added new script conditional LegendaryEquipped which uses less resources then HasEquippedItem currently in Ovale.
+	* More updates to PotionCombatLockdown so that it should more accurately report if a potion has been used in combat and is in lockdown.
+	* Updated addon to be able to identify 7.1.5 scripts seperately from 7.1 scripts, and mark 7.1 scripts as "Out of Date".
+	* Script information will display on the minimap icon if enabled, it will now only show in the chat log if the minimap icon is disabled.
+	* Updated script information display to be more concise, and remove unnecessary information, and display credits where necessary.
+	* Fixed some API calls that had changed in 7.1.5 dealing with retrieving specialization information.
+
+Credits: The following people have worked on various scripts: HuntsTheWind, Profiler781, Crystal and Vdain, thanks for all your assistance.
+
+Note: The Arms Warrior script was completely written by Profiler781 and functions slightly different then other scripts in my package.  For example several abilities only show on cooldown icons, never on the rotation icons. There is an extra icon for Focused Rage, and there is less options for switching off abilities on the rotation icons and only showing on the cooldown icons, etc...
+
+7.1.7
+	* Fix Feral Druid Blood Talons suggestion of renewal which was not suggesting on the rotation icon when checked due to an incorrect variable name.
+	* Remove Fist of Justice from Retribution Paladin scripts as its now a passive that reduces Hammer of Justice Cooldown, as reported by Caiphus 
+	* Add Unholy Strength buff requirement for Sindragosa's Fury for Frost Death Knight.
+	* Fix Obliteration rotation to alternate between Frost Strike and Obliterate correctly as reported by smanlosa.
+	* Fix Howling Blast suggestion so it no longer suggests during Obliteration, even when you have a rime proc or the diseases have expired, as reported by Krich.
+	* Fix Howling Blast recommendation to not require a rune if you have a Rime proc, as reported by nosavingthrow.
+	* Added new option to Fire Mage to prioritize Phoenix's Flame over Fire Blast when fighting 6 or more enemies.
+	* Updated Fire Mage Flamestrike recommendation to require 6 enemies as per guide, was previously 3 enemies.
+	* Updated Fire Mage script to no longer recommend Flamestrike during Combustion no matter the settings as it can not generate Heating Up proc and will break the crit chain.
+	* Fix Frost Mage Frost Bomb so it only recommends when the target does not already have the debuff.
+	* Update Balance Druid script so it recommends Starsurge and Starfall more often as reported by 2briards.
+	* Add pooling Astral Power for Balance Druids for Celestial Alignment/Incarnation.
+	* Fix Balance Druid Celestial Alignment/Incarnation recommendation.
+	* Updated Preset Builds to follow new recommendations in the various guides.
+	* Add Easy Mode talent builds as per guides where available to preset talent builds.
+	* Fix Balance Druid Artifact current spell function to report the correct spell.
+	* Other minor script fixes and LUA code changes where needed.
+
+Note: Balance Druid script has been flagged as 7.0 even though it is actually based on 7.1.  The reason for this is because at present it produces less DPS then the default Ovale script, and this allows my addon to switch to Ovale if you have the "Switch to Default Ovale script when script is out of date." option checked.
+
+7.1.6
+	* Update all scripts for more customizability, the ability to turn off talents from rotation icons, AOE abilities which are situational, and the addition of Defensive and self heal recommendations.
+	* All Mage scripts, Ice Barrier priority raised when selected.
+	* Beast Mastery Hunter, adjust Titan's Thunder to require at least 6 seconds of Dire Beast or 4 seconds of Dire Frenzy Buff remaining to recommend, as requested by user_141933.
+	* Beast Mastery Hunter, adjust Dire Beast recommendation to wait for Beastial Wrath if cooldown is 4 seconds or less, as requested by user_141933.
+	* Survival Hunter add Murder of Crows to script as its now a recommended ability as reported by Vdain.
+	* Survival Hunter Throwing Axes fix as reported by Vdain.
+	* Renamed the Druid Multi-Dot option so that it didn't conflict with the Warlock one if using the same Ovale profile for both classes.  This setting will need to be checked and set to how you want it.
+	* Renamed Affliction Warlock Multi-Dot option, you will need to make sure the new setting is set how you want.
+	* Removed Multi-Dot options from Demonology and Destruction Warlocks as the guide does not suggest multi-dotting.
+	* Added all script options accessible from middle clicking the Ovale minimap icon, to also be accessible from my addons options screen.
+	* Updated keybinds to better categorize them by specialization not just class.
+	* Other minor script fixes and LUA code changes where needed.
+
+7.1.5
+	* Mage scripts and talent presets added for all 3 specializations.
+	* Ice Barrier checkbox is for displaying Ice Barrier on the ShortCD button only, if unchecked it will not suggest Ice Barrier anywhere.
+	* Fix Glacial Advance suggestion for Frost DK as reported by Gliwile.
+	* Fix Retribution Paladin losing middle icon when no charges of Crusader Strike/Zeal as reported by Caiphus.
+	* Fix Demonology Warlock Implosion to require 3 enemies not 4 as per guide, reported by Oomm.
+	* Fix enemies function to only use the checkbox in my config screen when using my scripts, will use the Ovale config option when using any other scripts.
+	* Other minor script fixes and LUA code changes where needed.
+
+7.1.4
+	* Druid scripts and talent presets added for Balance and Feral.
+	* Update preset builds feature to accept builds with no talent chosen for a talent row, which means the users own talent choice will be kept.
+	* Update the preset builds so situational CC or Defensive Talents are not chosen, unless the guide specifically says to choose a particular talent.  This is so the preset builds will keep the users chosen talent.
+	* Added configuration item to Show/Hide minimap icon in the options screen for the addon.
+	* Added checkbox to enable/disable Obliteration from the main rotation icon for Frost DK, and added Obliteration to the Short CD icon as requested by lunshea.
+	* Added checkbox to show/hide Fury of the Eagle on attack icon.
+	* Fixed HasEquippedItem conditional bug in Ovale so that it now works correctly if no slot is given.
+	* Fixed Demonbolt/Shadowbolt wrong talent definition for Demonology Warlocks.
+	* Fixed Stampede conditional for Beast Mastery hunters to make sure it shows on the CD icon, as reported by Saij.
+	* Modify ScriptInfo to store guide information for display more efficiently.
+	* Other minor script fixes and LUA code changes where needed.
+
+7.1.3
+	* Added minimap icon and tooltip, which can also function as an LDB display in ElvUI etc...
+	* Added Talent Build Swapping feature, and preset talent builds.
+	* Update scripts to allow for all talents chosen in the available preset builds.
+	* Update Frost DK Single Target machine gun rotation as per link provided by lunshea.
+	* Allowed for "The Instructor's Fourth Lesson" legendary when recommending Scourge Strike for Unholy DK as requested by Krich
+	* Added option to enable/disable Touch of Death from the main rotation icon, and added Touch of Death to the Short CD icon as requested by Fluffybutt.
+	* Other minor code changes and script fixes as needed.
+
+Note: Situational talents in preset builds are not included in the rotations, these are things like CC spells, or movement spells.
+
+7.1.2
+	* Added option to choose whether to display Soul Reaper on main attack icon for Unholy Death Knight, as requested by lunshea.
+	* Fixed Obliterate not recommending when Runes available, as reported by lunshea.
+	* Changed Sindragosa's Fury from Short CD icon to Cooldown Icon as its cooldown is 5 mins.
+	* Fixed Titan's Thunder not recommending for Beast Mastery Hunters, as reported by user_141933.
+	* Fixed definitions for Dire Beast, Dire Frenzy and Beast Cleave Buffs which were defined wrong.
+	* Add allowances for Grimoire of Sacrifice for Destruction Warlocks, as per request of SplusR68.
+	* Fix Havoc so that it no longer constently recommends when a target already has the havoc debuff, as reported by SplusR68.
+	* Other minor code fixups, as necessary.
+
+Note: The new builds feature is still a work in progress and I hope to have it completed for the next version, I was not willing to delay bug fixes any longer waiting for it to be finished.
+ 
+7.1.1
+    * Changed Frost DK to use standard rotation when Machine Gun talents chosen but fighting a single target.  Reported by Calzje.
+    * Fixed a nil value error in new Tracker for UnitIDs used by DOT Tracker for getting Debuff information from Nameplates.  Reported by Calzje.
+
+7.1.0
+    * All scripts updated to 7.1 rotations.
+    * Warlock scripts added for all 3 specializations.
+    * DOT Tracker now tries to use nameplates for tracking DOT information, it is suggested you enable the Nameplate Option in the Options Screen.
+    * New trackers added for Unholy DK short spawn summons, Demonology Warlock short spawn summons, Trackers also added for Roaring Blaze and Soul Effigy, and Potion Combat Lockdown.
+    * New Ovale conditionals added for the new trackers which can be used in Ovale scripts.
+    * Option to track special Ghoul spawn for Unholy DK Hidden Artifact Skin quest.
+    * Unholy DK now has both Soul Reaper and Dark Arbiter rotations.
+    * Frost DK now has both standard and machine gun rotations.
+    * Ovale requirement increased to 7.1.0.0.
+    * Various code cleanup and optimizations where necessary.
+    * And any other features I have forgotten I have added when writing this ;) 
+
+7.0.5
+    * New option screen to control which script package is used and automatic changing of script packages.
+    * Some of the script options have also been moved from script checkboxes to options in the Options screen, please make sure they are set to match your previous settings.
+    * Marksmanship hunter updated to match the updated guide, and also added Aimed Shot as a focus dump filler when using the sidewinders talent.
+    * Paladin, fixed Execution sentence so it no longer breaks the script, also fixed Judgment so that if the target dies it will still suggest spending holy power if capped.
+    * Frost Death Knight, fixed Horn of Winter so that it now suggests when available if the resources gained will not be wasted.
+    * Other minor script tidy up.
+    * Other addon code clean up and optimization such as making all global variables addon specific, etc... 
+
+7.0.4
+    * Code changes to Unholy DK script, and missing function fix.
+    * Update scripts to allow for legendaries that have an effect on rotations.
+    * Fixed Windwalker Monk scripts to not break Hit Combo buff if the talent is chosen.
+    * Added new module for tracking the last Hit Combo spell cast, which is not necessarily the last spell cast. This allows the script to now keep 100% uptime on Hit Combo buff during testing. 
+
+7.0.3
+    * Monk script added for Windwalker.
+    * Minor script updates, and improvements. 
+
+7.0.2
+    * Paladin script added for Retribution.
+    * Updated the Unholy DK script.
+    * Modified all scripts handling of artifact weapons.
+    * Moved Keybinds to its own "LunaEclipse" category.
+    * Renamed checkboxes in scripts removing the "Main Icons: " in front of spells.
+    * Minor code changes and clean up where necessary. 
+
+7.0.1
+    * Hunter scripts added for all specs.
+    * Death Knight scripts updated for the latest data in relation to Legion launch.
+    * Fixed a problem with keybinds for checkboxes not working.
+    * Other minor code changes. 
+
+7.0.0
+    * Updated for Legion
+    * Added minimum Ovale version requirement, current requirement is 7.0.14
+    * Death Knight scripts for Legion from WoWHead.
+    * Removed out of date scripts.
+    * Code restructure and modifications as needed. 
+
+Classes will be added over the next few releases, next class to be worked on will be Hunter.

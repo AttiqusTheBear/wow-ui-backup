@@ -1,0 +1,19 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Include file="Overrides\load_keybind_overrides.xml" />
+
+	<Script file="keybindsConfiguration.lua" />
+
+	<Script file="keybindsDeathKnight.lua"/>
+	<Script file="keybindsDemonHunter.lua"/>
+	<Script file="keybindsDruid.lua"/>
+	<Script file="keybindsHunter.lua"/>
+	<Script file="keybindsMage.lua"/>
+	<Script file="keybindsMonk.lua"/>
+	<Script file="keybindsPaladin.lua"/>
+	<Script file="keybindsPriest.lua"/>
+	<Script file="keybindsRogue.lua"/>
+	<Script file="keybindsShaman.lua"/>
+	<Script file="keybindsWarlock.lua"/>
+	<Script file="keybindsWarrior.lua"/>
+</Ui>

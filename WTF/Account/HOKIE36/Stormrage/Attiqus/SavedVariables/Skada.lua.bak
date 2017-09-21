@@ -1,0 +1,2890 @@
+
+SkadaPerCharDB = {
+	["sets"] = {
+		{
+			["healingabsorbed"] = 0,
+			["mobdone"] = 3,
+			["dispells"] = 0,
+			["alertDamage"] = 0,
+			["ffdamagedone"] = 0,
+			["time"] = 16,
+			["interrupts"] = 0,
+			["ovaleMax"] = 0,
+			["auras"] = {
+			},
+			["multistrikes"] = 0,
+			["damage"] = 428,
+			["players"] = {
+				{
+					["last"] = 1460665089,
+					["ffdamagedone"] = 0,
+					["healingabsorbed"] = 0,
+					["ovale"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Corrupted Servant"] = 43,
+						["Corrupted Minion"] = 385,
+					},
+					["dispells"] = 0,
+					["ffdamagedonespells"] = {
+					},
+					["role"] = "NONE",
+					["time"] = 13,
+					["interrupts"] = 0,
+					["ovaleMax"] = 0,
+					["auras"] = {
+						["Moonlight"] = {
+							["name"] = "Moonlight",
+							["active"] = 0,
+							["id"] = 65912,
+							["uptime"] = 7,
+							["auratype"] = "DEBUFF",
+						},
+					},
+					["alertDamage"] = 0,
+					["damage"] = 428,
+					["damagespells"] = {
+						["Moonlight"] = {
+							["min"] = 42,
+							["hit"] = 7,
+							["totalhits"] = 7,
+							["id"] = 65912,
+							["max"] = 43,
+							["damage"] = 300,
+						},
+						["Elemental Force"] = {
+							["min"] = 128,
+							["hit"] = 1,
+							["totalhits"] = 1,
+							["id"] = 116616,
+							["max"] = 128,
+							["damage"] = 128,
+						},
+					},
+					["healingspells"] = {
+						["Swift Hand of Justice"] = {
+							["shielding"] = 0,
+							["id"] = 59913,
+							["healing"] = 3,
+							["multistrikes"] = 0,
+							["min"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Swift Hand of Justice",
+							["hits"] = 6,
+							["overhealing"] = 180,
+							["max"] = 2,
+							["critical"] = 0,
+							["absorbed"] = 0,
+						},
+					},
+					["damagetaken"] = 3,
+					["shielding"] = 0,
+					["id"] = "Player-60-0A5ECB38",
+					["maxhp"] = 1494,
+					["name"] = "Attiqus",
+					["damagetakenspells"] = {
+						["Attack"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["damage"] = 3,
+							["max"] = 1,
+							["name"] = "Attack",
+							["glancing"] = 0,
+							["multistrike"] = 0,
+							["critical"] = 0,
+							["blocked"] = 0,
+							["totalhits"] = 3,
+							["resisted"] = 0,
+							["min"] = 1,
+							["absorbed"] = 0,
+						},
+					},
+					["healed"] = {
+						["Player-60-0A5ECB38"] = {
+							["role"] = "NONE",
+							["name"] = "Attiqus",
+							["amount"] = 3,
+							["class"] = "DRUID",
+							["shielding"] = 0,
+						},
+					},
+					["healing"] = 3,
+					["ffdamagedonetargets"] = {
+					},
+					["alertCount"] = 0,
+					["first"] = 1460665076,
+					["overhealing"] = 180,
+					["alert"] = {
+					},
+					["multistrikes"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Corrupted Servant"] = {
+					["players"] = {
+						["Attiqus"] = {
+							["taken"] = 43,
+							["done"] = 0,
+							["class"] = "DRUID",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 43,
+					["done"] = 0,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+				["Corrupted Minion"] = {
+					["players"] = {
+						["Attiqus"] = {
+							["taken"] = 385,
+							["done"] = 3,
+							["class"] = "DRUID",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 385,
+					["done"] = 3,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 428,
+			["ovale"] = 0,
+			["healing"] = 3,
+			["alertCount"] = 0,
+			["shielding"] = 0,
+			["damagetaken"] = 3,
+			["starttime"] = 1460665075,
+			["name"] = "Corrupted Servant",
+			["mobname"] = "Corrupted Servant",
+			["overhealing"] = 180,
+			["mobhdone"] = 0,
+			["last_action"] = 1460665075,
+			["endtime"] = 1460665091,
+		}, -- [1]
+		{
+			["healingabsorbed"] = 0,
+			["mobdone"] = 9,
+			["dispells"] = 0,
+			["alertDamage"] = 0,
+			["ffdamagedone"] = 0,
+			["time"] = 13,
+			["interrupts"] = 0,
+			["ovaleMax"] = 0,
+			["auras"] = {
+			},
+			["multistrikes"] = 0,
+			["damage"] = 695,
+			["players"] = {
+				{
+					["last"] = 1460665059,
+					["ffdamagedone"] = 0,
+					["healingabsorbed"] = 0,
+					["ovale"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Corrupted Servant"] = 128,
+						["Corrupted Minion"] = 567,
+					},
+					["dispells"] = 0,
+					["ffdamagedonespells"] = {
+					},
+					["role"] = "NONE",
+					["time"] = 11,
+					["interrupts"] = 0,
+					["ovaleMax"] = 0,
+					["auras"] = {
+						["Moonlight"] = {
+							["name"] = "Moonlight",
+							["active"] = 0,
+							["id"] = 65912,
+							["uptime"] = 7,
+							["auratype"] = "DEBUFF",
+						},
+						["Moonlight Heal"] = {
+							["name"] = "Moonlight Heal",
+							["active"] = 0,
+							["id"] = 65606,
+							["uptime"] = 9,
+							["auratype"] = "BUFF",
+						},
+					},
+					["alertDamage"] = 0,
+					["damage"] = 695,
+					["damagespells"] = {
+						["Moonlight"] = {
+							["min"] = 42,
+							["hit"] = 13,
+							["totalhits"] = 13,
+							["id"] = 65912,
+							["max"] = 43,
+							["damage"] = 555,
+						},
+						["Elemental Force"] = {
+							["min"] = 140,
+							["hit"] = 1,
+							["totalhits"] = 1,
+							["id"] = 116616,
+							["max"] = 140,
+							["damage"] = 140,
+						},
+					},
+					["healingspells"] = {
+						["Moonlight Heal"] = {
+							["shielding"] = 0,
+							["id"] = 65606,
+							["healing"] = 8,
+							["multistrikes"] = 0,
+							["min"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Moonlight Heal",
+							["hits"] = 11,
+							["overhealing"] = 3374,
+							["max"] = 5,
+							["critical"] = 0,
+							["absorbed"] = 0,
+						},
+						["Swift Hand of Justice"] = {
+							["shielding"] = 0,
+							["id"] = 59913,
+							["healing"] = 1,
+							["multistrikes"] = 0,
+							["min"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Swift Hand of Justice",
+							["hits"] = 5,
+							["overhealing"] = 154,
+							["max"] = 1,
+							["critical"] = 0,
+							["absorbed"] = 0,
+						},
+					},
+					["damagetaken"] = 9,
+					["shielding"] = 0,
+					["id"] = "Player-60-0A5ECB38",
+					["maxhp"] = 1494,
+					["name"] = "Attiqus",
+					["damagetakenspells"] = {
+						["Attack"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["damage"] = 9,
+							["max"] = 1,
+							["name"] = "Attack",
+							["glancing"] = 0,
+							["multistrike"] = 0,
+							["critical"] = 0,
+							["blocked"] = 0,
+							["totalhits"] = 9,
+							["resisted"] = 0,
+							["min"] = 1,
+							["absorbed"] = 0,
+						},
+					},
+					["healed"] = {
+						["Player-60-0A5ECB38"] = {
+							["role"] = "NONE",
+							["name"] = "Attiqus",
+							["amount"] = 9,
+							["class"] = "DRUID",
+							["shielding"] = 0,
+						},
+					},
+					["healing"] = 9,
+					["ffdamagedonetargets"] = {
+					},
+					["alertCount"] = 0,
+					["first"] = 1460665048,
+					["overhealing"] = 3528,
+					["alert"] = {
+					},
+					["multistrikes"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Corrupted Servant"] = {
+					["players"] = {
+						["Attiqus"] = {
+							["taken"] = 128,
+							["done"] = 2,
+							["class"] = "DRUID",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 128,
+					["done"] = 2,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+				["Corrupted Minion"] = {
+					["players"] = {
+						["Attiqus"] = {
+							["taken"] = 567,
+							["done"] = 7,
+							["class"] = "DRUID",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 567,
+					["done"] = 7,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 695,
+			["ovale"] = 0,
+			["healing"] = 9,
+			["alertCount"] = 0,
+			["shielding"] = 0,
+			["damagetaken"] = 9,
+			["starttime"] = 1460665047,
+			["name"] = "Corrupted Minion",
+			["mobname"] = "Corrupted Minion",
+			["overhealing"] = 3528,
+			["mobhdone"] = 0,
+			["last_action"] = 1460665047,
+			["endtime"] = 1460665060,
+		}, -- [2]
+		{
+			["healingabsorbed"] = 0,
+			["mobdone"] = 47,
+			["dispells"] = 0,
+			["alertDamage"] = 0,
+			["ffdamagedone"] = 0,
+			["time"] = 51,
+			["interrupts"] = 0,
+			["ovaleMax"] = 0,
+			["auras"] = {
+			},
+			["multistrikes"] = 0,
+			["damage"] = 5983,
+			["players"] = {
+				{
+					["last"] = 1460665041,
+					["ffdamagedone"] = 0,
+					["healingabsorbed"] = 0,
+					["ovale"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Corrupted Gnarlpine"] = 783,
+						["Bough of Corruption"] = 2701,
+						["Corrupted Servant"] = 600,
+						["Corrupted Minion"] = 1899,
+					},
+					["dispells"] = 0,
+					["ffdamagedonespells"] = {
+					},
+					["role"] = "NONE",
+					["time"] = 44,
+					["interrupts"] = 0,
+					["ovaleMax"] = 0,
+					["auras"] = {
+						["Starfall"] = {
+							["name"] = "Starfall",
+							["active"] = 0,
+							["id"] = 65798,
+							["uptime"] = 4,
+							["auratype"] = "BUFF",
+						},
+						["Moonlight"] = {
+							["name"] = "Moonlight",
+							["active"] = 0,
+							["id"] = 65912,
+							["uptime"] = 13,
+							["auratype"] = "DEBUFF",
+						},
+					},
+					["alertDamage"] = 0,
+					["damage"] = 5983,
+					["damagespells"] = {
+						["Moonlight"] = {
+							["min"] = 40,
+							["hit"] = 8,
+							["totalhits"] = 8,
+							["id"] = 65912,
+							["max"] = 41,
+							["damage"] = 325,
+						},
+						["Elemental Force"] = {
+							["min"] = 137,
+							["critical"] = 1,
+							["hit"] = 4,
+							["totalhits"] = 5,
+							["id"] = 116616,
+							["max"] = 282,
+							["damage"] = 843,
+						},
+						["Starfall Effect"] = {
+							["min"] = 139,
+							["hit"] = 30,
+							["totalhits"] = 30,
+							["id"] = 65822,
+							["max"] = 199,
+							["damage"] = 4815,
+						},
+					},
+					["healingspells"] = {
+						["Swift Hand of Justice"] = {
+							["shielding"] = 0,
+							["id"] = 59913,
+							["healing"] = 41,
+							["multistrikes"] = 0,
+							["min"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Swift Hand of Justice",
+							["hits"] = 21,
+							["overhealing"] = 601,
+							["max"] = 30,
+							["critical"] = 0,
+							["absorbed"] = 0,
+						},
+					},
+					["damagetaken"] = 47,
+					["shielding"] = 0,
+					["id"] = "Player-60-0A5ECB38",
+					["maxhp"] = 1494,
+					["name"] = "Attiqus",
+					["damagetakenspells"] = {
+						["Attack"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["damage"] = 47,
+							["max"] = 1,
+							["name"] = "Attack",
+							["glancing"] = 0,
+							["multistrike"] = 0,
+							["critical"] = 0,
+							["blocked"] = 0,
+							["totalhits"] = 47,
+							["resisted"] = 0,
+							["min"] = 1,
+							["absorbed"] = 0,
+						},
+					},
+					["healed"] = {
+						["Player-60-0A5ECB38"] = {
+							["role"] = "NONE",
+							["name"] = "Attiqus",
+							["amount"] = 41,
+							["class"] = "DRUID",
+							["shielding"] = 0,
+						},
+					},
+					["healing"] = 41,
+					["ffdamagedonetargets"] = {
+					},
+					["alertCount"] = 0,
+					["first"] = 1460664997,
+					["overhealing"] = 601,
+					["alert"] = {
+					},
+					["multistrikes"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Corrupted Servant"] = {
+					["players"] = {
+						["Attiqus"] = {
+							["taken"] = 600,
+							["done"] = 8,
+							["class"] = "DRUID",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 600,
+					["done"] = 8,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+				["Bough of Corruption"] = {
+					["players"] = {
+						["Attiqus"] = {
+							["taken"] = 2701,
+							["done"] = 3,
+							["class"] = "DRUID",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 2701,
+					["done"] = 3,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+				["Corrupted Gnarlpine"] = {
+					["players"] = {
+						["Attiqus"] = {
+							["taken"] = 783,
+							["done"] = 10,
+							["class"] = "DRUID",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 783,
+					["done"] = 10,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+				["Corrupted Minion"] = {
+					["players"] = {
+						["Attiqus"] = {
+							["taken"] = 1899,
+							["done"] = 26,
+							["class"] = "DRUID",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 1899,
+					["done"] = 26,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 5983,
+			["ovale"] = 0,
+			["healing"] = 41,
+			["alertCount"] = 0,
+			["shielding"] = 0,
+			["damagetaken"] = 47,
+			["starttime"] = 1460664992,
+			["name"] = "Bough of Corruption",
+			["mobname"] = "Bough of Corruption",
+			["overhealing"] = 601,
+			["mobhdone"] = 0,
+			["last_action"] = 1460664992,
+			["endtime"] = 1460665043,
+		}, -- [3]
+		{
+			["healingabsorbed"] = 0,
+			["mobdone"] = 0,
+			["dispells"] = 0,
+			["alertDamage"] = 0,
+			["ffdamagedone"] = 0,
+			["time"] = 9,
+			["interrupts"] = 0,
+			["ovaleMax"] = 0,
+			["auras"] = {
+			},
+			["multistrikes"] = 0,
+			["damage"] = 311,
+			["players"] = {
+				{
+					["last"] = 1460663833,
+					["ffdamagedone"] = 0,
+					["healingabsorbed"] = 0,
+					["ovale"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Bogling"] = 311,
+					},
+					["dispells"] = 0,
+					["ffdamagedonespells"] = {
+					},
+					["role"] = "NONE",
+					["time"] = 3,
+					["interrupts"] = 0,
+					["ovaleMax"] = 0,
+					["auras"] = {
+						["Cat Form"] = {
+							["name"] = "Cat Form",
+							["active"] = 0,
+							["id"] = 768,
+							["uptime"] = 4,
+							["auratype"] = "BUFF",
+						},
+					},
+					["alertDamage"] = 0,
+					["damage"] = 311,
+					["damagespells"] = {
+						["Attack"] = {
+							["min"] = 64,
+							["critical"] = 2,
+							["hit"] = 1,
+							["totalhits"] = 3,
+							["id"] = 6603,
+							["max"] = 129,
+							["damage"] = 311,
+						},
+					},
+					["healingspells"] = {
+					},
+					["damagetaken"] = 0,
+					["shielding"] = 0,
+					["id"] = "Player-60-0A5ECB38",
+					["maxhp"] = 1494,
+					["name"] = "Attiqus",
+					["damagetakenspells"] = {
+					},
+					["healed"] = {
+					},
+					["healing"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["alertCount"] = 0,
+					["first"] = 1460663830,
+					["overhealing"] = 0,
+					["alert"] = {
+					},
+					["multistrikes"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Bogling"] = {
+					["players"] = {
+						["Attiqus"] = {
+							["taken"] = 311,
+							["done"] = 0,
+							["class"] = "DRUID",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 311,
+					["done"] = 0,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 311,
+			["ovale"] = 0,
+			["healing"] = 0,
+			["alertCount"] = 0,
+			["shielding"] = 0,
+			["damagetaken"] = 0,
+			["starttime"] = 1460663825,
+			["name"] = "Bogling",
+			["mobname"] = "Bogling",
+			["overhealing"] = 0,
+			["mobhdone"] = 0,
+			["last_action"] = 1460663825,
+			["endtime"] = 1460663834,
+		}, -- [4]
+		{
+			["healingabsorbed"] = 0,
+			["mobdone"] = 0,
+			["dispells"] = 0,
+			["alertDamage"] = 0,
+			["ffdamagedone"] = 0,
+			["time"] = 13,
+			["interrupts"] = 0,
+			["ovaleMax"] = 0,
+			["auras"] = {
+			},
+			["multistrikes"] = 0,
+			["damage"] = 352,
+			["players"] = {
+				{
+					["last"] = 1460647246,
+					["ffdamagedone"] = 0,
+					["healingabsorbed"] = 0,
+					["ovale"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Gnarlpine Defender"] = 90,
+						["Greenpaw"] = 127,
+						["Gnarlpine Shaman"] = 135,
+					},
+					["dispells"] = 0,
+					["ffdamagedonespells"] = {
+					},
+					["role"] = "NONE",
+					["time"] = 10,
+					["interrupts"] = 0,
+					["ovaleMax"] = 0,
+					["auras"] = {
+					},
+					["alertDamage"] = 0,
+					["damage"] = 352,
+					["damagespells"] = {
+						["Shred"] = {
+							["min"] = 92,
+							["hit"] = 2,
+							["totalhits"] = 2,
+							["id"] = 5221,
+							["max"] = 99,
+							["damage"] = 191,
+						},
+						["Sentinel Huntress: Attack"] = {
+							["min"] = 20,
+							["hit"] = 1,
+							["totalhits"] = 1,
+							["id"] = 6603,
+							["max"] = 20,
+							["damage"] = 20,
+						},
+						["Attack"] = {
+							["min"] = 35,
+							["critical"] = 1,
+							["hit"] = 2,
+							["totalhits"] = 3,
+							["id"] = 6603,
+							["max"] = 70,
+							["damage"] = 141,
+						},
+					},
+					["healingspells"] = {
+						["Swift Hand of Justice"] = {
+							["shielding"] = 0,
+							["id"] = 59913,
+							["healing"] = 0,
+							["multistrikes"] = 0,
+							["min"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Swift Hand of Justice",
+							["hits"] = 3,
+							["overhealing"] = 59,
+							["max"] = 0,
+							["critical"] = 0,
+							["absorbed"] = 0,
+						},
+					},
+					["damagetaken"] = 0,
+					["shielding"] = 0,
+					["id"] = "Player-60-0A5ECB38",
+					["maxhp"] = 1494,
+					["name"] = "Attiqus",
+					["damagetakenspells"] = {
+					},
+					["healed"] = {
+						["Player-60-0A5ECB38"] = {
+							["role"] = "NONE",
+							["name"] = "Attiqus",
+							["amount"] = 0,
+							["class"] = "DRUID",
+							["shielding"] = 0,
+						},
+					},
+					["healing"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["alertCount"] = 0,
+					["first"] = 1460647236,
+					["overhealing"] = 59,
+					["alert"] = {
+					},
+					["multistrikes"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Gnarlpine Defender"] = {
+					["players"] = {
+						["Attiqus"] = {
+							["taken"] = 70,
+							["done"] = 0,
+							["class"] = "DRUID",
+							["role"] = "NONE",
+						},
+						["Sentinel Huntress"] = {
+							["taken"] = 20,
+							["done"] = 0,
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 90,
+					["done"] = 0,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+				["Greenpaw"] = {
+					["players"] = {
+						["Attiqus"] = {
+							["taken"] = 127,
+							["done"] = 0,
+							["class"] = "DRUID",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 127,
+					["done"] = 0,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+				["Gnarlpine Shaman"] = {
+					["players"] = {
+						["Attiqus"] = {
+							["taken"] = 135,
+							["done"] = 0,
+							["class"] = "DRUID",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 135,
+					["done"] = 0,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 352,
+			["ovale"] = 0,
+			["healing"] = 0,
+			["alertCount"] = 0,
+			["shielding"] = 0,
+			["damagetaken"] = 0,
+			["starttime"] = 1460647234,
+			["name"] = "Greenpaw",
+			["mobname"] = "Greenpaw",
+			["overhealing"] = 59,
+			["mobhdone"] = 0,
+			["last_action"] = 1460647234,
+			["endtime"] = 1460647247,
+		}, -- [5]
+		{
+			["healingabsorbed"] = 0,
+			["mobdone"] = 8,
+			["dispells"] = 0,
+			["alertDamage"] = 0,
+			["ffdamagedone"] = 0,
+			["time"] = 6,
+			["interrupts"] = 0,
+			["ovaleMax"] = 0,
+			["auras"] = {
+			},
+			["multistrikes"] = 0,
+			["damage"] = 135,
+			["players"] = {
+				{
+					["last"] = 1460646251,
+					["ffdamagedone"] = 0,
+					["healingabsorbed"] = 0,
+					["ovale"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Gnarlpine Mystic"] = 135,
+					},
+					["dispells"] = 0,
+					["ffdamagedonespells"] = {
+					},
+					["role"] = "NONE",
+					["time"] = 4,
+					["interrupts"] = 0,
+					["ovaleMax"] = 0,
+					["auras"] = {
+						["Moonfire"] = {
+							["name"] = "Moonfire",
+							["active"] = 0,
+							["id"] = 164812,
+							["uptime"] = 3,
+							["auratype"] = "DEBUFF",
+						},
+					},
+					["alertDamage"] = 0,
+					["damage"] = 135,
+					["damagespells"] = {
+						["Moonfire"] = {
+							["min"] = 24,
+							["critical"] = 2,
+							["hit"] = 1,
+							["totalhits"] = 3,
+							["id"] = 164812,
+							["max"] = 64,
+							["damage"] = 135,
+						},
+					},
+					["healingspells"] = {
+					},
+					["damagetaken"] = 8,
+					["shielding"] = 0,
+					["id"] = "Player-60-0A5ECB38",
+					["maxhp"] = 1494,
+					["name"] = "Attiqus",
+					["damagetakenspells"] = {
+						["Wrath"] = {
+							["crushing"] = 0,
+							["id"] = 9739,
+							["damage"] = 8,
+							["max"] = 8,
+							["name"] = "Wrath",
+							["glancing"] = 0,
+							["multistrike"] = 0,
+							["critical"] = 0,
+							["blocked"] = 0,
+							["totalhits"] = 1,
+							["resisted"] = 0,
+							["min"] = 8,
+							["absorbed"] = 0,
+						},
+					},
+					["healed"] = {
+					},
+					["healing"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["alertCount"] = 0,
+					["first"] = 1460646247,
+					["overhealing"] = 0,
+					["alert"] = {
+					},
+					["multistrikes"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Gnarlpine Mystic"] = {
+					["players"] = {
+						["Attiqus"] = {
+							["taken"] = 135,
+							["done"] = 8,
+							["class"] = "DRUID",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 135,
+					["done"] = 8,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 135,
+			["ovale"] = 0,
+			["healing"] = 0,
+			["alertCount"] = 0,
+			["shielding"] = 0,
+			["damagetaken"] = 8,
+			["starttime"] = 1460646247,
+			["name"] = "Gnarlpine Mystic",
+			["mobname"] = "Gnarlpine Mystic",
+			["overhealing"] = 0,
+			["mobhdone"] = 0,
+			["last_action"] = 1460646247,
+			["endtime"] = 1460646253,
+		}, -- [6]
+		{
+			["healingabsorbed"] = 0,
+			["mobdone"] = 11,
+			["dispells"] = 1,
+			["alertDamage"] = 0,
+			["ffdamagedone"] = 0,
+			["time"] = 7,
+			["interrupts"] = 0,
+			["ovaleMax"] = 0,
+			["auras"] = {
+			},
+			["multistrikes"] = 0,
+			["damage"] = 179,
+			["players"] = {
+				{
+					["last"] = 1460644965,
+					["ffdamagedone"] = 0,
+					["healingabsorbed"] = 0,
+					["ovale"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Githyiss the Vile"] = 179,
+					},
+					["dispells"] = 0,
+					["ffdamagedonespells"] = {
+					},
+					["role"] = "NONE",
+					["time"] = 4,
+					["interrupts"] = 0,
+					["ovaleMax"] = 0,
+					["auras"] = {
+						["Moonfire"] = {
+							["name"] = "Moonfire",
+							["active"] = 0,
+							["id"] = 164812,
+							["uptime"] = 2,
+							["auratype"] = "DEBUFF",
+						},
+						["Rejuvenation"] = {
+							["name"] = "Rejuvenation",
+							["active"] = 0,
+							["id"] = 774,
+							["uptime"] = 1,
+							["auratype"] = "BUFF",
+						},
+					},
+					["alertDamage"] = 0,
+					["damage"] = 179,
+					["damagespells"] = {
+						["Moonfire"] = {
+							["min"] = 29,
+							["critical"] = 1,
+							["hit"] = 1,
+							["totalhits"] = 2,
+							["id"] = 164812,
+							["max"] = 43,
+							["damage"] = 72,
+						},
+						["Wrath"] = {
+							["min"] = 87,
+							["hit"] = 1,
+							["totalhits"] = 1,
+							["id"] = 5176,
+							["max"] = 87,
+							["damage"] = 87,
+						},
+						["Tarindrella: Attack"] = {
+							["min"] = 20,
+							["hit"] = 1,
+							["totalhits"] = 1,
+							["id"] = 6603,
+							["max"] = 20,
+							["damage"] = 20,
+						},
+					},
+					["healingspells"] = {
+						["Rejuvenation"] = {
+							["shielding"] = 0,
+							["id"] = 774,
+							["healing"] = 11,
+							["multistrikes"] = 0,
+							["min"] = 11,
+							["multistrike"] = 0,
+							["name"] = "Rejuvenation",
+							["hits"] = 1,
+							["overhealing"] = 27,
+							["max"] = 11,
+							["critical"] = 0,
+							["absorbed"] = 0,
+						},
+					},
+					["damagetaken"] = 11,
+					["shielding"] = 0,
+					["id"] = "Player-60-0A5ECB38",
+					["maxhp"] = 1494,
+					["name"] = "Attiqus",
+					["damagetakenspells"] = {
+						["Attack"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["damage"] = 11,
+							["max"] = 6,
+							["name"] = "Attack",
+							["glancing"] = 0,
+							["multistrike"] = 0,
+							["critical"] = 0,
+							["blocked"] = 0,
+							["totalhits"] = 2,
+							["resisted"] = 0,
+							["min"] = 5,
+							["absorbed"] = 0,
+						},
+					},
+					["healed"] = {
+						["Player-60-0A5ECB38"] = {
+							["role"] = "NONE",
+							["name"] = "Attiqus",
+							["amount"] = 11,
+							["class"] = "DRUID",
+							["shielding"] = 0,
+						},
+					},
+					["healing"] = 11,
+					["ffdamagedonetargets"] = {
+					},
+					["alertCount"] = 0,
+					["first"] = 1460644961,
+					["overhealing"] = 27,
+					["alert"] = {
+					},
+					["multistrikes"] = 0,
+				}, -- [1]
+				{
+					["last"] = 1460644962,
+					["healingabsorbed"] = 0,
+					["ffdamagedone"] = 0,
+					["ffdamagedonespells"] = {
+					},
+					["damaged"] = {
+					},
+					["auras"] = {
+					},
+					["ovale"] = 0,
+					["role"] = "NONE",
+					["time"] = 0,
+					["interrupts"] = 0,
+					["ovaleMax"] = 0,
+					["dispells"] = 1,
+					["first"] = 1460644962,
+					["damage"] = 0,
+					["damagespells"] = {
+					},
+					["alertDamage"] = 0,
+					["damagetaken"] = 0,
+					["shielding"] = 0,
+					["id"] = "Creature-0-60-1-58-49480-00000FAB9E",
+					["maxhp"] = 0,
+					["healing"] = 0,
+					["damagetakenspells"] = {
+					},
+					["name"] = "Tarindrella",
+					["healed"] = {
+					},
+					["ffdamagedonetargets"] = {
+					},
+					["alertCount"] = 0,
+					["healingspells"] = {
+					},
+					["overhealing"] = 0,
+					["alert"] = {
+					},
+					["multistrikes"] = 0,
+				}, -- [2]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Githyiss the Vile"] = {
+					["players"] = {
+						["Attiqus"] = {
+							["taken"] = 159,
+							["done"] = 11,
+							["class"] = "DRUID",
+							["role"] = "NONE",
+						},
+						["Tarindrella"] = {
+							["taken"] = 20,
+							["done"] = 0,
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 179,
+					["done"] = 11,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 179,
+			["ovale"] = 0,
+			["healing"] = 11,
+			["alertCount"] = 0,
+			["shielding"] = 0,
+			["damagetaken"] = 11,
+			["starttime"] = 1460644959,
+			["name"] = "Githyiss the Vile",
+			["mobname"] = "Githyiss the Vile",
+			["overhealing"] = 27,
+			["mobhdone"] = 0,
+			["last_action"] = 1460644959,
+			["endtime"] = 1460644966,
+		}, -- [7]
+		{
+			["healingabsorbed"] = 0,
+			["mobdone"] = 0,
+			["dispells"] = 0,
+			["alertDamage"] = 0,
+			["ffdamagedone"] = 0,
+			["time"] = 7,
+			["interrupts"] = 0,
+			["ovaleMax"] = 0,
+			["auras"] = {
+			},
+			["multistrikes"] = 0,
+			["damage"] = 113,
+			["players"] = {
+				{
+					["last"] = 1460644582,
+					["ffdamagedone"] = 0,
+					["healingabsorbed"] = 0,
+					["ovale"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Training Dummy"] = 113,
+					},
+					["dispells"] = 0,
+					["ffdamagedonespells"] = {
+					},
+					["role"] = "NONE",
+					["time"] = 6,
+					["interrupts"] = 0,
+					["ovaleMax"] = 0,
+					["auras"] = {
+						["Moonfire"] = {
+							["name"] = "Moonfire",
+							["active"] = 0,
+							["id"] = 164812,
+							["uptime"] = 7,
+							["auratype"] = "DEBUFF",
+						},
+					},
+					["alertDamage"] = 0,
+					["damage"] = 113,
+					["damagespells"] = {
+						["Moonfire"] = {
+							["min"] = 21,
+							["critical"] = 1,
+							["hit"] = 3,
+							["totalhits"] = 4,
+							["id"] = 164812,
+							["max"] = 42,
+							["damage"] = 113,
+						},
+					},
+					["healingspells"] = {
+						["Rejuvenation"] = {
+							["shielding"] = 0,
+							["id"] = 774,
+							["healing"] = 0,
+							["multistrikes"] = 0,
+							["min"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Rejuvenation",
+							["hits"] = 3,
+							["overhealing"] = 151,
+							["max"] = 0,
+							["critical"] = 1,
+							["absorbed"] = 0,
+						},
+					},
+					["damagetaken"] = 0,
+					["shielding"] = 0,
+					["id"] = "Player-60-0A5ECB38",
+					["maxhp"] = 1494,
+					["name"] = "Attiqus",
+					["damagetakenspells"] = {
+					},
+					["healed"] = {
+						["Player-60-0A5ECB38"] = {
+							["role"] = "NONE",
+							["name"] = "Attiqus",
+							["amount"] = 0,
+							["class"] = "DRUID",
+							["shielding"] = 0,
+						},
+					},
+					["healing"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["alertCount"] = 0,
+					["first"] = 1460644576,
+					["overhealing"] = 151,
+					["alert"] = {
+					},
+					["multistrikes"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Training Dummy"] = {
+					["players"] = {
+						["Attiqus"] = {
+							["taken"] = 113,
+							["done"] = 0,
+							["class"] = "DRUID",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 113,
+					["done"] = 0,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 113,
+			["ovale"] = 0,
+			["healing"] = 0,
+			["alertCount"] = 0,
+			["shielding"] = 0,
+			["damagetaken"] = 0,
+			["starttime"] = 1460644576,
+			["name"] = "Training Dummy",
+			["mobname"] = "Training Dummy",
+			["overhealing"] = 151,
+			["mobhdone"] = 0,
+			["last_action"] = 1460644576,
+			["endtime"] = 1460644583,
+		}, -- [8]
+		{
+			["healingabsorbed"] = 0,
+			["mobdone"] = 3,
+			["dispells"] = 0,
+			["alertDamage"] = 0,
+			["ffdamagedone"] = 0,
+			["time"] = 9,
+			["interrupts"] = 0,
+			["ovaleMax"] = 0,
+			["auras"] = {
+			},
+			["multistrikes"] = 0,
+			["damage"] = 260,
+			["players"] = {
+				{
+					["last"] = 1460644387,
+					["ffdamagedone"] = 0,
+					["healingabsorbed"] = 0,
+					["ovale"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Grellkin"] = 260,
+					},
+					["dispells"] = 0,
+					["ffdamagedonespells"] = {
+					},
+					["role"] = "NONE",
+					["time"] = 7,
+					["interrupts"] = 0,
+					["ovaleMax"] = 0,
+					["auras"] = {
+						["Moonfire"] = {
+							["name"] = "Moonfire",
+							["active"] = 0,
+							["id"] = 164812,
+							["uptime"] = 5,
+							["auratype"] = "DEBUFF",
+						},
+					},
+					["alertDamage"] = 0,
+					["damage"] = 260,
+					["damagespells"] = {
+						["Moonfire"] = {
+							["min"] = 21,
+							["critical"] = 2,
+							["hit"] = 6,
+							["totalhits"] = 8,
+							["id"] = 164812,
+							["max"] = 57,
+							["damage"] = 245,
+						},
+						["Void Tendril: Attack"] = {
+							["min"] = 3,
+							["critical"] = 1,
+							["hit"] = 3,
+							["totalhits"] = 4,
+							["id"] = 6603,
+							["max"] = 5,
+							["damage"] = 15,
+						},
+					},
+					["healingspells"] = {
+					},
+					["damagetaken"] = 3,
+					["shielding"] = 0,
+					["id"] = "Player-60-0A5ECB38",
+					["maxhp"] = 1494,
+					["name"] = "Attiqus",
+					["damagetakenspells"] = {
+						["Attack"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["damage"] = 3,
+							["max"] = 3,
+							["name"] = "Attack",
+							["glancing"] = 0,
+							["multistrike"] = 0,
+							["critical"] = 0,
+							["blocked"] = 0,
+							["totalhits"] = 1,
+							["resisted"] = 0,
+							["min"] = 3,
+							["absorbed"] = 0,
+						},
+					},
+					["healed"] = {
+					},
+					["healing"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["alertCount"] = 0,
+					["first"] = 1460644380,
+					["overhealing"] = 0,
+					["alert"] = {
+					},
+					["multistrikes"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Grellkin"] = {
+					["players"] = {
+						["Attiqus"] = {
+							["taken"] = 245,
+							["done"] = 3,
+							["class"] = "DRUID",
+							["role"] = "NONE",
+						},
+						["Void Tendril"] = {
+							["taken"] = 15,
+							["done"] = 0,
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 260,
+					["done"] = 3,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 260,
+			["ovale"] = 0,
+			["healing"] = 0,
+			["alertCount"] = 0,
+			["shielding"] = 0,
+			["damagetaken"] = 3,
+			["starttime"] = 1460644379,
+			["name"] = "Grellkin",
+			["mobname"] = "Grellkin",
+			["overhealing"] = 0,
+			["mobhdone"] = 0,
+			["last_action"] = 1460644379,
+			["endtime"] = 1460644388,
+		}, -- [9]
+	},
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 1,
+		["ffdamagedone"] = 0,
+		["time"] = 131,
+		["interrupts"] = 0,
+		["ovaleMax"] = 0,
+		["auras"] = {
+		},
+		["mobdone"] = 400,
+		["damage"] = 46271,
+		["players"] = {
+			{
+				["ffdamagedone"] = 0,
+				["healingabsorbed"] = 0,
+				["ovale"] = 0,
+				["class"] = "DRUID",
+				["damaged"] = {
+				},
+				["auras"] = {
+					["Rejuvenation"] = {
+						["name"] = "Rejuvenation",
+						["active"] = 0,
+						["id"] = 774,
+						["uptime"] = 37,
+						["auratype"] = "BUFF",
+					},
+					["Moonfire"] = {
+						["name"] = "Moonfire",
+						["active"] = 0,
+						["id"] = 164812,
+						["uptime"] = 108,
+						["auratype"] = "DEBUFF",
+					},
+					["Moonlight Heal"] = {
+						["name"] = "Moonlight Heal",
+						["active"] = 0,
+						["id"] = 65606,
+						["uptime"] = 99,
+						["auratype"] = "BUFF",
+					},
+					["Starfall"] = {
+						["name"] = "Starfall",
+						["active"] = 0,
+						["id"] = 65798,
+						["uptime"] = 4,
+						["auratype"] = "BUFF",
+					},
+					["Moonlight"] = {
+						["name"] = "Moonlight",
+						["active"] = 0,
+						["id"] = 65912,
+						["uptime"] = 27,
+						["auratype"] = "DEBUFF",
+					},
+					["Cat Form"] = {
+						["name"] = "Cat Form",
+						["active"] = 0,
+						["id"] = 768,
+						["uptime"] = 68,
+						["auratype"] = "BUFF",
+					},
+					["Bear Form"] = {
+						["name"] = "Bear Form",
+						["active"] = 0,
+						["id"] = 5487,
+						["uptime"] = 217,
+						["auratype"] = "BUFF",
+					},
+				},
+				["ffdamagedonespells"] = {
+				},
+				["healingspells"] = {
+					["Rejuvenation"] = {
+						["shielding"] = 0,
+						["id"] = 774,
+						["healing"] = 12,
+						["multistrikes"] = 0,
+						["min"] = 0,
+						["multistrike"] = 0,
+						["name"] = "Rejuvenation",
+						["hits"] = 7,
+						["overhealing"] = 327,
+						["max"] = 11,
+						["critical"] = 2,
+						["absorbed"] = 0,
+					},
+					["Swift Hand of Justice"] = {
+						["shielding"] = 0,
+						["id"] = 59913,
+						["healing"] = 405,
+						["multistrikes"] = 0,
+						["min"] = 0,
+						["multistrike"] = 0,
+						["name"] = "Swift Hand of Justice",
+						["hits"] = 163,
+						["overhealing"] = 4361,
+						["max"] = 30,
+						["critical"] = 0,
+						["absorbed"] = 0,
+					},
+					["Moonlight Heal"] = {
+						["shielding"] = 0,
+						["id"] = 65606,
+						["healing"] = 8,
+						["multistrikes"] = 0,
+						["min"] = 0,
+						["multistrike"] = 0,
+						["name"] = "Moonlight Heal",
+						["hits"] = 11,
+						["overhealing"] = 3374,
+						["max"] = 5,
+						["critical"] = 0,
+						["absorbed"] = 0,
+					},
+				},
+				["overhealing"] = 8062,
+				["interrupts"] = 0,
+				["ovaleMax"] = 0,
+				["alertDamage"] = 0,
+				["maxhp"] = 1494,
+				["damage"] = 46271,
+				["damagespells"] = {
+					["Void Tendril: Attack"] = {
+						["min"] = 3,
+						["critical"] = 1,
+						["hit"] = 4,
+						["totalhits"] = 5,
+						["id"] = 6603,
+						["max"] = 5,
+						["damage"] = 18,
+					},
+					["Shred"] = {
+						["min"] = 58,
+						["critical"] = 38,
+						["hit"] = 61,
+						["totalhits"] = 99,
+						["id"] = 5221,
+						["max"] = 384,
+						["damage"] = 18214,
+					},
+					["Ferocious Bite"] = {
+						["min"] = 534,
+						["critical"] = 1,
+						["hit"] = 2,
+						["totalhits"] = 3,
+						["id"] = 22568,
+						["max"] = 1108,
+						["damage"] = 2206,
+					},
+					["Elemental Force"] = {
+						["min"] = 126,
+						["critical"] = 9,
+						["hit"] = 14,
+						["totalhits"] = 23,
+						["id"] = 116616,
+						["max"] = 327,
+						["damage"] = 4512,
+					},
+					["Moonfire"] = {
+						["min"] = 21,
+						["critical"] = 14,
+						["hit"] = 12,
+						["totalhits"] = 26,
+						["id"] = 164812,
+						["max"] = 64,
+						["damage"] = 1035,
+					},
+					["Starfall Effect"] = {
+						["min"] = 139,
+						["hit"] = 30,
+						["totalhits"] = 30,
+						["id"] = 65822,
+						["max"] = 199,
+						["damage"] = 4815,
+					},
+					["Wrath"] = {
+						["min"] = 66,
+						["critical"] = 25,
+						["hit"] = 36,
+						["totalhits"] = 61,
+						["id"] = 5176,
+						["max"] = 200,
+						["damage"] = 6923,
+					},
+					["Moonlight"] = {
+						["min"] = 40,
+						["hit"] = 28,
+						["totalhits"] = 28,
+						["id"] = 65912,
+						["max"] = 43,
+						["damage"] = 1180,
+					},
+					["Mangle"] = {
+						["min"] = 240,
+						["critical"] = 1,
+						["hit"] = 1,
+						["totalhits"] = 2,
+						["id"] = 33917,
+						["max"] = 501,
+						["damage"] = 741,
+					},
+					["Sentinel Huntress: Attack"] = {
+						["min"] = 2,
+						["hit"] = 2,
+						["totalhits"] = 2,
+						["id"] = 6603,
+						["max"] = 20,
+						["damage"] = 22,
+					},
+					["Tarindrella: Attack"] = {
+						["min"] = 20,
+						["hit"] = 1,
+						["totalhits"] = 1,
+						["id"] = 6603,
+						["max"] = 20,
+						["damage"] = 20,
+					},
+					["Attack"] = {
+						["min"] = 31,
+						["critical"] = 36,
+						["hit"] = 63,
+						["totalhits"] = 99,
+						["id"] = 6603,
+						["max"] = 129,
+						["damage"] = 6585,
+					},
+				},
+				["time"] = 155,
+				["healed"] = {
+					["Player-60-0A5ECB38"] = {
+						["role"] = "NONE",
+						["name"] = "Attiqus",
+						["amount"] = 425,
+						["class"] = "DRUID",
+						["shielding"] = 0,
+					},
+				},
+				["shielding"] = 0,
+				["id"] = "Player-60-0A5ECB38",
+				["healing"] = 425,
+				["name"] = "Attiqus",
+				["damagetakenspells"] = {
+					["Fireball"] = {
+						["crushing"] = 0,
+						["id"] = 9053,
+						["damage"] = 11,
+						["max"] = 11,
+						["name"] = "Fireball",
+						["glancing"] = 0,
+						["multistrike"] = 0,
+						["critical"] = 0,
+						["blocked"] = 0,
+						["totalhits"] = 1,
+						["resisted"] = 1,
+						["min"] = 11,
+						["absorbed"] = 0,
+					},
+					["Wrath"] = {
+						["crushing"] = 0,
+						["id"] = 9739,
+						["damage"] = 33,
+						["max"] = 9,
+						["name"] = "Wrath",
+						["glancing"] = 0,
+						["multistrike"] = 0,
+						["critical"] = 0,
+						["blocked"] = 0,
+						["totalhits"] = 4,
+						["resisted"] = 0,
+						["min"] = 7,
+						["absorbed"] = 0,
+					},
+					["Shoot"] = {
+						["crushing"] = 0,
+						["id"] = 6660,
+						["damage"] = 6,
+						["max"] = 6,
+						["name"] = "Shoot",
+						["glancing"] = 0,
+						["multistrike"] = 0,
+						["critical"] = 0,
+						["blocked"] = 0,
+						["totalhits"] = 1,
+						["resisted"] = 0,
+						["min"] = 6,
+						["absorbed"] = 0,
+					},
+					["Poison"] = {
+						["crushing"] = 0,
+						["id"] = 11918,
+						["damage"] = 1,
+						["max"] = 1,
+						["name"] = "Poison",
+						["glancing"] = 0,
+						["multistrike"] = 0,
+						["critical"] = 0,
+						["blocked"] = 0,
+						["totalhits"] = 1,
+						["resisted"] = 0,
+						["min"] = 1,
+						["absorbed"] = 0,
+					},
+					["Water Shield"] = {
+						["crushing"] = 0,
+						["id"] = 34828,
+						["damage"] = 8,
+						["max"] = 5,
+						["name"] = "Water Shield",
+						["glancing"] = 0,
+						["multistrike"] = 0,
+						["critical"] = 0,
+						["blocked"] = 0,
+						["totalhits"] = 2,
+						["resisted"] = 0,
+						["min"] = 3,
+						["absorbed"] = 0,
+					},
+					["Attack"] = {
+						["crushing"] = 0,
+						["id"] = 6603,
+						["damage"] = 341,
+						["max"] = 13,
+						["name"] = "Attack",
+						["glancing"] = 0,
+						["multistrike"] = 0,
+						["critical"] = 0,
+						["blocked"] = 0,
+						["totalhits"] = 99,
+						["resisted"] = 0,
+						["min"] = 1,
+						["absorbed"] = 0,
+					},
+				},
+				["deathlog"] = {
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["spellid"] = 59913,
+						["srcname"] = "Attiqus",
+						["hp"] = 1458,
+						["ts"] = 1460667063.915,
+					}, -- [1]
+					{
+						["ts"] = 1460667067.597,
+						["amount"] = 0,
+						["spellid"] = 59913,
+						["srcname"] = "Attiqus",
+						["hp"] = 1458,
+						["absorb"] = 0,
+					}, -- [2]
+					{
+						["ts"] = 1460667077.031,
+						["amount"] = 8,
+						["absorb"] = 0,
+						["srcname"] = "Attiqus",
+						["hp"] = 1458,
+						["spellid"] = 59913,
+					}, -- [3]
+					{
+						["ts"] = 1460667079.047,
+						["amount"] = 0,
+						["srcname"] = "Attiqus",
+						["spellid"] = 59913,
+						["hp"] = 1458,
+						["absorb"] = 0,
+					}, -- [4]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["spellid"] = 59913,
+						["srcname"] = "Attiqus",
+						["hp"] = 1458,
+						["ts"] = 1460666919.816,
+					}, -- [5]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["spellid"] = 59913,
+						["srcname"] = "Attiqus",
+						["hp"] = 1458,
+						["ts"] = 1460666933.654,
+					}, -- [6]
+					{
+						["ts"] = 1460666935.54,
+						["amount"] = 0,
+						["hp"] = 1458,
+						["srcname"] = "Attiqus",
+						["spellid"] = 59913,
+						["absorb"] = 0,
+					}, -- [7]
+					{
+						["ts"] = 1460666943.057,
+						["amount"] = 0,
+						["spellid"] = 59913,
+						["srcname"] = "Attiqus",
+						["hp"] = 1458,
+						["absorb"] = 0,
+					}, -- [8]
+					{
+						["ts"] = 1460666947.348,
+						["amount"] = 0,
+						["absorb"] = 0,
+						["srcname"] = "Attiqus",
+						["spellid"] = 59913,
+						["hp"] = 1458,
+					}, -- [9]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["spellid"] = 59913,
+						["srcname"] = "Attiqus",
+						["hp"] = 1458,
+						["ts"] = 1460666952.907,
+					}, -- [10]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["spellid"] = 59913,
+						["srcname"] = "Attiqus",
+						["hp"] = 1458,
+						["ts"] = 1460666956.064,
+					}, -- [11]
+					{
+						["ts"] = 1460666960.707,
+						["amount"] = 7,
+						["absorb"] = 0,
+						["spellid"] = 59913,
+						["srcname"] = "Attiqus",
+						["hp"] = 1458,
+					}, -- [12]
+					{
+						["ts"] = 1460666963.684,
+						["amount"] = 9,
+						["absorb"] = 0,
+						["srcname"] = "Attiqus",
+						["hp"] = 1458,
+						["spellid"] = 59913,
+					}, -- [13]
+					{
+						["ts"] = 1460667053.568,
+						["amount"] = -7,
+						["srcname"] = "Kobold Digger",
+						["spellid"] = 88163,
+						["hp"] = 1458,
+					}, -- [14]
+					{
+						["ts"] = 1460667053.568,
+						["amount"] = 7,
+						["absorb"] = 0,
+						["srcname"] = "Attiqus",
+						["spellid"] = 59913,
+						["hp"] = 1458,
+					}, -- [15]
+					["pos"] = 5,
+				},
+				["damagetaken"] = 400,
+				["ffdamagedonetargets"] = {
+				},
+				["alertCount"] = 0,
+				["role"] = "NONE",
+				["dispells"] = 0,
+				["alert"] = {
+				},
+				["multistrikes"] = 0,
+			}, -- [1]
+			{
+				["healingabsorbed"] = 0,
+				["ffdamagedone"] = 0,
+				["ffdamagedonespells"] = {
+				},
+				["damaged"] = {
+				},
+				["dispells"] = 1,
+				["ovale"] = 0,
+				["role"] = "NONE",
+				["time"] = 0,
+				["interrupts"] = 0,
+				["ovaleMax"] = 0,
+				["alertDamage"] = 0,
+				["healing"] = 0,
+				["damage"] = 0,
+				["damagespells"] = {
+				},
+				["shielding"] = 0,
+				["damagetaken"] = 0,
+				["deathlog"] = {
+				},
+				["id"] = "Creature-0-60-1-58-49480-00000FAB9E",
+				["maxhp"] = 0,
+				["auras"] = {
+				},
+				["damagetakenspells"] = {
+				},
+				["name"] = "Tarindrella",
+				["healed"] = {
+				},
+				["ffdamagedonetargets"] = {
+				},
+				["alertCount"] = 0,
+				["overhealing"] = 0,
+				["healingspells"] = {
+				},
+				["alert"] = {
+				},
+				["multistrikes"] = 0,
+			}, -- [2]
+		},
+		["deaths"] = 0,
+		["mobs"] = {
+			["Grimmaw"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 139,
+						["done"] = 9,
+						["role"] = "NONE",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 139,
+				["done"] = 9,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Gnarlpine Augur"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 1309,
+						["done"] = 35,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1309,
+				["done"] = 35,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Gnarlpine Corruption Totem"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 85,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 85,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Githyiss the Vile"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 159,
+						["done"] = 12,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+					["Tarindrella"] = {
+						["taken"] = 20,
+						["done"] = 0,
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 179,
+				["done"] = 12,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Bloodfeather Fury"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 2017,
+						["done"] = 17,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 2017,
+				["done"] = 17,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Gnarlpine Ursa"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 281,
+						["done"] = 11,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 281,
+				["done"] = 11,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Grellkin"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 753,
+						["done"] = 3,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+					["Void Tendril"] = {
+						["taken"] = 18,
+						["done"] = 0,
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 771,
+				["done"] = 3,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Gnarlpine Shaman"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 1836,
+						["done"] = 23,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1836,
+				["done"] = 23,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Nightsaber"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 116,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 116,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+			["Coyote"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 1604,
+						["done"] = 21,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1604,
+				["done"] = 21,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Bogling"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 311,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 311,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Murloc Coastrunner"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 377,
+						["done"] = 8,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 377,
+				["done"] = 8,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Ursal the Mauler"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 534,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 534,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Homeless Stormwind Citizen"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 199,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 199,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Deer"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 146,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 146,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Elder Timberling"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 2024,
+						["done"] = 10,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 2024,
+				["done"] = 10,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Young Thistle Boar"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 66,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 66,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Riverpaw Gnoll"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 479,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 479,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Gnarlpine Warrior"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 431,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 431,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["West Plains Drifter"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 1007,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1007,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Riverpaw Scout"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 322,
+						["done"] = 6,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 322,
+				["done"] = 6,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Saromar"] = {
+				["players"] = {
+				},
+				["hdone"] = 8,
+				["hdonespell"] = {
+					["Swift Hand of Justice"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 8,
+						["healing"] = 8,
+						["overhealing"] = 69,
+						["hits"] = 4,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 8,
+				["htakenspell"] = {
+					["Swift Hand of Justice"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 8,
+						["healing"] = 8,
+						["overhealing"] = 69,
+						["hits"] = 4,
+					},
+				},
+			},
+			["Webwood Spider"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 2175,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 2175,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Kobold Digger"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 3780,
+						["done"] = 7,
+						["role"] = "NONE",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 7,
+				["taken"] = 3780,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Rageclaw"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 122,
+						["done"] = 9,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 122,
+				["done"] = 9,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Bloodfeather Sorceress"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 0,
+						["done"] = 11,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 0,
+				["done"] = 11,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Corrupted Minion"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 2851,
+						["done"] = 37,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 2851,
+				["done"] = 37,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Wolf"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Mend Pet"] = {
+						["min"] = 12,
+						["crits"] = 0,
+						["max"] = 12,
+						["healing"] = 12,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 12,
+				["hdonespell"] = {
+				},
+			},
+			["Gnarlpine Mystic"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 1283,
+						["done"] = 33,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1283,
+				["done"] = 33,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Ferocitas the Dream Eater"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 182,
+						["done"] = 6,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 182,
+				["done"] = 6,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Bloodfeather Matriarch"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 1115,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1115,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Gnarlpine Defender"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 1436,
+						["done"] = 7,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+					["Sentinel Huntress"] = {
+						["taken"] = 22,
+						["done"] = 0,
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1458,
+				["done"] = 7,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Young Nightsaber"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 1049,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1049,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Greenpaw"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 127,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 127,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Giant Webwood Spider"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 305,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 305,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Gnarlpine Ambusher"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 2565,
+						["done"] = 25,
+						["role"] = "NONE",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 2565,
+				["done"] = 25,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Bloodfeather Wind Witch"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 1583,
+						["done"] = 24,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1583,
+				["done"] = 24,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Astrlyn"] = {
+				["players"] = {
+				},
+				["hdone"] = 12,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Mend Pet"] = {
+						["min"] = 12,
+						["crits"] = 0,
+						["max"] = 12,
+						["healing"] = 12,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Training Dummy"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 113,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 113,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Corrupted Gnarlpine"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 783,
+						["done"] = 10,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 783,
+				["done"] = 10,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Bough of Corruption"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 2701,
+						["done"] = 3,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 2701,
+				["done"] = 3,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Timberling"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 4166,
+						["done"] = 33,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 4166,
+				["done"] = 33,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Timberling Mire Beast"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 923,
+						["done"] = 12,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 923,
+				["done"] = 12,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Corrupted Servant"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 771,
+						["done"] = 10,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 771,
+				["done"] = 10,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Grell"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 1116,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1116,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Murloc Raider"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 1549,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1549,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Murloc Minor Oracle"] = {
+				["players"] = {
+					["Attiqus"] = {
+						["taken"] = 1321,
+						["done"] = 18,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1321,
+				["done"] = 18,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+		},
+		["mobtaken"] = 46271,
+		["ovale"] = 0,
+		["healing"] = 425,
+		["overhealing"] = 8062,
+		["alertDamage"] = 0,
+		["starttime"] = 1460644153,
+		["damagetaken"] = 400,
+		["name"] = "Total",
+		["alertCount"] = 0,
+		["shielding"] = 0,
+		["mobhdone"] = 20,
+		["last_action"] = 1460644153,
+		["multistrikes"] = 0,
+	},
+}

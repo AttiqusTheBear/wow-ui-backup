@@ -1,0 +1,677 @@
+<Bindings>
+	<Binding name="OPT_MAJOR_CDS_RAID_ONLY" header="GENERAL" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:OptionsKeybind("OPT_MAJOR_CDS_RAID_ONLY");
+	</Binding>
+	<Binding name="OPT_POTION" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:OptionsKeybind("OPT_POTION");
+	</Binding>
+	<Binding name="OPT_DRAUGHT_OF_SOULS" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_DRAUGHT_OF_SOULS");
+	</Binding>
+	<Binding name="OPT_SINGLE_TARGET" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SINGLE_TARGET");
+	</Binding>
+	<Binding name="OPT_MULTI_DOT" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:OptionsKeybind("OPT_MULTI_DOT");
+	</Binding>
+	<Binding name="OPT_ENEMIES_TAGGED" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:OptionsKeybind("OPT_ENEMIES_TAGGED");
+	</Binding>
+	<Binding name="OPT_MELEE_RANGE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:OptionsKeybind("OPT_MELEE_RANGE");
+	</Binding>
+	<Binding name="OPT_MOVING" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:OptionsKeybind("OPT_MOVING");
+	</Binding>
+	<Binding name="OPT_RANGE_CHECK" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:OptionsKeybind("OPT_RANGE_CHECK");
+	</Binding>
+	<Binding name="OPT_INTERRUPT" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:OptionsKeybind("OPT_INTERRUPT");
+	</Binding>
+	<Binding name="OPT_ARCANE_TORRENT_INTERRUPT" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:OptionsKeybind("OPT_ARCANE_TORRENT_INTERRUPT");
+	</Binding>
+
+	<Binding name="OPT_ANTI_MAGIC_SHELL" header="DEATH_KNIGHT_COMMON" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ANTI_MAGIC_SHELL");
+	</Binding>
+	<Binding name="OPT_ICEBOUND_FORTITUDE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ICEBOUND_FORTITUDE");
+	</Binding>
+	<Binding name="OPT_DEATH_STRIKE_SUCCOR" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_DEATH_STRIKE_SUCCOR");
+	</Binding>
+
+	<Binding name="OPT_FROSTSCYTHE" header="DEATH_KNIGHT_FROST" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_FROSTSCYTHE");
+	</Binding>
+	<Binding name="OPT_REMORSELESS_WINTER" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_REMORSELESS_WINTER");
+	</Binding>
+	<Binding name="OPT_BREATH_OF_SINDRAGOSA" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_BREATH_OF_SINDRAGOSA");
+	</Binding>
+	<Binding name="OPT_EMPOWER_RUNE_WEAPON" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_EMPOWER_RUNE_WEAPON");
+	</Binding>
+	<Binding name="OPT_GLACIAL_ADVANCE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_GLACIAL_ADVANCE");
+	</Binding>
+	<Binding name="OPT_HORN_OF_WINTER" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_HORN_OF_WINTER");
+	</Binding>
+	<Binding name="OPT_OBLITERATION" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_OBLITERATION");
+	</Binding>
+	<Binding name="OPT_PILLAR_OF_FROST" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_PILLAR_OF_FROST");
+	</Binding>
+	<Binding name="OPT_SINDRAGOSA_FURY" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SINDRAGOSA_FURY");
+	</Binding>
+
+	<Binding name="OPT_DND" header="DEATH_KNIGHT_UNHOLY" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_DND");
+	</Binding>
+	<Binding name="OPT_EPIDEMIC" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_EPIDEMIC");
+	</Binding>
+	<Binding name="OPT_APOCALYPSE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_APOCALYPSE");
+	</Binding>
+	<Binding name="OPT_ARMY_OF_THE_DEAD" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ARMY_OF_THE_DEAD");
+	</Binding>
+	<Binding name="OPT_BLIGHTED_RUNE_WEAPON" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_BLIGHTED_RUNE_WEAPON");
+	</Binding>
+	<Binding name="OPT_DARK_TRANSFORMATION" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_DARK_TRANSFORMATION");
+	</Binding>
+	<Binding name="OPT_GARGOYLE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_GARGOYLE");
+	</Binding>
+	<Binding name="OPT_SOUL_REAPER" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SOUL_REAPER");
+	</Binding>
+	<Binding name="OPT_CORPSE_SHIELD" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_CORPSE_SHIELD");
+	</Binding>
+
+	<Binding name="OPT_RENEWAL" header="DRUID_COMMON" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_RENEWAL");
+	</Binding>
+
+	<Binding name="OPT_STARFALL" header="DRUID_BALANCE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_STARFALL");
+	</Binding>
+	<Binding name="OPT_STELLAR_FLARE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_STELLAR_FLARE");
+	</Binding>
+	<Binding name="OPT_BLESSING_ANCIENTS" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_BLESSING_ANCIENTS");
+	</Binding>
+	<Binding name="OPT_MOONKIN_FORM" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_MOONKIN_FORM");
+	</Binding>
+	<Binding name="OPT_ASTRAL_COMMUNION" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ASTRAL_COMMUNION");
+	</Binding>
+	<Binding name="OPT_CELESTIAL_ALIGNMENT" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_CELESTIAL_ALIGNMENT");
+	</Binding>
+	<Binding name="OPT_FORCE_OF_NATURE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_FORCE_OF_NATURE");
+	</Binding>
+	<Binding name="OPT_FURY_OF_ELUNE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_FURY_OF_ELUNE");
+	</Binding>
+	<Binding name="OPT_WARRIOR_OF_ELUNE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_WARRIOR_OF_ELUNE");
+	</Binding>
+	<Binding name="OPT_BARKSKIN" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_BARKSKIN");
+	</Binding>
+	<Binding name="OPT_SCYTHE_SPELL_CLIPPING" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SCYTHE_SPELL_CLIPPING");
+	</Binding>
+
+	<Binding name="OPT_MOONFIRE_LUNAR" header="DRUID_FERAL" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_MOONFIRE_LUNAR");
+	</Binding>
+	<Binding name="OPT_SWIPE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SWIPE");
+	</Binding>
+	<Binding name="OPT_THRASH" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_THRASH");
+	</Binding>
+	<Binding name="OPT_BRUTAL_SLASH" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_BRUTAL_SLASH");
+	</Binding>
+	<Binding name="OPT_CAT_FORM" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_CAT_FORM");
+	</Binding>
+	<Binding name="OPT_ASHAMANES_FRENZY" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ASHAMANES_FRENZY");
+	</Binding>
+	<Binding name="OPT_BERSERK" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_BERSERK");
+	</Binding>
+	<Binding name="OPT_ELUNES_GUIDANCE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ELUNES_GUIDANCE");
+	</Binding>
+	<Binding name="OPT_REGROWTH_BLOODTALONS" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_REGROWTH_BLOODTALONS");
+	</Binding>
+	<Binding name="OPT_SAVAGE_ROAR" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SAVAGE_ROAR");
+	</Binding>
+	<Binding name="OPT_SHADOWMELD" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SHADOWMELD");
+	</Binding>
+	<Binding name="OPT_SURVIVAL_INSTINCTS" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SURVIVAL_INSTINCTS");
+	</Binding>
+
+	<Binding name="OPT_BARRAGE" header="HUNTER_COMMON" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_BARRAGE");
+	</Binding>
+	<Binding name="OPT_AMOC" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_AMOC");
+	</Binding>
+	<Binding name="OPT_ASPECT_TURTLE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ASPECT_TURTLE");
+	</Binding>
+	<Binding name="OPT_FEIGN_DEATH" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_FEIGN_DEATH");
+	</Binding>
+	<Binding name="OPT_EXHILARATION" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_EXHILARATION");
+	</Binding>
+
+	<Binding name="OPT_VOLLEY" header="HUNTER_BEAST_MASTERY" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_VOLLEY");
+	</Binding>
+	<Binding name="OPT_ASPECT_WILD" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ASPECT_WILD");
+	</Binding>
+	<Binding name="OPT_BEASTIAL_WRATH" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_BEASTIAL_WRATH");
+	</Binding>
+	<Binding name="OPT_CHIMAERA_SHOT" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_CHIMAERA_SHOT");
+	</Binding>
+	<Binding name="OPT_DIRE_BEAST" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_DIRE_BEAST");
+	</Binding>
+	<Binding name="OPT_STAMPEDE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_STAMPEDE");
+	</Binding>
+	<Binding name="OPT_TITANS_THUNDER" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_TITANS_THUNDER");
+	</Binding>
+
+	<Binding name="OPT_MARKED_SHOT" header="HUNTER_MARKSMANSHIP" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_MARKED_SHOT");
+	</Binding>
+	<Binding name="OPT_SIDEWINDERS" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SIDEWINDERS");
+	</Binding>
+	<Binding name="OPT_BURSTING_SHOT" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_BURSTING_SHOT");
+	</Binding>
+	<Binding name="OPT_EXPLOSIVE_SHOT" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_EXPLOSIVE_SHOT");
+	</Binding>
+	<Binding name="OPT_EXPLOSIVE_SHOT_DETONATE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_EXPLOSIVE_SHOT_DETONATE");
+	</Binding>
+	<Binding name="OPT_PIERCING_SHOT" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_PIERCING_SHOT");
+	</Binding>
+	<Binding name="OPT_TRUESHOT" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_TRUESHOT");
+	</Binding>
+	<Binding name="OPT_WINDBURST" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_WINDBURST");
+	</Binding>
+
+	<Binding name="OPT_CARVE" header="HUNTER_SURVIVAL" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_CARVE");
+	</Binding>
+	<Binding name="OPT_CALTROPS" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_CALTROPS");
+	</Binding>
+	<Binding name="OPT_DRAGONSFIRE_GRENADE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_DRAGONSFIRE_GRENADE");
+	</Binding>
+	<Binding name="OPT_EXPLOSIVE_TRAP" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_EXPLOSIVE_TRAP");
+	</Binding>
+	<Binding name="OPT_EAGLE_ASPECT" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_EAGLE_ASPECT");
+	</Binding>
+	<Binding name="OPT_BUTCHERY" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_BUTCHERY");
+	</Binding>
+	<Binding name="OPT_FURY_OF_THE_EAGLE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_FURY_OF_THE_EAGLE");
+	</Binding>
+	<Binding name="OPT_SNAKE_HUNTER" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SNAKE_HUNTER");
+	</Binding>
+	<Binding name="OPT_SPITTING_COBRA" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SPITTING_COBRA");
+	</Binding>
+	<Binding name="OPT_STEEL_TRAP" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_STEEL_TRAP");
+	</Binding>
+	<Binding name="OPT_THROWING_AXES" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_THROWING_AXES");
+	</Binding>
+
+	<Binding name="OPT_MIRROR_IMAGE" header="MAGE_COMMON" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_MIRROR_IMAGE");
+	</Binding>
+	<Binding name="OPT_POWER_RUNE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_POWER_RUNE");
+	</Binding>
+	<Binding name="OPT_TIME_WARP" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_TIME_WARP");
+	</Binding>
+	<Binding name="OPT_ICE_BARRIER" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ICE_BARRIER");
+	</Binding>
+	<Binding name="OPT_ICE_BLOCK" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ICE_BLOCK");
+	</Binding>
+
+	<Binding name="OPT_ARCANE_EXPLOSION" header="MAGE_ARCANE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ARCANE_EXPLOSION");
+	</Binding>
+	<Binding name="OPT_ARCANE_FAMILIAR" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ARCANE_FAMILIAR");
+	</Binding>
+	<Binding name="OPT_ARCANE_ORB" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ARCANE_ORB");
+	</Binding>
+	<Binding name="OPT_ARCANE_POWER" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ARCANE_POWER");
+	</Binding>
+	<Binding name="OPT_CHARGED_UP" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_CHARGED_UP");
+	</Binding>
+	<Binding name="OPT_EVOCATION" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_EVOCATION");
+	</Binding>
+	<Binding name="OPT_MARK_OF_ALUNETH" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_MARK_OF_ALUNETH");
+	</Binding>
+	<Binding name="OPT_NETHER_TEMPEST" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_NETHER_TEMPEST");
+	</Binding>
+	<Binding name="OPT_PRESENCE_OF_MIND" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_PRESENCE_OF_MIND");
+	</Binding>
+	<Binding name="OPT_SUPERNOVA" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SUPERNOVA");
+	</Binding>
+
+	<Binding name="OPT_DRAGONS_BREATH" header="MAGE_FIRE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_DRAGONS_BREATH");
+	</Binding>
+	<Binding name="OPT_FLAMESTRIKE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_FLAMESTRIKE");
+	</Binding>
+	<Binding name="OPT_LIVING_BOMB" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_LIVING_BOMB");
+	</Binding>
+	<Binding name="OPT_BLAST_WAVE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_BLAST_WAVE");
+	</Binding>
+	<Binding name="OPT_CINDERSTORM" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_CINDERSTORM");
+	</Binding>
+	<Binding name="OPT_METEOR" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_METEOR");
+	</Binding>
+	<Binding name="OPT_COMBUSTION" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_COMBUSTION");
+	</Binding>
+	<Binding name="OPT_PHOENIXS_FLAMES" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_PHOENIXS_FLAMES");
+	</Binding>
+	<Binding name="OPT_FLAMESTRIKE_HOT_STREAK" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_FLAMESTRIKE_HOT_STREAK");
+	</Binding>
+
+	<Binding name="OPT_BLIZZARD" header="MAGE_FROST" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_BLIZZARD");
+	</Binding>
+	<Binding name="OPT_FROST_BOMB" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_FROST_BOMB");
+	</Binding>
+	<Binding name="OPT_ICE_NOVA" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ICE_NOVA");
+	</Binding>
+	<Binding name="OPT_COMET_STORM" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_COMET_STORM");
+	</Binding>
+	<Binding name="OPT_EBONBOLT" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_EBONBOLT");
+	</Binding>
+	<Binding name="OPT_FROZEN_ORB" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_FROZEN_ORB");
+	</Binding>
+	<Binding name="OPT_GLACIAL_SPIKE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_GLACIAL_SPIKE");
+	</Binding>
+	<Binding name="OPT_ICY_VEINS" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ICY_VEINS");
+	</Binding>
+	<Binding name="OPT_RAY_OF_FROST" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_RAY_OF_FROST");
+	</Binding>
+	<Binding name="OPT_BLIZZARD_FREEZING_RAIN" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_BLIZZARD_FREEZING_RAIN");
+	</Binding>
+	<Binding name="OPT_WATER_JET" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_WATER_JET");
+	</Binding>
+
+	<Binding name="OPT_FISTS_OF_FURY" header="MONK_WINDWALKER" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_FISTS_OF_FURY");
+	</Binding>
+	<Binding name="OPT_RUSHING_JADE_WIND" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_RUSHING_JADE_WIND");
+	</Binding>
+	<Binding name="OPT_SPINNING_CRANE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SPINNING_CRANE");
+	</Binding>
+	<Binding name="OPT_CHI_BURST" header="MONK_WINDWALKER" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_CHI_BURST");
+	</Binding>
+	<Binding name="OPT_CHI_WAVE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_CHI_WAVE");
+	</Binding>
+	<Binding name="OPT_ENERGIZING_ELIXIR" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ENERGIZING_ELIXIR");
+	</Binding>
+	<Binding name="OPT_INVOKE_XUEN" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_INVOKE_XUEN");
+	</Binding>
+	<Binding name="OPT_SERENITY" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SERENITY");
+	</Binding>
+	<Binding name="OPT_SEF" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SEF");
+	</Binding>
+	<Binding name="OPT_STRIKE_WINDLORD" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_STRIKE_WINDLORD");
+	</Binding>
+	<Binding name="OPT_DEATH_TOUCH" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_DEATH_TOUCH");
+	</Binding>
+	<Binding name="OPT_WHIRLING_DRAGON_PUNCH" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_WHIRLING_DRAGON_PUNCH");
+	</Binding>
+	<Binding name="OPT_TOUCH_OF_KARMA" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_TOUCH_OF_KARMA");
+	</Binding>
+	<Binding name="OPT_HEALING_ELIXIR" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_HEALING_ELIXIR");
+	</Binding>
+
+	<Binding name="OPT_CONSECRATION" header="PALADIN_RETRIBUTION" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_CONSECRATION");
+	</Binding>
+	<Binding name="OPT_DIVINE_HAMMER" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_DIVINE_HAMMER");
+	</Binding>
+	<Binding name="OPT_DIVINE_STORM" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_DIVINE_STORM");
+	</Binding>
+	<Binding name="OPT_HOLY_WRATH" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_HOLY_WRATH");
+	</Binding>
+	<Binding name="OPT_AVENGING_WRATH" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_AVENGING_WRATH");
+	</Binding>
+	<Binding name="OPT_EXECUTION_SENTENCE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_EXECUTION_SENTENCE");
+	</Binding>
+	<Binding name="OPT_WAKE_OF_ASHES" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_WAKE_OF_ASHES");
+	</Binding>
+	<Binding name="OPT_DIVINE_SHIELD" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_DIVINE_SHIELD");
+	</Binding>
+	<Binding name="OPT_EYE_FOR_AN_EYE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_EYE_FOR_AN_EYE");
+	</Binding>
+	<Binding name="OPT_SHIELD_OF_VENGEANCE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SHIELD_OF_VENGEANCE");
+	</Binding>
+	<Binding name="OPT_LAY_ON_HANDS" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_LAY_ON_HANDS");
+	</Binding>
+	<Binding name="OPT_WORD_OF_GLORY" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_WORD_OF_GLORY");
+	</Binding>
+
+	<Binding name="OPT_SHADOW_CRASH" header="BINDING_HEADER_PRIEST_SHADOW" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SHADOW_CRASH");
+	</Binding>
+	<Binding name="OPT_SHADOWFORM" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SHADOWFORM");
+	</Binding>
+	<Binding name="OPT_DISPERSION_SURRENDER" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_DISPERSION_SURRENDER");
+	</Binding>
+	<Binding name="OPT_POWER_INFUSION" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_POWER_INFUSION");
+	</Binding>
+	<Binding name="OPT_SHADOW_WORD_VOID" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SHADOW_WORD_VOID");
+	</Binding>
+	<Binding name="OPT_SHADOWFIEND" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SHADOWFIEND");
+	</Binding>
+	<Binding name="OPT_SURRENDER" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SURRENDER");
+	</Binding>
+	<Binding name="OPT_VOID_ERRUPTION" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_VOID_ERRUPTION");
+	</Binding>
+	<Binding name="OPT_VOID_TORRENT" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_VOID_TORRENT");
+	</Binding>
+	<Binding name="OPT_DISPERSION" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_DISPERSION");
+	</Binding>
+	<Binding name="OPT_POWER_WORD_SHIELD" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_POWER_WORD_SHIELD");
+	</Binding>
+
+	<Binding name="OPT_ASCENDANCE" header="SHAMAN_COMMON" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ASCENDANCE");
+	</Binding>
+	<Binding name="OPT_ASTRAL_SHIFT" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ASTRAL_SHIFT");
+	</Binding>
+
+	<Binding name="OPT_EARTHQUAKE" header="SHAMAN_ELEMENTAL" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_EARTHQUAKE");
+	</Binding>
+	<Binding name="OPT_LIQUID_MAGMA_TOTEM" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_LIQUID_MAGMA_TOTEM");
+	</Binding>
+	<Binding name="OPT_ELEMENTAL_BLAST" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ELEMENTAL_BLAST");
+	</Binding>
+	<Binding name="OPT_ELEMENTAL_MASTERY" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ELEMENTAL_MASTERY");
+	</Binding>
+	<Binding name="OPT_GNAWED_THUMB_RING" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_GNAWED_THUMB_RING");
+	</Binding>
+	<Binding name="OPT_ICEFURY" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_ICEFURY");
+	</Binding>
+	<Binding name="OPT_STORMKEEPER" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_STORMKEEPER");
+	</Binding>
+	<Binding name="OPT_SUMMON_ELEMENTAL" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SUMMON_ELEMENTAL");
+	</Binding>
+	<Binding name="OPT_TOTEM_MASTERY" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_TOTEM_MASTERY");
+	</Binding>
+
+	<Binding name="OPT_CRASH_LIGHTNING" header="SHAMAN_ENHANCEMENT" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_CRASH_LIGHTNING");
+	</Binding>
+	<Binding name="OPT_LIGHTNING_SHIELD" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_LIGHTNING_SHIELD");
+	</Binding>
+	<Binding name="OPT_DOOM_WINDS" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_DOOM_WINDS");
+	</Binding>
+	<Binding name="OPT_EARTHEN_SPIKE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_EARTHEN_SPIKE");
+	</Binding>
+	<Binding name="OPT_FERAL_SPIRIT" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_FERAL_SPIRIT");
+	</Binding>
+	<Binding name="OPT_FURY_OF_AIR" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_FURY_OF_AIR");
+	</Binding>
+	<Binding name="OPT_SUNDERING" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SUNDERING");
+	</Binding>
+	<Binding name="OPT_WINDSONG" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_WINDSONG");
+	</Binding>
+
+	<Binding name="OPT_EMPOWERED_LIFE_TAP" header="WARLOCK_COMMON" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_EMPOWERED_LIFE_TAP");
+	</Binding>
+	<Binding name="OPT_GREATER_DEMONS" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_GREATER_DEMONS");
+	</Binding>
+	<Binding name="OPT_GRIMOIRE_SERVICE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_GRIMOIRE_SERVICE");
+	</Binding>
+	<Binding name="OPT_SOUL_HARVEST" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SOUL_HARVEST");
+	</Binding>
+	<Binding name="OPT_DARK_PACT" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_DARK_PACT");
+	</Binding>
+	<Binding name="OPT_UNENDING_RESOLVE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_UNENDING_RESOLVE");
+	</Binding>
+	<Binding name="OPT_LIFE_TAP" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_LIFE_TAP");
+	</Binding>
+
+	<Binding name="OPT_SEED_CORRUPTION" header="WARLOCK_AFFLICTION" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SEED_CORRUPTION");
+	</Binding>
+	<Binding name="OPT_PHANTOM_SINGULARITY" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_PHANTOM_SINGULARITY");
+	</Binding>
+	<Binding name="OPT_HAUNT" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_HAUNT");
+	</Binding>
+	<Binding name="OPT_REAP_SOULS" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_REAP_SOULS");
+	</Binding>
+	<Binding name="OPT_SOUL_EFFIGY" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SOUL_EFFIGY");
+	</Binding>
+
+	<Binding name="OPT_DEMONWRATH" header="WARLOCK_DEMONOLOGY" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_DEMONWRATH");
+	</Binding>
+	<Binding name="OPT_IMPLOSION" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_IMPLOSION");
+	</Binding>
+	<Binding name="OPT_DEMONIC_EMPOWERMENT" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_DEMONIC_EMPOWERMENT");
+	</Binding>
+	<Binding name="OPT_SHADOWFLAME" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SHADOWFLAME");
+	</Binding>
+	<Binding name="OPT_SUMMON_DARKGLARE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SUMMON_DARKGLARE");
+	</Binding>
+	<Binding name="OPT_THALKIELS_CONSUMPTION" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_THALKIELS_CONSUMPTION");
+	</Binding>
+	<Binding name="OPT_PET_FELSTORM" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_PET_FELSTORM");
+	</Binding>
+
+	<Binding name="OPT_RAIN_OF_FIRE" header="WARLOCK_DESTRUCTION" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_RAIN_OF_FIRE");
+	</Binding>
+	<Binding name="OPT_CATACLYSM" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_CATACLYSM");
+	</Binding>
+	<Binding name="OPT_HAVOC" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_HAVOC");
+	</Binding>
+	<Binding name="OPT_CHANNEL_DEMONFIRE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_CHANNEL_DEMONFIRE");
+	</Binding>
+	<Binding name="OPT_DIMESNIONAL_RIFT" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_DIMESNIONAL_RIFT");
+	</Binding>
+	<Binding name="OPT_SHADOWBURN" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SHADOWBURN");
+	</Binding>
+
+	<Binding name="OPT_BLADESTORM" header="WARRIOR_COMMON" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_BLADESTORM");
+	</Binding>
+	<Binding name="OPT_HEROIC_THROW" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_HEROIC_THROW");
+	</Binding>
+
+	<Binding name="OPT_RAVAGER" header="WARRIOR_ARMS" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_RAVAGER");
+	</Binding>
+	<Binding name="OPT_SHOCKWAVE" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_SHOCKWAVE");
+	</Binding>
+	<Binding name="OPT_WARBREAKER" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_WARBREAKER");
+	</Binding>
+	<Binding name="OPT_WARBREAKER_DEBUFF" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_WARBREAKER_DEBUFF");
+	</Binding>
+	<Binding name="OPT_WEIGHT_OF_THE_EARTH_DEBUFF" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_WEIGHT_OF_THE_EARTH_DEBUFF");
+	</Binding>
+	<Binding name="OPT_MORTAL_STRIKE_DELAY" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_MORTAL_STRIKE_DELAY");
+	</Binding>
+	<Binding name="OPT_VICTORY_RUSH_HEAL" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_VICTORY_RUSH_HEAL");
+	</Binding>
+
+	<Binding name="OPT_DRAGON_ROAR" header="WARRIOR_FURY" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_DRAGON_ROAR");
+	</Binding>
+	<Binding name="OPT_AVATAR" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_AVATAR");
+	</Binding>
+	<Binding name="OPT_BATTLE_CRY" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_BATTLE_CRY");
+	</Binding>
+	<Binding name="OPT_BLOODBATH" category="BINDING_HEADER_ADDON">
+		LunaEclipse_Scripts:ScriptKeybind("OPT_BLOODBATH");
+	</Binding>
+</Bindings>

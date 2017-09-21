@@ -1,0 +1,17 @@
+
+ArmoryLocalSettings = {
+	["playerStatBottomDropdown"] = "SPELL",
+	["Minimap"] = {
+		["Angle"] = 170,
+		["Radius"] = 80,
+		["Hide"] = true,
+	},
+	["playerStatTopDropdown"] = "ATTRIBUTES",
+	["DropDown"] = {
+		["Onyxia"] = 1,
+		["Thunderlord"] = 1,
+		["Earthen Ring"] = 1,
+		["Dalaran"] = 1,
+		["Alexstrasza"] = 1,
+	},
+}

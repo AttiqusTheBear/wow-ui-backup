@@ -1,0 +1,16 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="keybindOverrideRacials.lua"/>
+	<Script file="keybindOverrideDeathKnight.lua"/>
+	<Script file="keybindOverrideDemonHunter.lua"/>
+	<Script file="keybindOverrideDruid.lua"/>
+	<Script file="keybindOverrideHunter.lua"/>
+	<Script file="keybindOverrideMage.lua"/>
+	<Script file="keybindOverrideMonk.lua"/>
+	<Script file="keybindOverridePaladin.lua"/>
+	<Script file="keybindOverridePriest.lua"/>
+	<Script file="keybindOverrideRogue.lua"/>
+	<Script file="keybindOverrideShaman.lua"/>
+	<Script file="keybindOverrideWarlock.lua"/>
+	<Script file="keybindOverrideWarrior.lua"/>
+</Ui>

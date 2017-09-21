@@ -1,0 +1,36 @@
+tag dcd9c5ca1bf68d915f6dd5bee31ee98cd551dcaa 2.22.3-release
+Author:	Hizuro <hizuro@gmx.net>
+Date:	Mon Sep 11 07:09:31 2017 +0200
+
+Tagging as 2.22.3-release
+
+commit d731ff552d4b02772cf28d49907f1cd1e332c578
+Author: Hizuro <hizuro@gmx.net>
+Date:   Mon Sep 11 07:06:20 2017 +0200
+
+    core: minor changes in levelup detection
+
+commit 510c5cb2c056b030d310db73722c643ef548328f
+Author: Hizuro <hizuro@gmx.net>
+Date:   Mon Sep 11 07:05:18 2017 +0200
+
+    core: fix stripped realm names. simple whitespace was not enough.
+
+commit 6b5b38b349fffa69befa5638275d9b9779815ee6
+Author: Hizuro <hizuro@gmx.net>
+Date:   Mon Sep 11 07:02:45 2017 +0200
+
+    speed: changed label
+
+commit 350182857b96a7a90179c2c2b52f41ae390e9d9a
+Author: Hizuro <hizuro@gmx.net>
+Date:   Mon Sep 11 07:01:49 2017 +0200
+
+    friends: minor changes in handling data for sub tooltip
+
+commit 0e39a97ecbd4c8bd8330c23767069881f15a436b
+Author: Hizuro <hizuro@gmx.net>
+Date:   Mon Sep 11 06:58:43 2017 +0200
+
+    artifactweapons: added list and second tooltip for other artifact weapons. changed order of displayed informations. added calculation of current and time to next artifact knowledge beyond 40.
+

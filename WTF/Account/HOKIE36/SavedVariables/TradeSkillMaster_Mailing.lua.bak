@@ -1,0 +1,77 @@
+
+TradeSkillMaster_MailingDB = {
+	["g@ @sendDelay"] = 0.5,
+	["c@Qaldorei - Thunderlord@goldMailTarget"] = "",
+	["c@Attibank - Onyxia@goldMailTarget"] = "",
+	["c@Qaldorei - Thunderlord@goldKeepAmount"] = 1000000,
+	["g@ @helpPlatesShown"] = {
+		["other"] = true,
+		["inbox"] = true,
+		["groups"] = true,
+		["quickSend"] = true,
+	},
+	["c@Capiocorpus - Lightning's Blade@goldMailTarget"] = "",
+	["_hash"] = 3711258,
+	["c@Attiqus - Lightning's Blade@goldMailTarget"] = "",
+	["f@Alliance - Tichondrius@deMailTarget"] = "",
+	["c@Attibank - Onyxia@goldKeepAmount"] = 1000000,
+	["g@ @deleteEmptyNPCMail"] = false,
+	["c@Qaldorei - Tichondrius@goldKeepAmount"] = 1000000,
+	["g@ @displayMoneyCollected"] = true,
+	["f@Alliance - Thunderlord@deMailTarget"] = "",
+	["g@ @deMaxQuality"] = 2,
+	["_version"] = 1,
+	["g@ @showReloadBtn"] = true,
+	["_scopeKeys"] = {
+		["char"] = {
+			"Attiqus - Lightning's Blade", -- [1]
+			"Attibank - Onyxia", -- [2]
+			"Capiocorpus - Lightning's Blade", -- [3]
+			"Qaldorei - Tichondrius", -- [4]
+			"Qaldorei - Thunderlord", -- [5]
+			"Attiqus - Stormrage", -- [6]
+		},
+		["factionrealm"] = {
+			"Alliance - Lightning's Blade", -- [1]
+			"Horde - Onyxia", -- [2]
+			"Alliance - Tichondrius", -- [3]
+			"Alliance - Thunderlord", -- [4]
+			"Alliance - Stormrage", -- [5]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["realm"] = {
+			"Lightning's Blade", -- [1]
+			"Onyxia", -- [2]
+			"Tichondrius", -- [3]
+			"Thunderlord", -- [4]
+			"Stormrage", -- [5]
+		},
+	},
+	["f@Horde - Onyxia@deMailTarget"] = "",
+	["g@ @inboxMessages"] = true,
+	["f@Alliance - Lightning's Blade@deMailTarget"] = "",
+	["g@ @defaultMailTab"] = true,
+	["c@Qaldorei - Tichondrius@goldMailTarget"] = "",
+	["g@ @autoCheck"] = true,
+	["g@ @resendDelay"] = 1,
+	["g@ @defaultPage"] = 1,
+	["f@Alliance - Stormrage@deMailTarget"] = "",
+	["g@ @openMailSound"] = "TSM_NO_SOUND",
+	["c@Attiqus - Stormrage@goldKeepAmount"] = 1000000,
+	["g@ @keepMailSpace"] = 0,
+	["c@Attiqus - Stormrage@goldMailTarget"] = "",
+	["c@Capiocorpus - Lightning's Blade@goldKeepAmount"] = 1000000,
+	["_currentProfile"] = {
+		["Attiqus - Stormrage"] = "Default",
+		["Qaldorei - Tichondrius"] = "Default",
+		["Qaldorei - Thunderlord"] = "Default",
+		["Capiocorpus - Lightning's Blade"] = "Default",
+		["Attibank - Onyxia"] = "Default",
+		["Attiqus - Lightning's Blade"] = "Default",
+	},
+	["g@ @sendMessages"] = true,
+	["c@Attiqus - Lightning's Blade@goldKeepAmount"] = 1000000,
+	["g@ @sendItemsIndividually"] = false,
+}

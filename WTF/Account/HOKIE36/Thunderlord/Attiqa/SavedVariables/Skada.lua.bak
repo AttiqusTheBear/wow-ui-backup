@@ -1,0 +1,315 @@
+
+SkadaPerCharDB = {
+	["sets"] = {
+	},
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 0,
+		["time"] = 0,
+		["interrupts"] = 0,
+		["damage"] = 1597,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "DRUID",
+				["damaged"] = {
+				},
+				["auras"] = {
+					["Moonfire"] = {
+						["name"] = "Moonfire",
+						["active"] = 1,
+						["id"] = 164812,
+						["uptime"] = 9,
+						["auratype"] = "DEBUFF",
+					},
+				},
+				["role"] = "NONE",
+				["time"] = 12,
+				["interrupts"] = 0,
+				["damage"] = 1597,
+				["damagespells"] = {
+					["Wrath"] = {
+						["min"] = 21,
+						["critical"] = 7,
+						["hit"] = 15,
+						["totalhits"] = 22,
+						["id"] = 5176,
+						["max"] = 138,
+						["damage"] = 1429,
+					},
+					["Moonfire"] = {
+						["min"] = 16,
+						["critical"] = 3,
+						["hit"] = 2,
+						["totalhits"] = 5,
+						["id"] = 164812,
+						["max"] = 47,
+						["damage"] = 168,
+					},
+				},
+				["deathlog"] = {
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["srcname"] = "Attiqa",
+						["spellid"] = 59913,
+						["hp"] = 630,
+						["ts"] = 1428505345.857,
+					}, -- [1]
+					{
+						["ts"] = 1428505346.59,
+						["amount"] = -2,
+						["srcname"] = "Bristleback Gun Thief",
+						["hp"] = 628,
+						["spellid"] = 81655,
+					}, -- [2]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["srcname"] = "Attiqa",
+						["spellid"] = 59913,
+						["hp"] = 630,
+						["ts"] = 1428505352.581,
+					}, -- [3]
+					{
+						["ts"] = 1428505353.098,
+						["amount"] = -3,
+						["srcname"] = "Bristleback Gun Thief",
+						["hp"] = 627,
+						["spellid"] = 81655,
+					}, -- [4]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["srcname"] = "Attiqa",
+						["spellid"] = 59913,
+						["hp"] = 630,
+						["ts"] = 1428505357.483,
+					}, -- [5]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["srcname"] = "Attiqa",
+						["spellid"] = 59913,
+						["hp"] = 630,
+						["ts"] = 1428505362.838,
+					}, -- [6]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["srcname"] = "Attiqa",
+						["spellid"] = 59913,
+						["hp"] = 630,
+						["ts"] = 1428505368.499,
+					}, -- [7]
+					{
+						["ts"] = 1428505373.14,
+						["amount"] = 0,
+						["srcname"] = "Attiqa",
+						["spellid"] = 59913,
+						["hp"] = 630,
+						["absorb"] = 0,
+					}, -- [8]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["srcname"] = "Attiqa",
+						["spellid"] = 59913,
+						["hp"] = 630,
+						["ts"] = 1428505388.135,
+					}, -- [9]
+					{
+						["ts"] = 1428505284.219,
+						["amount"] = -1,
+						["srcname"] = "Bristleback Gun Thief",
+						["hp"] = 629,
+						["spellid"] = 81655,
+					}, -- [10]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["srcname"] = "Attiqa",
+						["spellid"] = 59913,
+						["hp"] = 630,
+						["ts"] = 1428505289.166,
+					}, -- [11]
+					{
+						["ts"] = 1428505289.844,
+						["amount"] = -2,
+						["srcname"] = "Bristleback Gun Thief",
+						["hp"] = 628,
+						["spellid"] = 81655,
+					}, -- [12]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["srcname"] = "Attiqa",
+						["spellid"] = 59913,
+						["hp"] = 630,
+						["ts"] = 1428505316.911,
+					}, -- [13]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["srcname"] = "Attiqa",
+						["spellid"] = 59913,
+						["hp"] = 630,
+						["ts"] = 1428505319.863,
+					}, -- [14]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["srcname"] = "Attiqa",
+						["spellid"] = 59913,
+						["hp"] = 630,
+						["ts"] = 1428505339.654,
+					}, -- [15]
+					["pos"] = 10,
+				},
+				["damagetaken"] = 11,
+				["power"] = {
+				},
+				["id"] = "Player-77-09CCA69C",
+				["maxhp"] = 688,
+				["ccbreaks"] = 0,
+				["damagetakenspells"] = {
+					["Shoot"] = {
+						["crushing"] = 0,
+						["id"] = 81655,
+						["damage"] = 11,
+						["max"] = 3,
+						["name"] = "Shoot",
+						["min"] = 1,
+						["multistrike"] = 0,
+						["critical"] = 0,
+						["blocked"] = 0,
+						["totalhits"] = 5,
+						["resisted"] = 0,
+						["glancing"] = 0,
+						["absorbed"] = 0,
+					},
+				},
+				["dispells"] = 0,
+				["healed"] = {
+					["Player-77-09CCA69C"] = {
+						["role"] = "NONE",
+						["name"] = "Attiqa",
+						["amount"] = 0,
+						["class"] = "DRUID",
+						["shielding"] = 0,
+					},
+				},
+				["name"] = "Attiqa",
+				["healing"] = 0,
+				["shielding"] = 0,
+				["healingspells"] = {
+					["Swift Hand of Justice"] = {
+						["shielding"] = 0,
+						["id"] = 59913,
+						["healing"] = 0,
+						["multistrikes"] = 0,
+						["min"] = 0,
+						["multistrike"] = 0,
+						["name"] = "Swift Hand of Justice",
+						["hits"] = 19,
+						["overhealing"] = 228,
+						["max"] = 0,
+						["critical"] = 0,
+						["absorbed"] = 0,
+					},
+				},
+				["overhealing"] = 228,
+				["multistrikes"] = 0,
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["mobs"] = {
+			["Bristleback Gun Thief"] = {
+				["players"] = {
+					["Attiqa"] = {
+						["taken"] = 553,
+						["done"] = 11,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 553,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 11,
+			},
+			["Bristleback Invader"] = {
+				["players"] = {
+					["Attiqa"] = {
+						["taken"] = 297,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 297,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+			["Bristleback Thorncaller"] = {
+				["players"] = {
+					["Attiqa"] = {
+						["taken"] = 579,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 579,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+			["Training Dummy"] = {
+				["players"] = {
+					["Attiqa"] = {
+						["taken"] = 168,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 168,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+		},
+		["mobtaken"] = 1597,
+		["healing"] = 0,
+		["mobdone"] = 11,
+		["power"] = {
+		},
+		["overhealing"] = 228,
+		["damagetaken"] = 11,
+		["name"] = "Total",
+		["starttime"] = 1428504980,
+		["shielding"] = 0,
+		["mobhdone"] = 0,
+		["last_action"] = 1428504980,
+		["multistrikes"] = 0,
+	},
+}

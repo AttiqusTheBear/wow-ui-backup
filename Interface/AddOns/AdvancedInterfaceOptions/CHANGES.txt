@@ -1,0 +1,16 @@
+tag ef3ae03a7508f389bb2d8fa872fab21b664bda93 1.2.0
+Author:	Benjamin Staneck <staneck@gmail.com>
+Date:	Tue Aug 29 17:23:56 2017 +0200
+
+commit 58cc86c60df954617bde26987a9a87d58a5b365e
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Sat Aug 5 22:42:12 2017 +0200
+
+    7.3 sound API change
+
+commit 4858b3f959dd60885432a76a20ea14827e224bda
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Fri Jun 16 23:27:35 2017 +0200
+
+    add ShowClassColorInFriendlyNameplate
+

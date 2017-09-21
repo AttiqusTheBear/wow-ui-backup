@@ -1,0 +1,179 @@
+
+AUCTIONATOR_SAVEDVARS = {
+	["_50000"] = 500,
+	["_2000"] = 100,
+	["_200000"] = 1000,
+	["_10000"] = 200,
+	["_1000000"] = 2500,
+	["_5000000"] = 10000,
+	["STARTING_DISCOUNT"] = 5,
+	["_500"] = 5,
+	["LOG_DE_DATA_X"] = true,
+}
+AUCTIONATOR_PRICING_HISTORY = {
+}
+AUCTIONATOR_SHOPPING_LISTS = {
+	{
+		["items"] = {
+		},
+		["isRecents"] = 1,
+		["name"] = "Recent Searches",
+	}, -- [1]
+	{
+		["items"] = {
+			"Greater Cosmic Essence", -- [1]
+			"Infinite Dust", -- [2]
+			"Dream Shard", -- [3]
+			"Abyss Crystal", -- [4]
+		},
+		["name"] = "Sample Shopping List #1",
+		["isSorted"] = false,
+	}, -- [2]
+}
+AUCTIONATOR_SHOPPING_LISTS_MIGRATED_V2 = true
+AUCTIONATOR_PRICE_DATABASE = {
+	["Stormrage_Alliance"] = {
+	},
+	["Onyxia_Horde"] = {
+	},
+	["Tichondrius_Horde"] = {
+	},
+	["Lightning's Blade_Alliance"] = {
+	},
+	["Tichondrius_Alliance"] = {
+	},
+	["Burning Blade_Horde"] = {
+		["Azurewing Defender's Drape of the Peerless"] = {
+			["H2123"] = 79980000,
+			["mr"] = 79980000,
+			["sc"] = 1,
+			["id"] = "121012:0:0:0",
+			["cc"] = 4,
+		},
+	},
+	["Bleeding Hollow_Horde"] = {
+	},
+	["Thunderlord_Alliance"] = {
+	},
+	["Onyxia_Alliance"] = {
+	},
+	["__dbversion"] = 4,
+}
+AUCTIONATOR_LAST_SCAN_TIME = nil
+AUCTIONATOR_TOONS = {
+	["Qaprica"] = {
+		["firstSeen"] = 1471356578,
+		["firstVersion"] = "4.0.9",
+	},
+	["Attibank"] = {
+		["firstSeen"] = 1470055055,
+		["firstVersion"] = "4.0.8",
+	},
+	["Rezu"] = {
+		["firstSeen"] = 1471380798,
+		["firstVersion"] = "4.0.9",
+	},
+	["Atticook"] = {
+		["firstSeen"] = 1471380681,
+		["firstVersion"] = "4.0.9",
+	},
+	["Granuail"] = {
+		["firstSeen"] = 1471380836,
+		["firstVersion"] = "4.0.9",
+	},
+	["Attiqus"] = {
+		["firstSeen"] = 1469985952,
+		["firstVersion"] = "4.0.8",
+	},
+	["Vildajakten"] = {
+		["firstSeen"] = 1471356465,
+		["firstVersion"] = "4.0.9",
+	},
+	["Qaldorei"] = {
+		["firstSeen"] = 1470237139,
+		["firstVersion"] = "4.0.8",
+	},
+	["Capiocorpus"] = {
+		["firstSeen"] = 1469984677,
+		["firstVersion"] = "4.0.8",
+	},
+	["Attiore"] = {
+		["firstSeen"] = 1471380750,
+		["firstVersion"] = "4.0.9",
+	},
+	["Manannán"] = {
+		["firstSeen"] = 1470236831,
+		["firstVersion"] = "4.0.8",
+	},
+	["Amorracchius"] = {
+		["firstSeen"] = 1471356535,
+		["firstVersion"] = "4.0.9",
+	},
+	["Foqus"] = {
+		["firstSeen"] = 1470231515,
+		["firstVersion"] = "4.0.8",
+	},
+	["Blaqstaff"] = {
+		["firstSeen"] = 1471356516,
+		["firstVersion"] = "4.0.9",
+	},
+	["Attisham"] = {
+		["firstSeen"] = 1472472061,
+		["firstVersion"] = "4.0.10",
+	},
+	["Attiherbs"] = {
+		["firstSeen"] = 1471380719,
+		["firstVersion"] = "4.0.9",
+	},
+	["Attiqa"] = {
+		["firstSeen"] = 1469984464,
+		["firstVersion"] = "4.0.8",
+	},
+	["Attisquire"] = {
+		["firstSeen"] = 1470055317,
+		["firstVersion"] = "4.0.8",
+	},
+	["Ragnaroq"] = {
+		["firstSeen"] = 1471870393,
+		["firstVersion"] = "4.0.9",
+	},
+	["Mols"] = {
+		["firstSeen"] = 1469984337,
+		["firstVersion"] = "4.0.8",
+	},
+	["Riq"] = {
+		["firstSeen"] = 1471356483,
+		["firstVersion"] = "4.0.9",
+	},
+	["Attisha"] = {
+		["firstSeen"] = 1471356430,
+		["firstVersion"] = "4.0.9",
+	},
+	["Esperacchius"] = {
+		["firstSeen"] = 1469985043,
+		["firstVersion"] = "4.0.8",
+	},
+	["Cohan"] = {
+		["firstSeen"] = 1472302722,
+		["firstVersion"] = "4.0.10",
+	},
+	["Qaldori"] = {
+		["firstSeen"] = 1501516233,
+		["firstVersion"] = "4.0.17",
+	},
+	["Siodhachan"] = {
+		["firstSeen"] = 1469984134,
+		["firstVersion"] = "4.0.8",
+	},
+}
+AUCTIONATOR_STACKING_PREFS = {
+}
+AUCTIONATOR_SCAN_MINLEVEL = 1
+AUCTIONATOR_DB_MAXITEM_AGE = 180
+AUCTIONATOR_DB_MAXHIST_AGE = -1
+AUCTIONATOR_DB_MAXHIST_DAYS = 5
+AUCTIONATOR_FS_CHUNK = nil
+AUCTIONATOR_DE_DATA = nil
+AUCTIONATOR_DE_DATA_BAK = nil
+ITEM_ID_VERSION = "3.2.6"
+AUCTIONATOR_SHOW_MAILBOX_TIPS = nil

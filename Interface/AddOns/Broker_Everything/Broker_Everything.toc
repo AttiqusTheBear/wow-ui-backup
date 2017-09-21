@@ -1,0 +1,23 @@
+## Interface: 70300
+## Title: Broker: Everything
+## Notes: A collection of modules to display various informations as Broker-buttons on Broker Display AddOns or minimap buttons.
+## Author: Hizuro, Ekaterina, Hungtar
+## Version: 2.22.3-release
+## SavedVariables: Broker_Everything_ProfileDB, Broker_Everything_DataDB, Broker_Everything_CharacterDB
+## OptionalDeps: LibStub, CallbackHandler-1.0, LibSharedMedia-3.0, LibDataBroker-1.1, LibDBIcon-1.0, LibQTip-1.0, LibColors-1.0, LibRealmInfo, LibTime-1.0
+
+#@no-lib-strip@
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+libs\LibQTip-1.0\LibQTip-1.0.lua
+libs\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
+libs\LibColors-1.0\LibColors-1.0.xml
+#@end-no-lib-strip@
+
+libs\LibRealmInfo\LibRealmInfo.lua
+libs\LibTime-1.0\LibTime-1.0.xml
+libs\LibDropDownMenu\LibDropDownMenu.xml
+
+Broker_Everything.xml

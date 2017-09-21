@@ -1,0 +1,11 @@
+
+TidyPlatesOptions = {
+	["EnemyAutomation"] = "No Automation",
+	["CompatibilityMode"] = false,
+	["DisableSoftTransitions"] = false,
+	["FriendlyAutomation"] = "No Automation",
+	["ActiveTheme"] = "Neon",
+	["primary"] = "Neon/|cFFFF4400Damage",
+	["WelcomeShown"] = true,
+	["secondary"] = "Neon/|cFF3782D1Tank",
+}

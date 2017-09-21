@@ -1,0 +1,14 @@
+
+LECS_CharacterSettings = {
+	["profileKeys"] = {
+		["Attiqus - Bleeding Hollow"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["NameplateSettings"] = {
+				["nameplateShowEnemies"] = true,
+				["nameplateDistance"] = 40,
+			},
+		},
+	},
+}

@@ -1,0 +1,30 @@
+
+LECS_AccountSettings = {
+	["profileKeys"] = {
+		["Esperacchius - Burning Blade"] = "Default",
+		["Attiqus - Burning Blade"] = "Default",
+		["Foqus - Burning Blade"] = "Default",
+		["Attisham - Burning Blade"] = "Default",
+		["Attiqus - Stormrage"] = "Default",
+		["Qaprica - Burning Blade"] = "Default",
+		["Attiqus - Bleeding Hollow"] = "Default",
+		["Skairipa - Burning Blade"] = "Default",
+		["Wanhedá - Burning Blade"] = "Default",
+		["Mols - Burning Blade"] = "Default",
+		["Capiocorpus - Burning Blade"] = "Default",
+		["Manannán - Burning Blade"] = "Default",
+		["Qaldorei - Burning Blade"] = "Default",
+		["Qaldori - Tichondrius"] = "Default",
+		["Vildajakten - Burning Blade"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["LDBIconStorage"] = {
+				["hide"] = true,
+			},
+			["AddonSettings"] = {
+				["switchNoScript"] = false,
+			},
+		},
+	},
+}

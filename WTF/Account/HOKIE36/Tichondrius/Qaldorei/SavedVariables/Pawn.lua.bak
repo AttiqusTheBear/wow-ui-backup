@@ -1,0 +1,12 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0005,
+	["LastPlayerFullName"] = "Qaldorei-Tichondrius",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
+}
+PawnWowheadScaleProviderOptions = {
+	["LastClass"] = "DRUID",
+	["LastAdded"] = 5,
+}

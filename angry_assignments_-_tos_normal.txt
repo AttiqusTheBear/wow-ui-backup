@@ -1,0 +1,225 @@
+--------------------GOROTH---------------------------
+|cRedEveryone |r
+     *When targeted by  {icon 233279}{spell 233279} aim through at least 1 pillar
+     *Hide behind pillars during {icon 233062}{spell 233062}
+
+{tank}|cGreenTanks
+     *Swap on {icon 231363}{spell 231363} and run
+     *Don't let explosion touch pillars
+
+{dps}{healer}|cGreenDPS & Healers
+     *Avoid spikes when targeted with {icon 230345}{spell 230345}
+{bl}Lust on open
+
+-------------------DEMONIC INQUISITION---------------
+|cRedEveryone |r
+     *Wait to {icon 233652}[Confess] with a tank, healer, and DPS.
+     *Dodge {icon 239135}{spell 239135} in the cage
+     *When caged from {icon 233652}[Confess], leave as a group.
+
+{tank}|cGreenTanks
+     *Don't threat Belac, stack the bosses
+     *Face Artigan away from raid
+     *Kite Artigan during {icon 233441}{spell 233441}
+     *Move Artigan away before {icon 235230}{spell 235230} from Belac
+
+{dps}{healer}|cGreenDPS & Healers
+     *Move away from others with {icon 233983}{spell 233983}
+
+{healer}|cGreenHealers
+     *Wait to dispell {icon 233983}{spell 233982} until safe
+
+{bl}Lust on open once stacked
+
+{icon 207438}|cYellowInterrupt Order for {icon 239401}{spell 239401}
+
+--------------FALLEN AVATAR--------------------------
+|cPurplePhase 1 {bl}
+     *Run when targeted by {icon 236604}{spell 236604}
+     *Dodge the path of {icon 236604}{spell 236604}
+     *Stay mobile during {icon 234059}{spell 234059}
+     *Run far during {icon 235572}{spell 235572}
+{tank}|cGreenTanks
+     *Position Maiden within the beam
+     *Swap jobs on 2 stacks of {icon 236494}{spell 236494}
+{dps}|cgreenDPS
+     *Target Maiden during {icon 233856}{spell 233856} use CDs
+     *Kill Maiden before Fallen Avatar reaches 100 Energy
+     
+|cPurplePhase 2
+     *Stand in purple circles to absorb {icon 239739}{spell 239739}
+
+---------------HARJATAN-------------------------------
+|cRedEveryone |r
+     *|cYellowDPS ADDS FIRST|r - Wavemender > Others
+     *Interrupt Wavemenders {icon 233371}{spell 233371}
+     *Stack behind boss
+     *Dodge {icon 231768}{spell 231768} during {icon 232061}{spell 232061}
+     *Hug walls during {icon 233429}{spell 233429} and dodge {icon 231768}{spell 231768}
+
+{tank}|cGreenTanks
+     *Tank on Murloc spawn area
+     *Turn Harjatan to group for {icon 231854}{spell 231854} @ |cYellow100 Energy
+     *Swap at 4-5 stacks of {icon 231998}{spell 231998}
+
+{dps}{healer}|cGreenDPS & Healers
+     *Kite when fixated with {icon 234128}{spell 234128}
+
+{healer}|cGreenHealers
+     *Use major CDs during {icon 231854}{spell 231854} & {icon 232174}{spell 232174}
+     |cYellowHealer CD Rotation
+          |cP
+
+{bl}Lust on open once stacked
+
+---------------KIL'JAEDEN---------------------------
+|cPurplePhase 1
+{icon 235059}{spell 235059}
+     *Do not stand inside the orb, leathal damage
+     *Turn your back to where you want to land, don't fall off
+     *If in the center, aim your back to the corner
+{icon 240910}{spell 240910}
+     *Players absorb the small ones
+     *Tank or immunity soak the big one
+          {tank}|cGreenTank with the lowest {icon 239932}{spell 239932}
+{tank}|cGreenTanks
+     *Taunt every 4-5 stacks of {icon 239932}{spell 239932}
+     *Position Kil'jaeden where the {icon 235059}{spell 235059} drops
+
+|cPurpleIntermission
+{icon 238505}{spell 238505} - Line up to soak the beam (Call Immunity)
+{icon 238429}{spell 238429} - Targets spread out on edge
+
+|cPurplePhase 2 - 80% HP
+{icon 238505}{spell 238505} - Run far away to allow others to soak the beam
+{icon 236710}{spell 236710} - Stack under boss to drop add
+{dps}|cGreenDPS|r focus the adds - Cleave
+
+|cPurpleIntermission
+Stick with a healer and search for Illidan. Once found all collapse
+Kill Shadowsouls once Illidan is found.
+{healer}|cgreenHealers|r extra healing to counter {icon 241822}{spell 241822}
+
+|cPurplePhase 3 - 40% HP
+Avoid Rift tears unless necessary
+Avoid Obelisks completely
+Move next to rift to gain {icon 239155}{spell 239155} before {icon 239216}{spell 239216} cast.
+
+---------------MAIDEN OF VIGILANCE-------------------------
+{icon 235213}{spell 235213} on Left {star}
+{icon 235240}{spell 235240} on Right {triangle}
+
+Touching opposite type or player will give {icon 240209}{spell 240209}
+{icon 240209}{spell 240209}|cRed You MUST jump in the pit with 1.5 Seconds or less on debuff
+{icon 235267}{spell 235267} instantly puts out 3 {icon 240209}{spell 240209} - Be ready to jump
+
+|cPurplePhase 1
+Only stack with your color tank
+{icon 235213}{spell 235213} {tank}|cGreenTank|r First
+     *Stack on tank to absorb {icon 235569}{spell 235569}
+After {icon 235569}{spell 235569} the {icon 235240}{spell 235240}{tank}|cGreenTank|r taunts
+     *Stack on tank to absorb {icon 235240}{spell 235240}
+
+|cPurplePhase 2
+|cRedDo NOT pre-move before {icon 248812}{spell 248812}
+Absorb your color orbs on the way to boss
+Save CDs to burn through shield. Interrupt once shield is down
+
+-------------------MISTRESS SASSZ'INE--------------------
+|cPurplePhase 1
+|cRedEveryone |r
+     *Spread out when targeted with {icon 230139}{spell 230139}
+     *Stand on {icon 230139}{spell 230139} lines to split damage
+          *|cRedOnly absorb ONE|r
+     *Stand in {icon 230358}{spell 230358} to dispell {icon 230384}{spell 230384}
+
+{tank}|cGreenTanks
+     *Swap on {icon 230201}{spell 230201}
+     *Tank with {icon 230201}{spell 230201} collects adds
+          *|cRedAvoid {icon 230139}{spell 230139}
+
+{dps}{healer}|cGreenDPS & Healers
+     *Move away from others with {icon 233983}[Echoing Anguish]
+
+{dps}|cGreenDPS
+     *Stop DPS on Abyss Stalkers around 10%
+     *Finish killing Abyss Stalkers after {icon 232722}{spell 232722}
+     * {icon 230384}{spell 230384} add |cYellowRazorjaw Waverunner|r is |cRedTOP|r priority
+     * Interrupt Razorjaw Waverunner
+
+{healer}|cGreenHealers
+     *Dispell {icon 230358}{spell 230358} stun ASAP
+
+|cPurplePhase 2
+     *Run out of the bubble line after {icon 232757}{spell 232757}
+     *Avoid patches of {icon 232913}{spell 232913}
+     *Run against the draw from {icon 232746}{spell 232746}
+     *Jump in {icon 232913}{spell 232913} if close to {icon 232746}{spell 232746} and get sucked in.
+          *|cYellow ONLY NEED THREE
+
+|cPurplePhase 3
+{bl}Lust in P3
+Deal with all the abilities
+
+-------------SISTERS OF THE MOON-------------------------
+|cRedEveryone
+     *Spread out, try not to switch sides often, the room switch will suffice.
+     * {icon 234998}{spell 234998} will trigger when switching sides
+
+|cPurplePhase 1 - Huntress Kasparian
+     *Trigger {icon 234998}{spell 234998} to remove {icon 236519}{spell 236519}
+     *Avoid {icon 236516}{spell 236516} areas
+{tank}|cGreenTanks
+     *Stack to share {icon 236547}{spell 236547}
+     *When you receive {icon 236550}{spell 236550} switch sides
+{dps}{healer}|cgreenDPS & Healers
+     *Avoid the path of {icon 236541}{spell 236541}
+          *When targeted, move away and stay still
+          *If high on {icon 234996}{spell 234996} cross sides
+{icon 236357}{spell 236357} is full - {icon 236304}Incorporeal Shot is cast
+     *Target move to middle, everyone line up to absorb
+
+|cPurplePhase 2 - 70% HP - Captain Yathe Moonstrike
+     *Dodge {icon 236541}{spell 236541} same as |cPurpleP1
+{tank}|cGreenTanks|r pick up owl add
+{dps}|cGreenDPS|r focus owl - Save CDs for last 25%
+{icon 236357}{spell 236357} is full - {icon 233263}{spell 233263} is cast
+     *{healer}|cGreenHealers|r heal through shield on players
+     *{dps}|cgreenDPS|r save CDs and burn through boss shield
+     *|cyellowSpread out before buff explodes - 8 Yards
+
+|cPurplePhase 3 - 40% HP - Priestess Lunaspyre
+     *Move away with {icon 236712}{spell 236712} - Stay out of Beacon
+{icon 236357}{spell 236357} is full - {icon 236480}{spell 236480} is cast
+     *Stay away from center, dodge glaives as they move out
+
+-----------------THE DESOLATE HOST-----------------------------
+|cRedEveryone
+     *Raid splits - 50% Corporeal / 50% Spirit Realm
+
+|cPurpleSprit Realm
+     *When targeted with {icon 236449}{spell 236449} stand on {circle}
+     *During {icon 236072}{spell 236072} all but 1 Healer + Tank leave
+{tank}|cGreenTank
+     *Use magic mitigation for {icon 236340}{spell 236340}
+     *Collect and kite all adds slowly around the room, dropping rot
+{dps}|cgreenDPS
+     *Spread from Soul Residue add before it dies to avoid explosion
+     *If there is {icon 236513}{spell 236513} in corporeal, stand on {star} when targeted with {icon 236515}{spell 236515}
+     *Don't kill |cYellowFallen Priestess|r until all {icon 236513}{spell 236513} is gone
+
+|cGreenCorporeal Realm
+     *Ranged spread out
+     *When targeted with {icon 236449}{spell 236449} stand on {x}
+     *Place {icon 235989}{spell 235989} around sides of room.
+          *|cRed DO NOT STAND IN {icon 235989}{spell 235989} |credWITH {icon 235989}{spell 235989}
+     *Avoid waves from {icon 235956}{spell 235956}
+{tank}|cGreenTank
+     *Tank all adds at {skull} near Engine of Souls
+     *Use active mitigation for {icon 236142}{spell 236142}
+
+|cYellowPhase 2 - 30%
+All adds dead before transition {Bl}|cRedLust|r here
+{icon 236542}{spell 236542}|cGreenCorporeal|r within 15yds - |cPurpleSpirit|r far away
+{icon 236544}{spell 236544}|cPurpleSpirit|r within 15yds - |cGreenCorporeal|r far away
+{healer}|cGreenHealers|r dispell Spirit Chains

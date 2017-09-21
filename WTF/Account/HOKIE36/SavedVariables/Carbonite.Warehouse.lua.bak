@@ -1,0 +1,17 @@
+
+NXWhouse = {
+	["profileKeys"] = {
+		["Attiqus - Burning Blade"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["WarehouseData"] = {
+				["Version"] = 0.15,
+				["Burning Blade"] = {
+					["Old Gods"] = {
+					},
+				},
+			},
+		},
+	},
+}

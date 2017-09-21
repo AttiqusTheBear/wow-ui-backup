@@ -1,0 +1,169 @@
+
+Broker_EverythingDB = {
+	["Durability"] = {
+		["autorepair"] = false,
+		["dateFormat"] = "%Y-%m-%d %H:%M",
+		["colorSet"] = "set1",
+		["goldColor"] = false,
+		["maxCosts"] = 5,
+		["autorepairbyguild"] = false,
+		["saveCosts"] = true,
+		["inBroker"] = "percent",
+		["enabled"] = true,
+		["listCosts"] = true,
+	},
+	["Guild"] = {
+		["enabled"] = true,
+		["showMOTD"] = true,
+		["showProfessions"] = true,
+		["showXP"] = true,
+		["showMobileChatter"] = true,
+		["splitTables"] = false,
+		["showRealmname"] = true,
+		["showApplicants"] = true,
+	},
+	["Calendar"] = {
+		["enabled"] = true,
+		["shortBroker"] = false,
+		["hideMinimapCalendar"] = false,
+	},
+	["Bags"] = {
+		["enabled"] = true,
+		["freespace"] = true,
+		["goldColor"] = false,
+		["showQuality"] = true,
+		["qualityMode"] = "1",
+		["warnLowFree"] = 15,
+		["critLowFree"] = 5,
+	},
+	["Currency"] = {
+		["enabled"] = true,
+		["shortTT"] = false,
+		["subTTposition"] = "AUTO",
+		["currenciesInTitle"] = {
+			["1"] = false,
+			["4"] = false,
+			["3"] = false,
+			["2"] = false,
+		},
+	},
+	["Volume"] = {
+		["enabled"] = true,
+		["useWheel"] = false,
+		["steps"] = 10,
+	},
+	["Surprise"] = {
+		["enabled"] = true,
+	},
+	["Equipment"] = {
+		["enabled"] = true,
+	},
+	["Framenames"] = {
+		["enabled"] = false,
+	},
+	["Nameplates"] = {
+		["enabled"] = true,
+	},
+	["Quest Log"] = {
+		["enabled"] = true,
+		["questIdUrl"] = "WoWHead",
+		["showBestSellButton"] = false,
+		["showQuestItems"] = true,
+		["showQuestIds"] = true,
+	},
+	["Tracking"] = {
+		["enabled"] = true,
+		["displaySelection"] = true,
+	},
+	["ZoneText"] = {
+		["enabled"] = false,
+		["bothZones"] = "2",
+	},
+	["Dualspec"] = {
+		["enabled"] = true,
+	},
+	["Game Menu"] = {
+		["enabled"] = true,
+		["hideSection2"] = false,
+		["showGMTicket"] = true,
+		["customTitle"] = "",
+		["hideSection3"] = false,
+		["disableOnClick"] = false,
+		["customTooltipTitle"] = false,
+	},
+	["Speed"] = {
+		["enabled"] = true,
+		["precision"] = 0,
+	},
+	["useBlizzGStings"] = false,
+	["XP"] = {
+		["display"] = "1",
+		["showMyOtherChars"] = true,
+		["enabled"] = true,
+	},
+	["Location"] = {
+		["enabled"] = false,
+	},
+	["Latency"] = {
+		["enabled"] = true,
+		["showHome"] = true,
+		["showWorld"] = true,
+	},
+	["suffixColour"] = true,
+	["iconset"] = "NONE",
+	["Friends"] = {
+		["enabled"] = true,
+		["splitFriends"] = true,
+		["disableGameIcons"] = false,
+	},
+	["Mail"] = {
+		["playsound"] = false,
+		["showDaysLeft"] = true,
+		["enabled"] = true,
+	},
+	["FPS"] = {
+		["enabled"] = true,
+	},
+	["Stuff"] = {
+		["enabled"] = true,
+	},
+	["tooltipScale"] = false,
+	["Clock"] = {
+		["enabled"] = true,
+		["format24"] = true,
+		["timeLocal"] = true,
+		["showSeconds"] = true,
+	},
+	["showHints"] = true,
+	["GPS"] = {
+		["enabled"] = true,
+		["bothZones"] = "2",
+	},
+	["iconcolor"] = {
+		1, -- [1]
+		1, -- [2]
+		1, -- [3]
+		1, -- [4]
+	},
+	["Memory"] = {
+		["enabled"] = true,
+		["mem_max_addons"] = -1,
+	},
+	["GPS / Location / ZoneText"] = {
+		["enabled"] = true,
+		["precision"] = 0,
+		["coordsFormat"] = "%s, %s",
+		["shortMenu"] = false,
+	},
+	["libdbicon"] = false,
+	["Gold"] = {
+		["enabled"] = true,
+		["goldColor"] = false,
+	},
+}
+PlayerKillsDB = nil
+durabilityDB = {
+	["Thunderlord"] = {
+	},
+}
+notesDB = nil

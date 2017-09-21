@@ -1,0 +1,16 @@
+
+NXWeek = {
+	["profileKeys"] = {
+		["Attiqus - Burning Blade"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["WeeklyData"] = {
+				["Version"] = 0.1,
+			},
+			["Weekly"] = {
+				["SecondsToReset"] = 1395136715,
+			},
+		},
+	},
+}

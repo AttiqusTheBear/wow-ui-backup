@@ -1,0 +1,12 @@
+
+ArmoryLocalSettings = {
+	["playerStatBottomDropdown"] = "MELEE",
+	["Minimap"] = {
+		["Radius"] = 80,
+		["Angle"] = 170,
+		["Hide"] = true,
+	},
+	["playerStatTopDropdown"] = "ATTRIBUTES",
+	["DropDown"] = {
+	},
+}

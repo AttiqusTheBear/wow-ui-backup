@@ -1,0 +1,7 @@
+
+TukuiConfigAll = {
+	["Burning Blade"] = {
+		["Attiqus"] = false,
+	},
+}
+TukuiConfigPublic = nil

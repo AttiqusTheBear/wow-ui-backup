@@ -1,0 +1,25 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0211,
+	["LastPlayerFullName"] = "Vildajakten-Burning Blade",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
+	["Artifacts"] = {
+		[128861] = {
+			["Relics"] = {
+				{
+					["Type"] = "Wind",
+				}, -- [1]
+				{
+					["Type"] = "Arcane",
+				}, -- [2]
+			},
+			["Name"] = "Titanstrike",
+		},
+	},
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "HUNTER",
+	["LastAdded"] = 1,
+}

@@ -1,0 +1,13 @@
+
+TidyPlatesWidgetData = {
+	["CachedAuraDurations"] = {
+	},
+	["UnitClass"] = {
+		["Usedkleenex"] = "DRUID",
+	},
+	["UnitDescriptions"] = {
+	},
+	["UnitGuild"] = {
+		["Usedkleenex"] = "Decency Defied",
+	},
+}

@@ -1,0 +1,13 @@
+
+NXNotes = {
+	["profileKeys"] = {
+		["Attiqus - Burning Blade"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["Notes"] = {
+				["Version"] = 0.14,
+			},
+		},
+	},
+}

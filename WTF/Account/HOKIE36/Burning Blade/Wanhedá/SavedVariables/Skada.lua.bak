@@ -1,0 +1,922 @@
+
+SkadaPerCharDB = {
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ffdamagedone"] = 0,
+		["time"] = 23,
+		["interrupts"] = 0,
+		["ovaleMax"] = 0,
+		["damage"] = 13654,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "WARRIOR",
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["healingspells"] = {
+					["Victory Rush"] = {
+						["shielding"] = 0,
+						["id"] = 118779,
+						["healing"] = 80,
+						["min"] = 0,
+						["name"] = "Victory Rush",
+						["hits"] = 11,
+						["overhealing"] = 3198,
+						["max"] = 45,
+						["critical"] = 0,
+						["absorbed"] = 0,
+					},
+				},
+				["time"] = 38,
+				["interrupts"] = 0,
+				["ovaleMax"] = 0,
+				["ffdamagedonetargets"] = {
+				},
+				["damage"] = 13654,
+				["damagespells"] = {
+					["Slam"] = {
+						["hitamount"] = 4666,
+						["hitmin"] = 135,
+						["criticalamount"] = 2809,
+						["EVADE"] = 1,
+						["criticalmin"] = 327,
+						["hitmax"] = 273,
+						["school"] = 1,
+						["min"] = 135,
+						["criticalmax"] = 449,
+						["critical"] = 7,
+						["hit"] = 23,
+						["totalhits"] = 31,
+						["max"] = 449,
+						["id"] = 1464,
+						["damage"] = 7475,
+					},
+					["Charge"] = {
+						["hitmin"] = 39,
+						["criticalamount"] = 179,
+						["id"] = 126664,
+						["hitamount"] = 195,
+						["criticalmin"] = 80,
+						["critical"] = 2,
+						["min"] = 39,
+						["criticalmax"] = 99,
+						["hitmax"] = 60,
+						["hit"] = 4,
+						["school"] = 1,
+						["totalhits"] = 6,
+						["max"] = 99,
+						["damage"] = 374,
+					},
+					["Victory Rush"] = {
+						["hitmin"] = 132,
+						["criticalamount"] = 1107,
+						["id"] = 34428,
+						["damage"] = 2127,
+						["max"] = 289,
+						["school"] = 1,
+						["min"] = 132,
+						["criticalmax"] = 289,
+						["hitmax"] = 168,
+						["hit"] = 7,
+						["totalhits"] = 11,
+						["critical"] = 4,
+						["criticalmin"] = 264,
+						["hitamount"] = 1020,
+					},
+					["Attack"] = {
+						["hitamount"] = 1363,
+						["hitmin"] = 87,
+						["criticalamount"] = 2315,
+						["EVADE"] = 1,
+						["criticalmin"] = 138,
+						["hitmax"] = 127,
+						["school"] = 1,
+						["min"] = 87,
+						["criticalmax"] = 270,
+						["critical"] = 11,
+						["hit"] = 13,
+						["totalhits"] = 25,
+						["max"] = 270,
+						["id"] = 6603,
+						["damage"] = 3678,
+					},
+				},
+				["ffdamagedonespells"] = {
+				},
+				["healed"] = {
+					["Player-91-0948BEB7"] = {
+						["role"] = "NONE",
+						["name"] = "Wanhedá",
+						["amount"] = 80,
+						["class"] = "WARRIOR",
+						["shielding"] = 0,
+					},
+				},
+				["shielding"] = 0,
+				["id"] = "Player-91-0948BEB7",
+				["maxhp"] = 546,
+				["ffdamagedone"] = 0,
+				["damagetakenspells"] = {
+					["Attack"] = {
+						["crushing"] = 0,
+						["id"] = 6603,
+						["absorbed"] = 0,
+						["min"] = 2,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["school"] = 1,
+						["name"] = "Attack",
+						["blocked"] = 0,
+						["totalhits"] = 40,
+						["resisted"] = 0,
+						["max"] = 6,
+						["damage"] = 155,
+					},
+				},
+				["auras"] = {
+					["Charge"] = {
+						["uptime"] = 7,
+						["active"] = 0,
+						["auratype"] = "DEBUFF",
+						["name"] = "Charge",
+						["id"] = 236027,
+					},
+					["Victory Rush"] = {
+						["uptime"] = 0,
+						["active"] = 0,
+						["school"] = 1,
+						["name"] = "Victory Rush",
+						["auratype"] = "BUFF",
+						["id"] = 118779,
+					},
+					["Victorious"] = {
+						["name"] = "Victorious",
+						["active"] = 0,
+						["id"] = 32216,
+						["auratype"] = "BUFF",
+						["uptime"] = 20,
+					},
+				},
+				["ovale"] = 0,
+				["name"] = "Wanhedá",
+				["damagetaken"] = 155,
+				["deathlog"] = {
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["hp"] = 972,
+						["spellid"] = 118779,
+						["srcname"] = "Wanhedá",
+						["ts"] = 1495409233.189,
+					}, -- [1]
+					{
+						["ts"] = 1495409233.189,
+						["amount"] = -5,
+						["srcname"] = "Mana Stalker",
+						["hp"] = 972,
+						["spellid"] = 88163,
+					}, -- [2]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["hp"] = 972,
+						["spellid"] = 118779,
+						["srcname"] = "Wanhedá",
+						["ts"] = 1495409245.726,
+					}, -- [3]
+					{
+						["ts"] = 1495409276.924,
+						["amount"] = -4,
+						["srcname"] = "Mana Stalker",
+						["hp"] = 1134,
+						["spellid"] = 88163,
+					}, -- [4]
+					{
+						["ts"] = 1495409298.183,
+						["amount"] = 0,
+						["hp"] = 1134,
+						["spellid"] = 118779,
+						["srcname"] = "Wanhedá",
+						["absorb"] = 0,
+					}, -- [5]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["hp"] = 1134,
+						["spellid"] = 118779,
+						["srcname"] = "Wanhedá",
+						["ts"] = 1495409310.466,
+					}, -- [6]
+					{
+						["ts"] = 1495408952.576,
+						["amount"] = 5,
+						["hp"] = 954,
+						["spellid"] = 118779,
+						["srcname"] = "Wanhedá",
+						["absorb"] = 0,
+					}, -- [7]
+					{
+						["ts"] = 1495408952.576,
+						["amount"] = -4,
+						["srcname"] = "Wretched Urchin",
+						["hp"] = 954,
+						["spellid"] = 88163,
+					}, -- [8]
+					{
+						["ts"] = 1495408952.576,
+						["amount"] = -4,
+						["srcname"] = "Wretched Urchin",
+						["hp"] = 954,
+						["spellid"] = 88163,
+					}, -- [9]
+					{
+						["ts"] = 1495408953.497,
+						["amount"] = -5,
+						["srcname"] = "Wretched Urchin",
+						["hp"] = 946,
+						["spellid"] = 88163,
+					}, -- [10]
+					{
+						["ts"] = 1495408956.248,
+						["amount"] = 13,
+						["hp"] = 954,
+						["spellid"] = 118779,
+						["srcname"] = "Wanhedá",
+						["absorb"] = 0,
+					}, -- [11]
+					{
+						["ts"] = 1495408961.779,
+						["amount"] = -4,
+						["srcname"] = "Thaelis the Hungerer",
+						["hp"] = 972,
+						["spellid"] = 88163,
+					}, -- [12]
+					{
+						["ts"] = 1495408964.726,
+						["amount"] = -5,
+						["srcname"] = "Wretched Urchin",
+						["hp"] = 968,
+						["spellid"] = 88163,
+					}, -- [13]
+					{
+						["ts"] = 1495408964.873,
+						["amount"] = 9,
+						["hp"] = 972,
+						["spellid"] = 118779,
+						["srcname"] = "Wanhedá",
+						["absorb"] = 0,
+					}, -- [14]
+					{
+						["ts"] = 1495408991.594,
+						["amount"] = 0,
+						["hp"] = 972,
+						["spellid"] = 118779,
+						["srcname"] = "Wanhedá",
+						["absorb"] = 0,
+					}, -- [15]
+					["pos"] = 7,
+				},
+				["overhealing"] = 3198,
+				["role"] = "NONE",
+				["healing"] = 80,
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["damagetaken"] = 155,
+		["shielding"] = 0,
+		["ovale"] = 0,
+		["healing"] = 80,
+		["auras"] = {
+		},
+		["starttime"] = 1494639634,
+		["mobtaken"] = 13654,
+		["name"] = "Total",
+		["mobs"] = {
+			["Arcane Wraith"] = {
+				["players"] = {
+					["Wanhedá"] = {
+						["taken"] = 1017,
+						["done"] = 5,
+						["role"] = "NONE",
+						["class"] = "WARRIOR",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 1017,
+				["done"] = 5,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Tender"] = {
+				["players"] = {
+					["Wanhedá"] = {
+						["taken"] = 779,
+						["done"] = 7,
+						["role"] = "NONE",
+						["class"] = "WARRIOR",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 779,
+				["done"] = 7,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Arcane Patroller"] = {
+				["players"] = {
+					["Wanhedá"] = {
+						["taken"] = 1702,
+						["done"] = 6,
+						["class"] = "WARRIOR",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1702,
+				["done"] = 6,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Feral Tender"] = {
+				["players"] = {
+					["Wanhedá"] = {
+						["taken"] = 1357,
+						["done"] = 13,
+						["role"] = "NONE",
+						["class"] = "WARRIOR",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 1357,
+				["done"] = 13,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Simya-Sargeras"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Swift Hand of Justice"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 31,
+						["hits"] = 2,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Swift Hand of Justice"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 31,
+						["hits"] = 2,
+					},
+				},
+			},
+			["Springpaw Cub"] = {
+				["players"] = {
+					["Wanhedá"] = {
+						["taken"] = 209,
+						["done"] = 6,
+						["role"] = "NONE",
+						["class"] = "WARRIOR",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 209,
+				["done"] = 6,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Darnassian Scout"] = {
+				["players"] = {
+					["Wanhedá"] = {
+						["taken"] = 457,
+						["done"] = 0,
+						["class"] = "WARRIOR",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 457,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Mana Wyrm"] = {
+				["players"] = {
+					["Wanhedá"] = {
+						["taken"] = 1667,
+						["done"] = 18,
+						["role"] = "NONE",
+						["class"] = "WARRIOR",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 1667,
+				["done"] = 18,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Wretched Urchin"] = {
+				["players"] = {
+					["Wanhedá"] = {
+						["taken"] = 3099,
+						["done"] = 80,
+						["class"] = "WARRIOR",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 3099,
+				["done"] = 80,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Thaelis the Hungerer"] = {
+				["players"] = {
+					["Wanhedá"] = {
+						["taken"] = 311,
+						["done"] = 4,
+						["class"] = "WARRIOR",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 311,
+				["done"] = 4,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Mana Stalker"] = {
+				["players"] = {
+					["Wanhedá"] = {
+						["taken"] = 1427,
+						["done"] = 9,
+						["class"] = "WARRIOR",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1427,
+				["done"] = 9,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["Springpaw Lynx"] = {
+				["players"] = {
+					["Wanhedá"] = {
+						["taken"] = 311,
+						["done"] = 7,
+						["role"] = "NONE",
+						["class"] = "WARRIOR",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 311,
+				["done"] = 7,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Manawraith"] = {
+				["players"] = {
+					["Wanhedá"] = {
+						["taken"] = 1318,
+						["done"] = 0,
+						["class"] = "WARRIOR",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1318,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+		},
+		["overhealing"] = 3198,
+		["mobhdone"] = 0,
+		["last_action"] = 1494639634,
+		["mobdone"] = 155,
+	},
+	["sets"] = {
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ffdamagedone"] = 0,
+			["time"] = 7,
+			["interrupts"] = 0,
+			["ovaleMax"] = 0,
+			["mobdone"] = 9,
+			["damage"] = 560,
+			["players"] = {
+				{
+					["last"] = 1495408964,
+					["healingabsorbed"] = 0,
+					["class"] = "WARRIOR",
+					["damaged"] = {
+						["Thaelis the Hungerer"] = 311,
+						["Wretched Urchin"] = 249,
+					},
+					["dispells"] = 0,
+					["healingspells"] = {
+						["Victory Rush"] = {
+							["shielding"] = 0,
+							["id"] = 118779,
+							["healing"] = 9,
+							["min"] = 9,
+							["name"] = "Victory Rush",
+							["hits"] = 1,
+							["overhealing"] = 283,
+							["max"] = 9,
+							["critical"] = 0,
+							["absorbed"] = 0,
+						},
+					},
+					["time"] = 4,
+					["interrupts"] = 0,
+					["ovaleMax"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["damage"] = 560,
+					["damagespells"] = {
+						["Slam"] = {
+							["hitmin"] = 215,
+							["id"] = 1464,
+							["min"] = 215,
+							["damage"] = 215,
+							["hitmax"] = 215,
+							["hit"] = 1,
+							["school"] = 1,
+							["totalhits"] = 1,
+							["max"] = 215,
+							["hitamount"] = 215,
+						},
+						["Victory Rush"] = {
+							["hitmin"] = 145,
+							["id"] = 34428,
+							["min"] = 145,
+							["damage"] = 145,
+							["hitmax"] = 145,
+							["hit"] = 1,
+							["school"] = 1,
+							["totalhits"] = 1,
+							["max"] = 145,
+							["hitamount"] = 145,
+						},
+						["Attack"] = {
+							["hitmin"] = 96,
+							["id"] = 6603,
+							["min"] = 96,
+							["damage"] = 200,
+							["hitmax"] = 104,
+							["hit"] = 2,
+							["school"] = 1,
+							["totalhits"] = 2,
+							["max"] = 104,
+							["hitamount"] = 200,
+						},
+					},
+					["ffdamagedonespells"] = {
+					},
+					["healed"] = {
+						["Player-91-0948BEB7"] = {
+							["role"] = "NONE",
+							["name"] = "Wanhedá",
+							["amount"] = 9,
+							["class"] = "WARRIOR",
+							["shielding"] = 0,
+						},
+					},
+					["shielding"] = 0,
+					["id"] = "Player-91-0948BEB7",
+					["first"] = 1495408960,
+					["ffdamagedone"] = 0,
+					["damagetakenspells"] = {
+						["Attack"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["damage"] = 9,
+							["max"] = 5,
+							["name"] = "Attack",
+							["glancing"] = 0,
+							["totalhits"] = 2,
+							["critical"] = 0,
+							["blocked"] = 0,
+							["school"] = 1,
+							["resisted"] = 0,
+							["min"] = 4,
+							["absorbed"] = 0,
+						},
+					},
+					["healing"] = 9,
+					["role"] = "NONE",
+					["name"] = "Wanhedá",
+					["overhealing"] = 283,
+					["maxhp"] = 972,
+					["damagetaken"] = 9,
+					["ovale"] = 0,
+					["auras"] = {
+						["Victory Rush"] = {
+							["name"] = "Victory Rush",
+							["active"] = 0,
+							["school"] = 1,
+							["uptime"] = 3,
+							["auratype"] = "BUFF",
+							["id"] = 118779,
+						},
+						["Victorious"] = {
+							["name"] = "Victorious",
+							["active"] = 0,
+							["school"] = 1,
+							["uptime"] = 2,
+							["auratype"] = "BUFF",
+							["id"] = 32216,
+						},
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["damagetaken"] = 9,
+			["shielding"] = 0,
+			["ovale"] = 0,
+			["healing"] = 9,
+			["mobs"] = {
+				["Thaelis the Hungerer"] = {
+					["players"] = {
+						["Wanhedá"] = {
+							["taken"] = 311,
+							["done"] = 4,
+							["class"] = "WARRIOR",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 311,
+					["done"] = 4,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+				["Wretched Urchin"] = {
+					["players"] = {
+						["Wanhedá"] = {
+							["taken"] = 249,
+							["done"] = 5,
+							["class"] = "WARRIOR",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 249,
+					["done"] = 5,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+			},
+			["starttime"] = 1495408959,
+			["auras"] = {
+			},
+			["overhealing"] = 283,
+			["name"] = "Thaelis the Hungerer",
+			["mobname"] = "Thaelis the Hungerer",
+			["mobtaken"] = 560,
+			["mobhdone"] = 0,
+			["last_action"] = 1495408959,
+			["endtime"] = 1495408966,
+		}, -- [1]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ffdamagedone"] = 0,
+			["time"] = 16,
+			["interrupts"] = 0,
+			["ovaleMax"] = 0,
+			["mobdone"] = 71,
+			["damage"] = 2105,
+			["players"] = {
+				{
+					["last"] = 1495408955,
+					["healingabsorbed"] = 0,
+					["class"] = "WARRIOR",
+					["damaged"] = {
+						["Wretched Urchin"] = 2105,
+					},
+					["dispells"] = 0,
+					["healingspells"] = {
+						["Victory Rush"] = {
+							["shielding"] = 0,
+							["id"] = 118779,
+							["healing"] = 71,
+							["min"] = 5,
+							["name"] = "Victory Rush",
+							["hits"] = 4,
+							["overhealing"] = 1074,
+							["max"] = 45,
+							["critical"] = 0,
+							["absorbed"] = 0,
+						},
+					},
+					["time"] = 13,
+					["interrupts"] = 0,
+					["ovaleMax"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["damage"] = 2105,
+					["damagespells"] = {
+						["Slam"] = {
+							["hitmin"] = 219,
+							["criticalamount"] = 427,
+							["id"] = 1464,
+							["damage"] = 646,
+							["max"] = 427,
+							["school"] = 1,
+							["min"] = 219,
+							["criticalmax"] = 427,
+							["hitmax"] = 219,
+							["hit"] = 1,
+							["totalhits"] = 2,
+							["critical"] = 1,
+							["criticalmin"] = 427,
+							["hitamount"] = 219,
+						},
+						["Victory Rush"] = {
+							["hitmin"] = 138,
+							["criticalamount"] = 565,
+							["id"] = 34428,
+							["damage"] = 841,
+							["max"] = 289,
+							["school"] = 1,
+							["min"] = 138,
+							["criticalmax"] = 289,
+							["hitmax"] = 138,
+							["hit"] = 2,
+							["totalhits"] = 4,
+							["critical"] = 2,
+							["criticalmin"] = 276,
+							["hitamount"] = 276,
+						},
+						["Attack"] = {
+							["hitmin"] = 103,
+							["criticalamount"] = 411,
+							["id"] = 6603,
+							["damage"] = 618,
+							["max"] = 213,
+							["school"] = 1,
+							["min"] = 103,
+							["criticalmax"] = 213,
+							["hitmax"] = 104,
+							["hit"] = 2,
+							["totalhits"] = 4,
+							["critical"] = 2,
+							["criticalmin"] = 198,
+							["hitamount"] = 207,
+						},
+					},
+					["ffdamagedonespells"] = {
+					},
+					["healed"] = {
+						["Player-91-0948BEB7"] = {
+							["role"] = "NONE",
+							["name"] = "Wanhedá",
+							["amount"] = 71,
+							["class"] = "WARRIOR",
+							["shielding"] = 0,
+						},
+					},
+					["shielding"] = 0,
+					["id"] = "Player-91-0948BEB7",
+					["first"] = 1495408942,
+					["ffdamagedone"] = 0,
+					["damagetakenspells"] = {
+						["Attack"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["damage"] = 71,
+							["max"] = 5,
+							["name"] = "Attack",
+							["glancing"] = 0,
+							["totalhits"] = 17,
+							["critical"] = 0,
+							["blocked"] = 0,
+							["school"] = 1,
+							["resisted"] = 0,
+							["min"] = 3,
+							["absorbed"] = 0,
+						},
+					},
+					["healing"] = 71,
+					["role"] = "NONE",
+					["name"] = "Wanhedá",
+					["overhealing"] = 1074,
+					["maxhp"] = 954,
+					["damagetaken"] = 71,
+					["ovale"] = 0,
+					["auras"] = {
+						["Victorious"] = {
+							["name"] = "Victorious",
+							["active"] = 0,
+							["school"] = 1,
+							["uptime"] = 7,
+							["auratype"] = "BUFF",
+							["id"] = 32216,
+						},
+						["Victory Rush"] = {
+							["name"] = "Victory Rush",
+							["active"] = 0,
+							["school"] = 1,
+							["uptime"] = 8,
+							["auratype"] = "BUFF",
+							["id"] = 118779,
+						},
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["damagetaken"] = 71,
+			["shielding"] = 0,
+			["ovale"] = 0,
+			["healing"] = 71,
+			["mobs"] = {
+				["Wretched Urchin"] = {
+					["players"] = {
+						["Wanhedá"] = {
+							["taken"] = 2105,
+							["done"] = 71,
+							["class"] = "WARRIOR",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 2105,
+					["done"] = 71,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+			},
+			["starttime"] = 1495408940,
+			["auras"] = {
+			},
+			["overhealing"] = 1074,
+			["name"] = "Wretched Urchin",
+			["mobname"] = "Wretched Urchin",
+			["mobtaken"] = 2105,
+			["mobhdone"] = 0,
+			["last_action"] = 1495408940,
+			["endtime"] = 1495408956,
+		}, -- [2]
+	},
+}

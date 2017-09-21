@@ -1,0 +1,25 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0211,
+	["LastPlayerFullName"] = "Foqus-Burning Blade",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
+	["Artifacts"] = {
+		[128827] = {
+			["Relics"] = {
+				{
+					["Type"] = "Shadow",
+				}, -- [1]
+				{
+					["Type"] = "Blood",
+				}, -- [2]
+			},
+			["Name"] = "Xal'atath, Blade of the Black Empire",
+		},
+	},
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "PRIEST",
+	["LastAdded"] = 1,
+}

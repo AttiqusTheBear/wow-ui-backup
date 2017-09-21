@@ -1,0 +1,118 @@
+
+TomTomDB = {
+	["profileKeys"] = {
+		["Esperacchius - Burning Blade"] = "Default",
+		["Skairipa - Bleeding Hollow"] = "Default",
+		["Qaldorei - Tichondrius"] = "Default",
+		["Sheeohan - Bleeding Hollow"] = "Default",
+		["Capiocorpus - Tichondrius"] = "Default",
+		["Wanhedá - Burning Blade"] = "Default",
+		["Qaldorei - Burning Blade"] = "Default",
+		["Attibank - Onyxia"] = "Default",
+		["Vildajakten - Burning Blade"] = "Default",
+		["Attisham - Burning Blade"] = "Default",
+		["Attiqus - Burning Blade"] = "Default",
+		["Attiqus - Stormrage"] = "Default",
+		["Ragnaroq - Burning Blade"] = "Default",
+		["Attiqa - Burning Blade"] = "Default",
+		["Qaprica - Burning Blade"] = "Default",
+		["Attiqus - Bleeding Hollow"] = "Default",
+		["Skairipa - Burning Blade"] = "Default",
+		["Capiocorpus - Lightning's Blade"] = "Default",
+		["Mols - Burning Blade"] = "Default",
+		["Capiocorpus - Burning Blade"] = "Default",
+		["Manannán - Burning Blade"] = "Default",
+		["Foqus - Burning Blade"] = "Default",
+		["Qaldori - Tichondrius"] = "Default",
+		["Attiqus - Lightning's Blade"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["persistence"] = {
+				["cleardistance"] = 15,
+			},
+			["block"] = {
+				["enable"] = false,
+			},
+		},
+	},
+}
+TomTomWaypoints = nil
+TomTomWaypointsMF = {
+	["profileKeys"] = {
+		["Esperacchius - Burning Blade"] = "Esperacchius - Burning Blade",
+		["Skairipa - Bleeding Hollow"] = "Skairipa - Bleeding Hollow",
+		["Qaldorei - Tichondrius"] = "Qaldorei - Tichondrius",
+		["Sheeohan - Bleeding Hollow"] = "Sheeohan - Bleeding Hollow",
+		["Capiocorpus - Tichondrius"] = "Capiocorpus - Tichondrius",
+		["Wanhedá - Burning Blade"] = "Wanhedá - Burning Blade",
+		["Qaldorei - Burning Blade"] = "Qaldorei - Burning Blade",
+		["Attibank - Onyxia"] = "Attibank - Onyxia",
+		["Vildajakten - Burning Blade"] = "Vildajakten - Burning Blade",
+		["Attisham - Burning Blade"] = "Attisham - Burning Blade",
+		["Attiqus - Burning Blade"] = "Attiqus - Burning Blade",
+		["Attiqus - Stormrage"] = "Attiqus - Stormrage",
+		["Ragnaroq - Burning Blade"] = "Ragnaroq - Burning Blade",
+		["Attiqa - Burning Blade"] = "Attiqa - Burning Blade",
+		["Qaprica - Burning Blade"] = "Qaprica - Burning Blade",
+		["Attiqus - Bleeding Hollow"] = "Attiqus - Bleeding Hollow",
+		["Skairipa - Burning Blade"] = "Skairipa - Burning Blade",
+		["Capiocorpus - Lightning's Blade"] = "Capiocorpus - Lightning's Blade",
+		["Mols - Burning Blade"] = "Mols - Burning Blade",
+		["Capiocorpus - Burning Blade"] = "Capiocorpus - Burning Blade",
+		["Manannán - Burning Blade"] = "Manannán - Burning Blade",
+		["Foqus - Burning Blade"] = "Foqus - Burning Blade",
+		["Qaldori - Tichondrius"] = "Qaldori - Tichondrius",
+		["Attiqus - Lightning's Blade"] = "Attiqus - Lightning's Blade",
+	},
+	["profiles"] = {
+		["Esperacchius - Burning Blade"] = {
+		},
+		["Skairipa - Bleeding Hollow"] = {
+		},
+		["Qaldorei - Tichondrius"] = {
+		},
+		["Sheeohan - Bleeding Hollow"] = {
+		},
+		["Capiocorpus - Tichondrius"] = {
+		},
+		["Wanhedá - Burning Blade"] = {
+		},
+		["Qaldorei - Burning Blade"] = {
+		},
+		["Attibank - Onyxia"] = {
+		},
+		["Vildajakten - Burning Blade"] = {
+		},
+		["Attisham - Burning Blade"] = {
+		},
+		["Attiqus - Burning Blade"] = {
+		},
+		["Attiqus - Stormrage"] = {
+		},
+		["Ragnaroq - Burning Blade"] = {
+		},
+		["Attiqa - Burning Blade"] = {
+		},
+		["Qaprica - Burning Blade"] = {
+		},
+		["Attiqus - Bleeding Hollow"] = {
+		},
+		["Skairipa - Burning Blade"] = {
+		},
+		["Capiocorpus - Lightning's Blade"] = {
+		},
+		["Mols - Burning Blade"] = {
+		},
+		["Capiocorpus - Burning Blade"] = {
+		},
+		["Manannán - Burning Blade"] = {
+		},
+		["Foqus - Burning Blade"] = {
+		},
+		["Qaldori - Tichondrius"] = {
+		},
+		["Attiqus - Lightning's Blade"] = {
+		},
+	},
+}

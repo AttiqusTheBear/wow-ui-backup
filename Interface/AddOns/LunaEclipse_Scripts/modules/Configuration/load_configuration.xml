@@ -1,0 +1,10 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="keybind_labels.lua" />
+	<Script file="keybind_overrides.lua" />
+
+	<Script file="functionsConfiguration.lua" />
+	<Script file="optionsConfiguration.lua" />
+
+	<Include file="KeybindsSettings\load_keybinds_settings.xml" />
+</Ui>

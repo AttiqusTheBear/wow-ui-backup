@@ -1,0 +1,93 @@
+
+HHTD_SavedVariables = {
+	["char"] = {
+		["Capiocorpus - Tichondrius"] = {
+			["settingsMigrated"] = true,
+		},
+		["Cohan - Thunderlord"] = {
+			["settingsMigrated"] = false,
+		},
+		["Attiqus - Burning Blade"] = {
+			["settingsMigrated"] = false,
+		},
+		["Attiqus - Stormrage"] = {
+			["settingsMigrated"] = false,
+		},
+		["Qaldorei - Thunderlord"] = {
+			["settingsMigrated"] = false,
+		},
+		["Attibank - Onyxia"] = {
+			["settingsMigrated"] = false,
+		},
+		["Banqon - Onyxia"] = {
+			["settingsMigrated"] = false,
+		},
+		["Attiqus - Bleeding Hollow"] = {
+			["settingsMigrated"] = true,
+		},
+	},
+	["global"] = {
+		["settingsMigrated"] = true,
+		["oldNameEnableState"] = 0,
+	},
+	["profileKeys"] = {
+		["Cohan - Thunderlord"] = "Cohan - Thunderlord",
+		["Hokiebird - Lightning's Blade"] = "Hokiebird - Lightning's Blade",
+		["Foqus - Burning Blade"] = "Foqus - Burning Blade",
+		["Attiqa - Lightning's Blade"] = "Attiqa - Lightning's Blade",
+		["Capiocorpus - Tichondrius"] = "Capiocorpus - Tichondrius",
+		["Capiocorpus - Lightning's Blade"] = "Capiocorpus - Lightning's Blade",
+		["Blaqstaff - Burning Blade"] = "Blaqstaff - Burning Blade",
+		["Attileather - Onyxia"] = "Attileather - Onyxia",
+		["Attiqus - Earthen Ring"] = "Attiqus - Earthen Ring",
+		["Qap - Lightning's Blade"] = "Qap - Lightning's Blade",
+		["Qaprica - Burning Blade"] = "Qaprica - Burning Blade",
+		["Prius - Gnomeregan"] = "Prius - Gnomeregan",
+		["Vildajakten - Lightning's Blade"] = "Vildajakten - Lightning's Blade",
+		["Amorracchius - Lightning's Blade"] = "Amorracchius - Lightning's Blade",
+		["Manannán - Burning Blade"] = "Manannán - Burning Blade",
+		["Qaldorei - Thunderlord"] = "Qaldorei - Thunderlord",
+		["Capiocorpus - Dalaran"] = "Capiocorpus - Dalaran",
+		["Attiqus - Lightning's Blade"] = "Attiqus - Lightning's Blade",
+		["Qal - Alexstrasza"] = "Qal - Alexstrasza",
+		["Qaldorei - Tichondrius"] = "Qaldorei - Tichondrius",
+		["Blaqstaff - Lightning's Blade"] = "Blaqstaff - Lightning's Blade",
+		["Attisha - Lightning's Blade"] = "Attisha - Lightning's Blade",
+		["Qaprica - Lightning's Blade"] = "Qaprica - Lightning's Blade",
+		["Mols - Lightning's Blade"] = "Mols - Lightning's Blade",
+		["Banqon - Onyxia"] = "Banqon - Onyxia",
+		["Foqus - Lightning's Blade"] = "Foqus - Lightning's Blade",
+		["Siodhachan - Burning Blade"] = "Siodhachan - Burning Blade",
+		["Attiherbs - Onyxia"] = "Attiherbs - Onyxia",
+		["Attisham - Burning Blade"] = "Attisham - Burning Blade",
+		["Attiqa - Burning Blade"] = "Attiqa - Burning Blade",
+		["Attisquire - Onyxia"] = "Attisquire - Onyxia",
+		["Attibank - Onyxia"] = "Attibank - Onyxia",
+		["Qaprica - Alexstrasza"] = "Qaprica - Alexstrasza",
+		["Vildajakten - Burning Blade"] = "Vildajakten - Burning Blade",
+		["Attiqus - Dalaran"] = "Attiqus - Dalaran",
+		["Oongaibo - Burning Blade"] = "Oongaibo - Burning Blade",
+		["Attiqus - Burning Blade"] = "Attiqus - Burning Blade",
+		["Attiqus - Stormrage"] = "Attiqus - Stormrage",
+		["Riq - Lightning's Blade"] = "Riq - Lightning's Blade",
+		["Attiore - Onyxia"] = "Attiore - Onyxia",
+		["Attilocks - Onyxia"] = "Attilocks - Onyxia",
+		["Attiqus - Bleeding Hollow"] = "Attiqus - Bleeding Hollow",
+		["Atticloth - Onyxia"] = "Atticloth - Onyxia",
+		["Karrin - Lightning's Blade"] = "Karrin - Lightning's Blade",
+		["Mols - Burning Blade"] = "Mols - Burning Blade",
+		["Capiocorpus - Burning Blade"] = "Capiocorpus - Burning Blade",
+		["Esperacchius - Burning Blade"] = "Esperacchius - Burning Blade",
+		["Attichants - Onyxia"] = "Attichants - Onyxia",
+		["Qaldori - Tichondrius"] = "Qaldori - Tichondrius",
+		["Atticook - Onyxia"] = "Atticook - Onyxia",
+	},
+	["namespaces"] = {
+		["Announcer"] = {
+		},
+		["CM"] = {
+		},
+		["NPH"] = {
+		},
+	},
+}

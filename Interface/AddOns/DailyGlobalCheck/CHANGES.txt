@@ -1,0 +1,16 @@
+lightweight tag 9b0ccf7d436be639157cc5fb011099d7983569ff v1.5.2.7
+Author:	Saregon <n_rhygar@yahoo.it>
+Date:	Sat Sep 16 17:04:27 2017 +0200
+
+commit 9b0ccf7d436be639157cc5fb011099d7983569ff
+Author: Saregon <n_rhygar@yahoo.it>
+Date:   Sat Sep 16 17:04:27 2017 +0200
+
+    map functions tweaked
+
+commit dcb49a515cd7438e5dbcfdc187ec711f92cd1adf
+Author: Saregon <n_rhygar@yahoo.it>
+Date:   Thu Sep 14 11:03:18 2017 +0200
+
+    map functions tweaked
+
